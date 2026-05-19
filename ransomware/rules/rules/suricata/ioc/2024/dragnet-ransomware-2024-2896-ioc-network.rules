@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2896 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: de4e6871-dd26-5b88-a057-05d2ad74996c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2896 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/1/cortex-chiropractic-clinical-neuroscience]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/1/cortex-chiropractic-clinical-neuroscience"; nocase; classtype:trojan-activity; sid:4680497; rev:1;)

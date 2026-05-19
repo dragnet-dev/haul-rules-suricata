@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4027 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3f37cca8-4e9d-59f9-ad77-271b036eb91a
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4027 — Ransomware C2 Communication [http://funksec.top/BTES-isurges]"; dns.query; content:"http://funksec.top/BTES-isurges"; nocase; classtype:trojan-activity; sid:8621480; rev:1;)

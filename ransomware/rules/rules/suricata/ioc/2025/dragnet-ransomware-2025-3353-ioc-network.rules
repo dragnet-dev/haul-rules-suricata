@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3353 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7f045359-4030-5efa-a730-733db40931f8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3353 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Jamjoom_Pharma]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Jamjoom_Pharma"; nocase; classtype:trojan-activity; sid:7989913; rev:1;)

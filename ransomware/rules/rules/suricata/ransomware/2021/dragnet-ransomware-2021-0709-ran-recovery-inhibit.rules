@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-0709 — Recovery Inhibition (blackbyte)" (ID: ac8ccd66-7857-53dd-82b5-f469fd4b72f9) targets "process_creation" — no network rule generated

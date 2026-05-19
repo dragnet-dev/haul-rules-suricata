@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4807 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 11cf4a7e-506e-5ceb-aa06-3da1ba2e705b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4807 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/jhu-edu]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/jhu-edu"; nocase; classtype:trojan-activity; sid:2797694; rev:1;)

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-2060 — Recovery Inhibition (alphv)" (ID: 92d0dd83-6f73-54d9-9a7d-51386caa91d7) targets "process_creation" — no network rule generated

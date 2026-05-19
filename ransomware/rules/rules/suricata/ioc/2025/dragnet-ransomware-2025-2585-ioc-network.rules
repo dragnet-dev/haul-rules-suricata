@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2585 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 9366cf2e-aed1-548e-890f-69b6a08c8f51
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2585 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/MotorsportMarkt.de]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/MotorsportMarkt.de"; nocase; classtype:trojan-activity; sid:7988462; rev:1;)

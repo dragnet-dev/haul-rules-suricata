@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3301 — Ransomware C2 Communication
+# Status: test | Level: high | ID: f684da4c-fd98-59b3-95cb-98659080f950
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3301 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/vipappsconsulting-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/vipappsconsulting-com"; nocase; classtype:trojan-activity; sid:5901772; rev:1;)

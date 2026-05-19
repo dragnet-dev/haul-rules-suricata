@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-2081 — Event Log Clearing (medusalocker)" (ID: 6cbc1bfb-be05-50e0-a445-d3f9fcdad5c3) targets "process_creation" — no network rule generated

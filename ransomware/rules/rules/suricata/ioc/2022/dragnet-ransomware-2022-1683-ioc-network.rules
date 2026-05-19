@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-1683 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 46b4bcf1-4bc3-5614-be0e-75d8fa897de0
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-1683 — Ransomware C2 Communication [http://h3txev6jev7rcm6p2qkxn2vctybi4dvochr3inymzgif53n2j2oqviqd.onion/2022/06/25/megacorp-one/]"; dns.query; content:"http://h3txev6jev7rcm6p2qkxn2vctybi4dvochr3inymzgif53n2j2oqviqd.onion/2022/06/25/megacorp-one/"; nocase; classtype:trojan-activity; sid:8249969; rev:1;)

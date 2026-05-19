@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3108 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 1bbd6577-4d57-5709-934c-2122db99703f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3108 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/mcna-dental-1-million-patients-records/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/mcna-dental-1-million-patients-records/"; nocase; classtype:trojan-activity; sid:7397111; rev:1;)

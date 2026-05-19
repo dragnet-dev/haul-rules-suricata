@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3068 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8cbc2430-7415-5729-ba87-9756e613ba59
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3068 — Ransomware C2 Communication [https://dispossessor.com/blogs/122]"; dns.query; content:"https://dispossessor.com/blogs/122"; nocase; classtype:trojan-activity; sid:4140272; rev:1;)

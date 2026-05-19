@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0203 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8ceafe49-91b4-5ae5-a98c-abba7c2c3153
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0203 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/13/invogue-women-healthcare-pllc-usatx]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/13/invogue-women-healthcare-pllc-usatx"; nocase; classtype:trojan-activity; sid:7210761; rev:1;)

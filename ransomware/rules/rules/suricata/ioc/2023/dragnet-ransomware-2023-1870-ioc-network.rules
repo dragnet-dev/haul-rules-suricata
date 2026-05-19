@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1870 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7b9e6a8b-1c8c-50bf-ad9e-f1c613922ec5
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1870 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=GIAMBELLISPA_2]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=GIAMBELLISPA_2"; nocase; classtype:trojan-activity; sid:4979531; rev:1;)

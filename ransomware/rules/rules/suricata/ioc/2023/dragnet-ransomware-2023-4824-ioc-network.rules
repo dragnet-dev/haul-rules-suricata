@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4824 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: cb938b29-d03a-5b64-b212-d4ad36521f99
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4824 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bankwithunited-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bankwithunited-com"; nocase; classtype:trojan-activity; sid:5444265; rev:1;)

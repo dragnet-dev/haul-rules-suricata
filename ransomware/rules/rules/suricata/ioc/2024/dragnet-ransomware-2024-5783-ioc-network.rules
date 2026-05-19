@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5783 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 21a11535-5c2f-59b7-9dd5-b38c16f9d06e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5783 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=rockportmortgage.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=rockportmortgage.com"; nocase; classtype:trojan-activity; sid:7204853; rev:1;)

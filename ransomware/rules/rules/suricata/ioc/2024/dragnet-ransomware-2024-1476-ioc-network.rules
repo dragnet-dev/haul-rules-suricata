@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1476 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 28b178fc-8884-51d4-b545-a9cbb7356769
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1476 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/thaisummit-us]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/thaisummit-us"; nocase; classtype:trojan-activity; sid:8719484; rev:1;)

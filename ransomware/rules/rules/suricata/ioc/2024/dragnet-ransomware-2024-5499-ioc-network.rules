@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5499 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 209457ec-0516-59a5-b48f-33b77cf2d0f4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5499 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/falcosult.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/falcosult.com/"; nocase; classtype:trojan-activity; sid:7592748; rev:1;)

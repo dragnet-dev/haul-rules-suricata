@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2215 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 5af1745e-f8e0-5574-94f1-d3cf2e9c3e3d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2215 — Ransomware C2 Communication [https://werewolves.pro/en/aek-mk.html]"; dns.query; content:"https://werewolves.pro/en/aek-mk.html"; nocase; classtype:trojan-activity; sid:5773406; rev:1;)

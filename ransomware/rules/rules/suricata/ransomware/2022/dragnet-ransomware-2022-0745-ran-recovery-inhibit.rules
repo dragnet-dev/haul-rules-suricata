@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-0745 — Recovery Inhibition (midas)" (ID: a5b02b6c-6cb7-5cc1-ab4d-154d6bdb48c5) targets "process_creation" — no network rule generated

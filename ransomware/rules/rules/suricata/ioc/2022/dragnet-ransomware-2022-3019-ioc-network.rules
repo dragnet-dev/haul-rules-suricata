@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3019 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: d9c81e94-5762-56a2-89ce-fd9d9f9d14b4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3019 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/miami-edu]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/miami-edu"; nocase; classtype:trojan-activity; sid:9770900; rev:1;)

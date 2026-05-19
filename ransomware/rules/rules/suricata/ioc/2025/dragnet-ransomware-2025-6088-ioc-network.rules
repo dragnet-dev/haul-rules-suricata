@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6088 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 5d774f79-f7f5-57eb-b8eb-e75ca6dcc264
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6088 — Ransomware C2 Communication [http://funknqn44slwmgwgnewne6bintbooauwkaupik4yrlgtycew3ergraid.onion/barilga-gov-mn]"; dns.query; content:"http://funknqn44slwmgwgnewne6bintbooauwkaupik4yrlgtycew3ergraid.onion/barilga-gov-mn"; nocase; classtype:trojan-activity; sid:3100217; rev:1;)

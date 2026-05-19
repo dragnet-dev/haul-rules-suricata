@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0034 — Shadow Copy Deletion (ryuk)" (ID: 47765b1a-91b0-56ad-95e5-b560881e7c42) targets "process_creation" — no network rule generated

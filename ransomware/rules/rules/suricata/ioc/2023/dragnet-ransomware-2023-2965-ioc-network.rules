@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2965 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 629ffccb-043a-56d7-aeda-666444b21a8a
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2965 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=TAMMAC]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=TAMMAC"; nocase; classtype:trojan-activity; sid:8652107; rev:1;)

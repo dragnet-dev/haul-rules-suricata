@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4988 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: b1ff5b8d-282a-52fa-93de-e911e26abd38
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4988 — Ransomware C2 Communication [https://werewolves.pro/en/bigcenters.html]"; dns.query; content:"https://werewolves.pro/en/bigcenters.html"; nocase; classtype:trojan-activity; sid:8302349; rev:1;)

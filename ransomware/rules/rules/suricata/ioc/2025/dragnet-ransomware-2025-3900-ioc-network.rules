@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3900 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3dd60ec4-580b-5904-a7d0-1d0095fb1e23
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3900 — Ransomware C2 Communication [https://handala-hack.to/hotam-ec-hacked/]"; dns.query; content:"https://handala-hack.to/hotam-ec-hacked/"; nocase; classtype:trojan-activity; sid:3438660; rev:1;)

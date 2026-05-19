@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5653 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4d2e2064-d0e9-58eb-8503-9354458d1a5b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5653 — Ransomware C2 Communication [https://handala.to/ramat-gan-academic-college-hacked/]"; dns.query; content:"https://handala.to/ramat-gan-academic-college-hacked/"; nocase; classtype:trojan-activity; sid:8868580; rev:1;)

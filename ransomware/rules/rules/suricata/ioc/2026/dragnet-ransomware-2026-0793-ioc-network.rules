@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0793 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 170cd0cf-5ea0-5a13-ac27-0e8cfd100b30
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0793 — Ransomware C2 Communication [http://msleakjir7pxbe6onlqe5uwgvdmy6nq4mnwfy7ojswbhnleenm77vgad.onion/BRI/index.html]"; dns.query; content:"http://msleakjir7pxbe6onlqe5uwgvdmy6nq4mnwfy7ojswbhnleenm77vgad.onion/BRI/index.html"; nocase; classtype:trojan-activity; sid:9715855; rev:1;)

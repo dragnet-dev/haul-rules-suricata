@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0143 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: eb53b52e-4db0-5d0f-a29a-8d2af3673fa2
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0143 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=eatonmetal.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=eatonmetal.com"; nocase; classtype:trojan-activity; sid:7131630; rev:1;)

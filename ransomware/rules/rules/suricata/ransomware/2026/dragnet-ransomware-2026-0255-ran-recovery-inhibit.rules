@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-0255 — Recovery Inhibition (crypto24)" (ID: 87da5b88-5b01-54be-8e05-03b5f285201c) targets "process_creation" — no network rule generated

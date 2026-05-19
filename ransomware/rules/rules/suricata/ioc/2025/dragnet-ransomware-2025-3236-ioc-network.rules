@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3236 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 42b87804-007a-5ae5-86fa-481081406059
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3236 — Ransomware C2 Communication [http://lynxblog.net/leaks/67a8d09b61c2d9c619c19982]"; dns.query; content:"http://lynxblog.net/leaks/67a8d09b61c2d9c619c19982"; nocase; classtype:trojan-activity; sid:4385604; rev:1;)

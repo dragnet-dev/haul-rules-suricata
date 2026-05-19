@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0268 — Shadow Copy Deletion (babuk)" (ID: 964e8039-8b70-5b94-9cb2-6462fddb67fc) targets "process_creation" — no network rule generated

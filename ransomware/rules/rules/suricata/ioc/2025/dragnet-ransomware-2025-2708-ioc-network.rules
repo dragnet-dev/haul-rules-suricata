@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2708 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3697a53c-8e41-5ad0-b22d-1da93711bb2e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2708 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/icerivergreenbottleco-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/icerivergreenbottleco-com"; nocase; classtype:trojan-activity; sid:7907900; rev:1;)

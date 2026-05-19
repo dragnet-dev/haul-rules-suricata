@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2444 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3a37d6e3-acc6-505f-ab0e-4da8421396fa
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2444 — Ransomware C2 Communication [https://handala.to/temporary-warning-for-eyal-baror/]"; dns.query; content:"https://handala.to/temporary-warning-for-eyal-baror/"; nocase; classtype:trojan-activity; sid:5738019; rev:1;)

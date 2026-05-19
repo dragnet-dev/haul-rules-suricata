@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4492 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e3cffa34-50ab-5ebb-9e12-f1e9dc0cc509
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4492 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/TRIDON]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/TRIDON"; nocase; classtype:trojan-activity; sid:7058036; rev:1;)

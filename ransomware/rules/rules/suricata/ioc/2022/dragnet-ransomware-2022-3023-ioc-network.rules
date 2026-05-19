@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3023 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 07f7398b-96fa-5d42-a765-4fefdc2214b4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3023 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/valleytruckandtractor-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/valleytruckandtractor-com"; nocase; classtype:trojan-activity; sid:8642635; rev:1;)

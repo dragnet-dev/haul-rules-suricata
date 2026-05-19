@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2170 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 948a4b28-45b6-5db9-ad0a-2e2dda7a5d4b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2170 — Ransomware C2 Communication [http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/nirvanahotels.com.tr]"; dns.query; content:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/nirvanahotels.com.tr"; nocase; classtype:trojan-activity; sid:9091176; rev:1;)

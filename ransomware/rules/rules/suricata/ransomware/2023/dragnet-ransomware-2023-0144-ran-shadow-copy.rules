@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-0144 — Shadow Copy Deletion (medusalocker)" (ID: 27bd7375-d6dd-5675-9bf9-a4dffaae1057) targets "process_creation" — no network rule generated

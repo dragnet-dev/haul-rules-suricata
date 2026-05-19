@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2229 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: caa3c1a4-b225-535c-8938-3693471f8851
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2229 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=thompsoncreek.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=thompsoncreek.com"; nocase; classtype:trojan-activity; sid:7729572; rev:1;)

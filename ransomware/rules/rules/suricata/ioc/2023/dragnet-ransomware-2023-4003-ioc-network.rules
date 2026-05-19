@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4003 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 06c47b59-b157-5709-ac69-f6058554f9ca
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4003 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=Carrington%20Group]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=Carrington%20Group"; nocase; classtype:trojan-activity; sid:6539929; rev:1;)

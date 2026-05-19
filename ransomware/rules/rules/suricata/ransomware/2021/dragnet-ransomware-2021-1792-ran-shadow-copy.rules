@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1792 — Shadow Copy Deletion (avoslocker)" (ID: af3b8b46-1609-5faf-b1aa-ed872bd17c6e) targets "process_creation" — no network rule generated

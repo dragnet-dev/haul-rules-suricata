@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-0318 — Recovery Inhibition (payload)" (ID: 82467b0f-7180-5d5f-ae20-901b944ed4fa) targets "process_creation" — no network rule generated

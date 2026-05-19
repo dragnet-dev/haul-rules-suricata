@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2709 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 1aa56f04-bbb8-55a5-8851-925b39aba747
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2709 — Ransomware C2 Communication [https://handala-hack.to/netanyahus-cabinet-awaits-handalas-next-move/]"; dns.query; content:"https://handala-hack.to/netanyahus-cabinet-awaits-handalas-next-move/"; nocase; classtype:trojan-activity; sid:7049476; rev:1;)

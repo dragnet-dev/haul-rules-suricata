@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1963 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 56498566-1563-56e8-b4ba-a2548f37dbd9
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1963 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/shutterfly-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/shutterfly-com"; nocase; classtype:trojan-activity; sid:8658854; rev:1;)

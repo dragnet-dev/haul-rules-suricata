@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-0330 — Event Log Clearing (pysa)" (ID: 4fc71d21-de67-5cdd-85fa-233b76934e75) targets "process_creation" — no network rule generated

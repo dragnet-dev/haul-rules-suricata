@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4227 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8a2f8c43-7259-5190-8d8d-09f134ca8a39
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4227 — Ransomware C2 Communication [https://dispossessor.com/blogs/920]"; dns.query; content:"https://dispossessor.com/blogs/920"; nocase; classtype:trojan-activity; sid:6371907; rev:1;)

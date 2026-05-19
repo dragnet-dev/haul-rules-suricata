@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0353 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 0f10ad4c-8d73-5026-9a2c-4b97f1c949c3
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0353 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/trulinemfgcom/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/trulinemfgcom/"; nocase; classtype:trojan-activity; sid:1751180; rev:1;)

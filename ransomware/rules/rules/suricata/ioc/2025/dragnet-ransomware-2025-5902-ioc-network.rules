@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5902 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 83a6aabf-0b95-5e59-a027-aa33c3019f38
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5902 — Ransomware C2 Communication [https://handala-hack.to/from-shield-to-shame/]"; dns.query; content:"https://handala-hack.to/from-shield-to-shame/"; nocase; classtype:trojan-activity; sid:4737983; rev:1;)

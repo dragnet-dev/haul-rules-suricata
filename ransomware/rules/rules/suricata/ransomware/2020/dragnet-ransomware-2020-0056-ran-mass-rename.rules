@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0056 — Mass File Rename (coldlock)" (ID: 10f986ec-c135-54f0-9954-ca76ffccf2c0) targets "file_rename" — no network rule generated

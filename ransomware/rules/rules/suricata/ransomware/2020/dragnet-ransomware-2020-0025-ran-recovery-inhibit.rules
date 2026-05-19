@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0025 — Recovery Inhibition (ragnarlocker)" (ID: 49d83223-d900-5dc3-bd6c-a14c6db2ec0b) targets "process_creation" — no network rule generated

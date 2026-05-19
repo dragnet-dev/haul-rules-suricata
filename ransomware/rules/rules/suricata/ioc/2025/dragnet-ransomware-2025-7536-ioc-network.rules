@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7536 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8924fcfb-e1ad-5d7c-a6a3-ab66c9d5074c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7536 — Ransomware C2 Communication [https://breachforums.hn//puma.html]"; dns.query; content:"https://breachforums.hn//puma.html"; nocase; classtype:trojan-activity; sid:6902651; rev:1;)

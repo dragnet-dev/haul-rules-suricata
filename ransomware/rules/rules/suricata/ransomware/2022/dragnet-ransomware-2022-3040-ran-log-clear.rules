@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-3040 — Event Log Clearing (lockbit2)" (ID: cdc9492a-dae5-5e90-8cf4-6b8c04d7e81a) targets "process_creation" — no network rule generated

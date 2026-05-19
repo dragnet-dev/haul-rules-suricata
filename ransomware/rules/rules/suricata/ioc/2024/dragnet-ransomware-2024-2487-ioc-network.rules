@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2487 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: cee2a887-e99e-5d73-84d5-6e0fc13f92fa
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2487 — Ransomware C2 Communication [https://handala.to/handalas-attack-on-israeli-organizations/]"; dns.query; content:"https://handala.to/handalas-attack-on-israeli-organizations/"; nocase; classtype:trojan-activity; sid:6960775; rev:1;)

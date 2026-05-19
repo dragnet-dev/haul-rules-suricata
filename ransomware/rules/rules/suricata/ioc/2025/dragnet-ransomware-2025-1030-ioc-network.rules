@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1030 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 5b339247-45b1-53e0-8da7-f1a7b3cfb074
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1030 — Ransomware C2 Communication [https://darkforums.st/Thread-Document-Guerrero-Mears-LLP-DATALEAK-FORGOT-THE-SIZE]"; dns.query; content:"https://darkforums.st/Thread-Document-Guerrero-Mears-LLP-DATALEAK-FORGOT-THE-SIZE"; nocase; classtype:trojan-activity; sid:1106439; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0233 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 0517621c-a574-569a-9e39-6a8f49477c0c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0233 — Ransomware C2 Communication [https://handala-hack.to/tamir-hayman-hacked/]"; dns.query; content:"https://handala-hack.to/tamir-hayman-hacked/"; nocase; classtype:trojan-activity; sid:5418524; rev:1;)

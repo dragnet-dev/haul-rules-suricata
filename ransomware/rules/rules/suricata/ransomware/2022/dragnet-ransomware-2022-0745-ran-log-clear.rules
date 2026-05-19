@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-0745 — Event Log Clearing (midas)" (ID: 071b30ba-9268-5e79-9b58-2f33c1bc6ff2) targets "process_creation" — no network rule generated

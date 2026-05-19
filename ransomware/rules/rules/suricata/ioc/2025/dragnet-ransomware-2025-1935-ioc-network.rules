@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1935 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 2432845f-fe2a-540e-a3c6-177923f7478e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1935 — Ransomware C2 Communication [http://ralordqe33mpufkpsr6zkdatktlu3t2uei4ught3sitxgtzfmqmbsuyd.onion/Formosa-Chang]"; dns.query; content:"http://ralordqe33mpufkpsr6zkdatktlu3t2uei4ught3sitxgtzfmqmbsuyd.onion/Formosa-Chang"; nocase; classtype:trojan-activity; sid:5290463; rev:1;)

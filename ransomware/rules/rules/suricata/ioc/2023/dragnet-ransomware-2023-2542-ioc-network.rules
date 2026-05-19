@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2542 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 42fe4531-2dc9-518f-bdc2-dc216dc6befb
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2542 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=AVIAREPS_COM_2222]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=AVIAREPS_COM_2222"; nocase; classtype:trojan-activity; sid:8960113; rev:1;)

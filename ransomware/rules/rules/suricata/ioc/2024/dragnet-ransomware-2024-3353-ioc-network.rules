@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3353 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: d1035314-4d36-5b02-b4b6-2fe5ef27d809
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3353 — Ransomware C2 Communication [http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/leinlawoffices.com/]"; dns.query; content:"http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/leinlawoffices.com/"; nocase; classtype:trojan-activity; sid:6656020; rev:1;)

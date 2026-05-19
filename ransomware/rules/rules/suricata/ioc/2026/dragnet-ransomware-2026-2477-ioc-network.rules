@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2477 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: c0fb4803-8af4-5443-9c6e-2b19b3f8f40b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2477 — Ransomware C2 Communication [https://handala-hack.to/full-access-jerusalems-security-cameras-in-handalas-hands/]"; dns.query; content:"https://handala-hack.to/full-access-jerusalems-security-cameras-in-handalas-hands/"; nocase; classtype:trojan-activity; sid:7693443; rev:1;)

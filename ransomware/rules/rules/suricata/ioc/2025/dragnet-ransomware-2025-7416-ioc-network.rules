@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7416 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4d399814-87f4-5dec-9b89-703c9c4d84d4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7416 — Ransomware C2 Communication [https://handala-hack.to/jobplace-ltd-hacked/]"; dns.query; content:"https://handala-hack.to/jobplace-ltd-hacked/"; nocase; classtype:trojan-activity; sid:9620116; rev:1;)

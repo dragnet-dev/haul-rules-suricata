@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4690 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 864fcb09-b782-55b8-8fd3-d1fa1781c88d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4690 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/cbeservices-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/cbeservices-com"; nocase; classtype:trojan-activity; sid:4376265; rev:1;)

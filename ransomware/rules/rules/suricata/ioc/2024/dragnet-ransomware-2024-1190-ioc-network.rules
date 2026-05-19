@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1190 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 73a80b80-d955-5b5b-853b-8bb4e16087cc
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1190 — Ransomware C2 Communication [http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/gmjca.com]"; dns.query; content:"http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/gmjca.com"; nocase; classtype:trojan-activity; sid:6392832; rev:1;)

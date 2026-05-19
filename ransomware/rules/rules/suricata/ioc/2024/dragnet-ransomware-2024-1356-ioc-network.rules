@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1356 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 1d57cbfa-b29a-5a3c-942e-d583835c7813
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1356 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/firstchoicesale.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/firstchoicesale.com/"; nocase; classtype:trojan-activity; sid:7293114; rev:1;)

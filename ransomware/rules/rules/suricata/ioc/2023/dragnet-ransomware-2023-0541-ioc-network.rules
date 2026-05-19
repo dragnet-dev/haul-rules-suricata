@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0541 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3159d18f-b68b-549a-ac79-eaaea8fbc829
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0541 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/enerjisauretim-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/enerjisauretim-com"; nocase; classtype:trojan-activity; sid:9969935; rev:1;)

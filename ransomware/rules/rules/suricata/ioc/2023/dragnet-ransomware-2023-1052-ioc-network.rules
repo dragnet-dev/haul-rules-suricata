@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1052 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8540f19d-a29d-5dae-92b7-52ae7e731812
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1052 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/auswideservices.net/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/auswideservices.net/"; nocase; classtype:trojan-activity; sid:4625885; rev:1;)

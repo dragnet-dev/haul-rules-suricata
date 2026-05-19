@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3596 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 57bf7f17-5de5-5329-9a2f-087217c867df
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3596 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/siemens-energy-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/siemens-energy-com"; nocase; classtype:trojan-activity; sid:6167703; rev:1;)

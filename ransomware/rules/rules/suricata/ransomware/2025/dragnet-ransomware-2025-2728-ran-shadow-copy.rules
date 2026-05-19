@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2025-2728 — Shadow Copy Deletion (lunalock)" (ID: 1d580dd6-1e52-5f09-9c35-0672c3024d90) targets "process_creation" — no network rule generated

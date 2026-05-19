@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4199 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4d6df566-bbeb-5ef0-a719-3d12c4ab955e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4199 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sandalawoffices-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sandalawoffices-com"; nocase; classtype:trojan-activity; sid:4051878; rev:1;)

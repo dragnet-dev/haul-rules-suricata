@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2025-0652 — Recovery Inhibition (alphalocker)" (ID: 29d4c840-e8c0-5ee2-b755-661874c41de4) targets "process_creation" — no network rule generated

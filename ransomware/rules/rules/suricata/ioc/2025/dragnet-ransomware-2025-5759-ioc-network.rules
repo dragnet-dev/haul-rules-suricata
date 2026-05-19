@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5759 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: f0a911a6-6642-5b2d-9185-94b34b62b9f0
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5759 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Jordan_Kuwait_Bank]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Jordan_Kuwait_Bank"; nocase; classtype:trojan-activity; sid:6611942; rev:1;)

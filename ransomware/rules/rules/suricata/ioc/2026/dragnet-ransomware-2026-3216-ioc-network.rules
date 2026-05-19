@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3216 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 0f1814e9-febc-517b-b9af-23abc50ce2e5
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3216 — Ransomware C2 Communication [https://handala-hack.tw/50-senior-unit-9900-officers-exposed/]"; dns.query; content:"https://handala-hack.tw/50-senior-unit-9900-officers-exposed/"; nocase; classtype:trojan-activity; sid:2236457; rev:1;)

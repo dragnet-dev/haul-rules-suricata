@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5110 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 947b3a5f-64d3-538c-9e7b-4f0785803924
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5110 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/18/sawa-international]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/18/sawa-international"; nocase; classtype:trojan-activity; sid:8103839; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7642 — Ransomware C2 Communication
+# Status: test | Level: high | ID: e014bfa1-ad2d-582d-ae9b-fc2a04332b31
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7642 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/wadzeck-stiftungde/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/wadzeck-stiftungde/"; nocase; classtype:trojan-activity; sid:7456161; rev:1;)

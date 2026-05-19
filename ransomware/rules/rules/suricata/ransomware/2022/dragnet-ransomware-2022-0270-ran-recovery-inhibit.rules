@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-0270 — Recovery Inhibition (cuba)" (ID: 2dfd98e5-75e7-59b9-bf0c-722ffedf5edb) targets "process_creation" — no network rule generated

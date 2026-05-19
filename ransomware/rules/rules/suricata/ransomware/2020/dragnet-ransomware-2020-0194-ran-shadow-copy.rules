@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0194 — Shadow Copy Deletion (doppelpaymer)" (ID: c457419e-ac71-50f2-b058-58326e259dda) targets "process_creation" — no network rule generated

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4970 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ebf8c300-d970-555d-ac45-a5deffc1b32c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4970 — Ransomware C2 Communication [http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/vwg-connect.com/CarNet-Part1.log]"; dns.query; content:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/vwg-connect.com/CarNet-Part1.log"; nocase; classtype:trojan-activity; sid:8948608; rev:1;)

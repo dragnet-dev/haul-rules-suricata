@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0404 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 28b2fc65-0e47-53d0-bb6f-f65e99f7ec58
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0404 — Ransomware C2 Communication [http://jvkpexgkuaw5toiph7fbgucycvnafaqmfvakymfh5pdxepvahw3xryqd.onion/targets/41]"; dns.query; content:"http://jvkpexgkuaw5toiph7fbgucycvnafaqmfvakymfh5pdxepvahw3xryqd.onion/targets/41"; nocase; classtype:trojan-activity; sid:8818661; rev:1;)

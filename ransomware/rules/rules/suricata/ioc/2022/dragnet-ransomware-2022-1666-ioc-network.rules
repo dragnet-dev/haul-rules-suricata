@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-1666 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: cd5911bb-09a4-5d6f-b6fd-83fc7a80eee3
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-1666 — Ransomware C2 Communication [http://alphvmmm27o3abo3r2mlmjrpdmzle3rykajqc5xsj7j7ejksbpsa36ad.onion/50b8b4bf-d37b-4671-b22f-5301413b75de]"; dns.query; content:"http://alphvmmm27o3abo3r2mlmjrpdmzle3rykajqc5xsj7j7ejksbpsa36ad.onion/50b8b4bf-d37b-4671-b22f-5301413b75de"; nocase; classtype:trojan-activity; sid:8166523; rev:1;)

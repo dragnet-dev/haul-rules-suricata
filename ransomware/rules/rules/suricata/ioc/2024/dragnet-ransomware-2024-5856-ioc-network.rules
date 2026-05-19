@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5856 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 25079921-4631-5bd3-aa0e-5b96588e1747
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5856 — Ransomware C2 Communication [https://handala-hack.to/zionists-blenergy-hacked/]"; dns.query; content:"https://handala-hack.to/zionists-blenergy-hacked/"; nocase; classtype:trojan-activity; sid:1254945; rev:1;)

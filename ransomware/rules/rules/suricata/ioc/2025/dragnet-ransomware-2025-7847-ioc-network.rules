@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7847 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 6289e6ae-8386-5963-b19e-3bca0f46919f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7847 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/62/south-georgia-accounting-services]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/62/south-georgia-accounting-services"; nocase; classtype:trojan-activity; sid:7204654; rev:1;)

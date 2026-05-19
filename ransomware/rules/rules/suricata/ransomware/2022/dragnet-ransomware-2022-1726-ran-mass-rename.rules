@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-1726 — Mass File Rename (unsafe)" (ID: 6871cb54-82ec-50b4-8207-486fb332e1fd) targets "file_rename" — no network rule generated

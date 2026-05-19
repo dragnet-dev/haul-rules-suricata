@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7244 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ae6a4566-ab43-5a8f-add3-51b1acdc3b43
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7244 — Ransomware C2 Communication [http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?auction/archive.php?company=175]"; dns.query; content:"http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?auction/archive.php?company=175"; nocase; classtype:trojan-activity; sid:2200166; rev:1;)

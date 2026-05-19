@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2786 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 57342e1a-1993-56d3-95d3-b35e1b12f627
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2786 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/inventive-it-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/inventive-it-com"; nocase; classtype:trojan-activity; sid:6037466; rev:1;)

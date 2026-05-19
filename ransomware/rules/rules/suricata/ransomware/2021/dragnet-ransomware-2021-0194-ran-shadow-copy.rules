@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-0194 — Shadow Copy Deletion (pay2key)" (ID: 7cb3ffda-7fc1-5ebf-bbc9-1a829252db2a) targets "process_creation" — no network rule generated

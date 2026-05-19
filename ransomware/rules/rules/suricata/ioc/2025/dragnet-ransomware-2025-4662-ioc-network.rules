@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4662 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e76abdd8-b311-5518-9ff0-fb6f343be1cc
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4662 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/82/all-truck-transportation-co]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/82/all-truck-transportation-co"; nocase; classtype:trojan-activity; sid:4532312; rev:1;)

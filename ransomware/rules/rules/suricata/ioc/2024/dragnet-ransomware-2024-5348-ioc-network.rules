@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5348 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: aaf95e6e-8dff-578d-9e64-8815c18fccc8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5348 — Ransomware C2 Communication [http://kill432ltnkqvaqntbalnsgojqqs2wz4lhnamrqjg66tq6fuvcztilyd.onion/post/delhipolice.gov.in.html]"; dns.query; content:"http://kill432ltnkqvaqntbalnsgojqqs2wz4lhnamrqjg66tq6fuvcztilyd.onion/post/delhipolice.gov.in.html"; nocase; classtype:trojan-activity; sid:7469358; rev:1;)

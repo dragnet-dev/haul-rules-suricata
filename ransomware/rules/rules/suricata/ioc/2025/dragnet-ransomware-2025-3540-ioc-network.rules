@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3540 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: d914a22e-4dc1-53ac-9a4a-edcee40e5aa5
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3540 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/74/fujipoly-ltd]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/74/fujipoly-ltd"; nocase; classtype:trojan-activity; sid:7008110; rev:1;)

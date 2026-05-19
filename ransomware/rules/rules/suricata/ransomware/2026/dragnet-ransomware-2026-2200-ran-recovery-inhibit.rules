@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-2200 — Recovery Inhibition (coinbasecartel)" (ID: 5ae1a308-3ac8-59e9-a0b7-d6a3bf68f351) targets "process_creation" — no network rule generated

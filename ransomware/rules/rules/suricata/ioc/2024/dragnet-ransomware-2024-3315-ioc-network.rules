@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3315 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 0fb0246e-b423-5c20-ac38-58e7ecf9df1d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3315 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=pacifica.co.uk]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=pacifica.co.uk"; nocase; classtype:trojan-activity; sid:3201902; rev:1;)

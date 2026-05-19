@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0992 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: d34270fe-7b1f-5608-a541-c09dcce43083
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0992 — Ransomware C2 Communication [http://pcixe2pw5ho6qpkjwbrsscvdcpzfj7vt3stvyde5ii5wdlqgvtyr4vad.onion/index.php?p=]"; dns.query; content:"http://pcixe2pw5ho6qpkjwbrsscvdcpzfj7vt3stvyde5ii5wdlqgvtyr4vad.onion/index.php?p="; nocase; classtype:trojan-activity; sid:8346878; rev:1;)

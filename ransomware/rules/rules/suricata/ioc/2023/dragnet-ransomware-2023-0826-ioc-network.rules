@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0826 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 276215f8-a551-555b-91dc-eed4c07c7ce2
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0826 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/surtronics.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/surtronics.com"; nocase; classtype:trojan-activity; sid:4739576; rev:1;)

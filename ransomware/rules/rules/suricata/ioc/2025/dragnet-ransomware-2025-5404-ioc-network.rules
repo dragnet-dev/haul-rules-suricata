@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5404 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 5291c38d-cacb-592e-bb56-bfd098681ad0
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5404 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/transelectriccoil/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/transelectriccoil/"; nocase; classtype:trojan-activity; sid:9284493; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3886 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 730a061c-cd3a-5b57-ac11-7b4d9637700c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3886 — Ransomware C2 Communication [https://handala-hack.to/ivri-kerner-co-hacked/]"; dns.query; content:"https://handala-hack.to/ivri-kerner-co-hacked/"; nocase; classtype:trojan-activity; sid:5036764; rev:1;)

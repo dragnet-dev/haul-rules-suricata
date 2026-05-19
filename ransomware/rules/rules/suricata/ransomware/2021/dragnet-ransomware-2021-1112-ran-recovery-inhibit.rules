@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1112 — Recovery Inhibition (avoslocker)" (ID: 4c6e1520-f4d9-5013-a19a-1c6c072c4fbf) targets "process_creation" — no network rule generated

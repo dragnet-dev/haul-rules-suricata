@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1610 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 084c8b13-aea8-5e87-a23e-87ea00ed0626
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1610 — Ransomware C2 Communication [http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/SOLARCITY]"; dns.query; content:"http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/SOLARCITY"; nocase; classtype:trojan-activity; sid:5234067; rev:1;)

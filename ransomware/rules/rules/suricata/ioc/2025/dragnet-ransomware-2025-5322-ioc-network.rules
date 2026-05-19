@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5322 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 998f9eaf-8097-547b-b115-9fa7b71d667c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5322 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/scottschiffcom/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/scottschiffcom/"; nocase; classtype:trojan-activity; sid:3326319; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3360 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 46453a13-b2be-57c9-9012-84fe78fc2dfd
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3360 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/umweltprofisat/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/umweltprofisat/"; nocase; classtype:trojan-activity; sid:9941971; rev:1;)

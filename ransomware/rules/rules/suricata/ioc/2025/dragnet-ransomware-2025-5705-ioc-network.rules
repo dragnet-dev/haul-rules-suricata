@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5705 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 6e018adb-7dc5-5147-b049-7c64bb9fa29c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5705 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/91/gesimde-asociados-ausil-systems-esnova]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/91/gesimde-asociados-ausil-systems-esnova"; nocase; classtype:trojan-activity; sid:1594843; rev:1;)

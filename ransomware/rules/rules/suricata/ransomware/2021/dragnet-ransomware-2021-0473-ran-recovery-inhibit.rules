@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-0473 — Recovery Inhibition (suncrypt)" (ID: 7b78ece8-37da-5cf6-9ea9-e21a862ffd48) targets "process_creation" — no network rule generated

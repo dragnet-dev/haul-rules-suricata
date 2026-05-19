@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6579 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 860ed93b-4d6c-5b6e-ac5a-d17d4235b35b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6579 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/artcitydentalcom/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/artcitydentalcom/"; nocase; classtype:trojan-activity; sid:9120059; rev:1;)

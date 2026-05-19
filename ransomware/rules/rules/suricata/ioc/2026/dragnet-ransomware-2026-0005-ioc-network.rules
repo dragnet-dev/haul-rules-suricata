@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0005 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 4a175d2d-48c7-5373-94ec-6b1b244a60d5
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0005 — Ransomware C2 Communication [https://handala-hack.to/vahid-offline-members/]"; dns.query; content:"https://handala-hack.to/vahid-offline-members/"; nocase; classtype:trojan-activity; sid:2045165; rev:1;)

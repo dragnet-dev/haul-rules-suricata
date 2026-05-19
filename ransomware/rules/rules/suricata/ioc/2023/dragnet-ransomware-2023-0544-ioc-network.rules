@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0544 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 93ac2742-fa9f-543f-98f6-461e0bd61ffd
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0544 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/groupamana-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/groupamana-com"; nocase; classtype:trojan-activity; sid:3532994; rev:1;)

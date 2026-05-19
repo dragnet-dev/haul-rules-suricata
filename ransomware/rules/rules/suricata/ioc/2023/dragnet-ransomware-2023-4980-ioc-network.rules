@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4980 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 262ab4df-75cb-5f86-b9c2-5ba4ea0a7d5f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4980 — Ransomware C2 Communication [http://h3reihqb2y7woqdary2g3bmk3apgtxuyhx4j2ftovbhe3l5svev7bdyd.onion/arrowall.html]"; dns.query; content:"http://h3reihqb2y7woqdary2g3bmk3apgtxuyhx4j2ftovbhe3l5svev7bdyd.onion/arrowall.html"; nocase; classtype:trojan-activity; sid:2333023; rev:1;)

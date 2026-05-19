@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-2502 — Event Log Clearing (termite)" (ID: 90a0302b-5da6-5d70-ae93-d0f6fdcee404) targets "process_creation" — no network rule generated

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4443 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: bd9a1363-73a6-5d7d-bb22-6159f2cf867e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4443 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=gfm-uk.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=gfm-uk.com"; nocase; classtype:trojan-activity; sid:4991331; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3759 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 967b73a4-d03d-5611-a666-c0b5d6560dc8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3759 — Ransomware C2 Communication [http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/hafnia_law_firm]"; dns.query; content:"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/hafnia_law_firm"; nocase; classtype:trojan-activity; sid:5672932; rev:1;)

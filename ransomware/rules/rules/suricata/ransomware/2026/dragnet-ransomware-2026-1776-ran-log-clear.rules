@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-1776 — Event Log Clearing (krybit)" (ID: 95700d7f-cf36-5326-84b7-36c201c5fbaa) targets "process_creation" — no network rule generated

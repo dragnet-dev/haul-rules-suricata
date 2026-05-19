@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2773 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3213525c-c153-5272-a82f-0b945fafc48e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2773 — Ransomware C2 Communication [https://darkforums.st/Thread-Document-BAR-Architects-Interiors-DATA-LEAK-1-5T--18961]"; dns.query; content:"https://darkforums.st/Thread-Document-BAR-Architects-Interiors-DATA-LEAK-1-5T--18961"; nocase; classtype:trojan-activity; sid:4127068; rev:1;)

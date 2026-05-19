@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2322 — Ransomware C2 Communication
+# Status: test | Level: high | ID: af4085f2-ccd9-5a4a-b82b-8b50bc52cd74
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2322 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/kvheli-wordpress-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/kvheli-wordpress-com"; nocase; classtype:trojan-activity; sid:7241394; rev:1;)

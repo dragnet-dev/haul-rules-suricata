@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3480 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 22eb697b-b83a-535a-9b5b-a8eeb2c13311
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3480 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/86/batesky-law-office-blo]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/86/batesky-law-office-blo"; nocase; classtype:trojan-activity; sid:1853307; rev:1;)

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-1663 — Recovery Inhibition (tridentlocker)" (ID: 55558b84-86e6-55ea-a7b0-ff3f10e0497f) targets "process_creation" — no network rule generated

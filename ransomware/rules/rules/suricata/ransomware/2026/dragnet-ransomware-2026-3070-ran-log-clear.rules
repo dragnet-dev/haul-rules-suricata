@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-3070 — Event Log Clearing (kairos)" (ID: 30f9232c-1dd2-52e7-99d4-58fcb09d3342) targets "process_creation" — no network rule generated

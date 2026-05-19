@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-1407 — Event Log Clearing (lockbit3)" (ID: d8709bc1-6f48-5590-a7d9-47822e6b9ada) targets "process_creation" — no network rule generated

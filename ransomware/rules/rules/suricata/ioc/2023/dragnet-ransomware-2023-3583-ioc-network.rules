@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3583 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: db8568a1-7e68-5299-89d6-99d1ff0e5dba
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3583 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mboamerica-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mboamerica-com"; nocase; classtype:trojan-activity; sid:2953377; rev:1;)

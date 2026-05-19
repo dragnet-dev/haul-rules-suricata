@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2738 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7226b3d2-1436-5768-8f60-e4ca192ea514
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2738 — Ransomware C2 Communication [https://breachforums.hn//petco.html]"; dns.query; content:"https://breachforums.hn//petco.html"; nocase; classtype:trojan-activity; sid:8139026; rev:1;)

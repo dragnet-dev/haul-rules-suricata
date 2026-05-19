@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4701 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 6726d516-a7f5-5ab3-aae8-bb01217597fb
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4701 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/metrobank-com-ph]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/metrobank-com-ph"; nocase; classtype:trojan-activity; sid:3598166; rev:1;)

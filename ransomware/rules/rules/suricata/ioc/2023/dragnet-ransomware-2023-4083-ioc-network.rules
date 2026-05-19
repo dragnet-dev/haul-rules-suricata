@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4083 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 860aba86-614f-53ef-bf72-e3a7ab1825db
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4083 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/WASSERSTROM]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/WASSERSTROM"; nocase; classtype:trojan-activity; sid:8850054; rev:1;)

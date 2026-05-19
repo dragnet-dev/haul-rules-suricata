@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0439 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 0bae8c81-bffb-58d4-8cce-83b04986dd3d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0439 — Ransomware C2 Communication [http://bianliaoxoeriowgqohcly4a6sbkpc3se2yvxgidxomxlpuhx5ehrpad.onion/companies/dashbusiness.com/]"; dns.query; content:"http://bianliaoxoeriowgqohcly4a6sbkpc3se2yvxgidxomxlpuhx5ehrpad.onion/companies/dashbusiness.com/"; nocase; classtype:trojan-activity; sid:7988609; rev:1;)

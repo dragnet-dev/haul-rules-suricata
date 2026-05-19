@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1576 — Shadow Copy Deletion (xinglocker)" (ID: 64c7f6a4-d206-5e35-9c73-e44850af90bb) targets "process_creation" — no network rule generated

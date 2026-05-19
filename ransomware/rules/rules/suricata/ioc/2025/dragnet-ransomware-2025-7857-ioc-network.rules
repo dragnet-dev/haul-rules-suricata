@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7857 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 08bdef65-a3be-5ccf-90f9-84128cf65f93
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7857 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/carglass-de]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/carglass-de"; nocase; classtype:trojan-activity; sid:3665317; rev:1;)

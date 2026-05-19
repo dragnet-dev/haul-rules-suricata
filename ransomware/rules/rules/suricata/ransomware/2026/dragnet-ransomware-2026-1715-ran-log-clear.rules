@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-1715 — Event Log Clearing (qilin)" (ID: db700d72-45cb-5af9-a0a4-31f8429a30d0) targets "process_creation" — no network rule generated

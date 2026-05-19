@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0447 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 0577e30a-ea11-509c-b7e4-acfec66c1f56
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0447 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=atlasoil.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=atlasoil.com"; nocase; classtype:trojan-activity; sid:2742986; rev:1;)

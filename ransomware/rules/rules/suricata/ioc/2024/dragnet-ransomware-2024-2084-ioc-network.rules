@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2084 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7c54260f-c9de-57da-9dca-3cc19d611a54
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2084 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/9/fliesenstudio-am-rhein]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/9/fliesenstudio-am-rhein"; nocase; classtype:trojan-activity; sid:7889551; rev:1;)

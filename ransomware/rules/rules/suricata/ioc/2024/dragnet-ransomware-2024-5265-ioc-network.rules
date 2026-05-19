@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5265 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c3cb447f-fc36-56ca-ae1d-5338b059b9cf
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5265 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/islandtrans.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/islandtrans.com"; nocase; classtype:trojan-activity; sid:9878463; rev:1;)

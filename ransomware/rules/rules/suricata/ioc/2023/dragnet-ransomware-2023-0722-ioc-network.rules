@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0722 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: f1acc32a-7c29-5052-8ebe-1bc6fb6dea1a
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0722 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/tdecu-org]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/tdecu-org"; nocase; classtype:trojan-activity; sid:5631210; rev:1;)

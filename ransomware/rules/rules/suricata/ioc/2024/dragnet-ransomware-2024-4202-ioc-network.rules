@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4202 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 72ea30fe-ed46-59cf-8443-00be5ada2434
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4202 — Ransomware C2 Communication [http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/valleylandtitleco-com/]"; dns.query; content:"http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/valleylandtitleco-com/"; nocase; classtype:trojan-activity; sid:2950590; rev:1;)

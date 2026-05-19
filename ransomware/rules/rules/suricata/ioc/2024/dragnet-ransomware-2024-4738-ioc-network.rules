@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4738 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4760dd24-5ab7-55d7-8ad0-7957e108970e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4738 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/medrevenu.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/medrevenu.com/"; nocase; classtype:trojan-activity; sid:1530404; rev:1;)

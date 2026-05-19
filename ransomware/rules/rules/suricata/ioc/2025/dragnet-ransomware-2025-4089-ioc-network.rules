@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4089 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: cdef3e89-2e3b-51bc-bb7e-8d78af1eb93c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4089 — Ransomware C2 Communication [http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/us-graphite]"; dns.query; content:"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/us-graphite"; nocase; classtype:trojan-activity; sid:9008393; rev:1;)

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0031 — Shadow Copy Deletion (agelocker)" (ID: 8961d261-613a-54b9-a327-6ce50721e418) targets "process_creation" — no network rule generated

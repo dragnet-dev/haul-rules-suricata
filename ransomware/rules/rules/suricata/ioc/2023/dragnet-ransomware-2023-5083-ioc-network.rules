@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5083 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: f6d511c0-39d0-5d8d-bba2-73d757bb4c89
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5083 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=citycontainer.dk]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=citycontainer.dk"; nocase; classtype:trojan-activity; sid:2158848; rev:1;)

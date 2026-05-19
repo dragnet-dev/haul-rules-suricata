@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2205 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 01a41403-14af-5f0a-8e1b-58d4f5007cc7
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2205 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/emco-electric-international]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/emco-electric-international"; nocase; classtype:trojan-activity; sid:1530243; rev:1;)

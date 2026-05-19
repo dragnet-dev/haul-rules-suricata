@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-2565 — Event Log Clearing (apt73)" (ID: b7da31e6-1a10-547e-87bc-fb09a7d5550c) targets "process_creation" — no network rule generated

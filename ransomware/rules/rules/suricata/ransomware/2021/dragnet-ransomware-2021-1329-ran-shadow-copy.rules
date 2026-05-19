@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1329 — Shadow Copy Deletion (avaddon)" (ID: 8c1622bd-4a4e-5952-ae0d-15395cdd06ad) targets "process_creation" — no network rule generated

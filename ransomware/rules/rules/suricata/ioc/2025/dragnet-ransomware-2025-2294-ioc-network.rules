@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2294 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: f0ff9986-9131-5acb-9932-b8cc1c24c998
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2294 — Ransomware C2 Communication [https://handala-hack.to/haor-heavy-transport-hacked/]"; dns.query; content:"https://handala-hack.to/haor-heavy-transport-hacked/"; nocase; classtype:trojan-activity; sid:3282822; rev:1;)

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-2047 — Recovery Inhibition (medusalocker)" (ID: 37677d19-0836-5c21-8cd4-b7dffe907c2d) targets "process_creation" — no network rule generated

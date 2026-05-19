@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1615 — Recovery Inhibition (mountlocker)" (ID: f15f1879-1a37-51bc-9f2b-6ed58ff31c11) targets "process_creation" — no network rule generated

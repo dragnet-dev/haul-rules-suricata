@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4899 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ea42e363-c2fd-590b-8971-4a9162579bd0
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4899 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/BowlesWomack&Company]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/BowlesWomack&Company"; nocase; classtype:trojan-activity; sid:7252131; rev:1;)

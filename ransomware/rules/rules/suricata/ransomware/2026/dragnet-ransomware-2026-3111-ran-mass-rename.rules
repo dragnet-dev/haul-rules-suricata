@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-3111 — Mass File Rename (killsec)" (ID: cb2bdb26-5c7a-537b-8384-c05448cd0e48) targets "file_rename" — no network rule generated

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-0193 — Recovery Inhibition (apt73)" (ID: 2fe5c8cf-60d7-5900-b577-893706b7fd29) targets "process_creation" — no network rule generated

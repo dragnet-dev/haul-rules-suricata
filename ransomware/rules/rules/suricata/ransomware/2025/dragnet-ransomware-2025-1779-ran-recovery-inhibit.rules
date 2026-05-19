@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2025-1779 — Recovery Inhibition (bqtlock)" (ID: 85889de7-a4d5-588e-9efe-a4f945f8dfc7) targets "process_creation" — no network rule generated

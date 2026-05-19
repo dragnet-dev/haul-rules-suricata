@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-1991 — Recovery Inhibition (siegedsec)" (ID: ce8dc714-db94-5a1f-92c5-10d6653c1af9) targets "process_creation" — no network rule generated

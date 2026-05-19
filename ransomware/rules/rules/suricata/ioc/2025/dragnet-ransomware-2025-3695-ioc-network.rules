@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3695 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: b534a286-8632-5792-91e9-aac076d09b99
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3695 — Ransomware C2 Communication [http://novavdivko2zvtrvtllnq45lxhba2rfzp76qigb4nrliklem5au7czqd.onion/SunMoon]"; dns.query; content:"http://novavdivko2zvtrvtllnq45lxhba2rfzp76qigb4nrliklem5au7czqd.onion/SunMoon"; nocase; classtype:trojan-activity; sid:8125574; rev:1;)

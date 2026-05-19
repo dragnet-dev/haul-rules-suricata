@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-2948 — Recovery Inhibition (lockbit2)" (ID: c717b5f6-17eb-58fe-b6d0-d128ea23a057) targets "process_creation" — no network rule generated

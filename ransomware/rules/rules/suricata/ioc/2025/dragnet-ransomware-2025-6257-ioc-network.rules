@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6257 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 5ce12b14-691e-517a-8964-fcbbbfa3491e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6257 — Ransomware C2 Communication [https://weyhro.hk//leaks/dwiprograms]"; dns.query; content:"https://weyhro.hk//leaks/dwiprograms"; nocase; classtype:trojan-activity; sid:2260500; rev:1;)

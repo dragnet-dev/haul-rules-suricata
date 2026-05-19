@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5190 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7dea424d-edda-5297-946e-d4c08c18eb50
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5190 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=AUTOCAM-MEDICAL_2]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=AUTOCAM-MEDICAL_2"; nocase; classtype:trojan-activity; sid:7504397; rev:1;)

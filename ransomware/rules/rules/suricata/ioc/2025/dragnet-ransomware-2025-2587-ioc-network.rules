@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2587 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ad8e23e1-b9cb-56dd-a07e-3d31c96800b7
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2587 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/68/vinuelas-abogados]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/68/vinuelas-abogados"; nocase; classtype:trojan-activity; sid:5773665; rev:1;)

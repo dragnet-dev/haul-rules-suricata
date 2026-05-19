@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2025-1907 — Recovery Inhibition (killsec)" (ID: 1ac87a98-e193-5aa1-906f-7d2070e05ba3) targets "process_creation" — no network rule generated

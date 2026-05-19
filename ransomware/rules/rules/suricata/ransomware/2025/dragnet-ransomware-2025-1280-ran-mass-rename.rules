@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2025-1280 — Mass File Rename (interlock)" (ID: afd0d5aa-1f5c-57c7-a988-284ce36ddb3e) targets "file_rename" — no network rule generated

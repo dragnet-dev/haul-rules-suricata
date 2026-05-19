@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7772 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: bfd7cbd6-8659-5aa6-9522-e49bed802b31
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7772 — Ransomware C2 Communication [http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/brooksidehomes]"; dns.query; content:"http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/brooksidehomes"; nocase; classtype:trojan-activity; sid:6590678; rev:1;)

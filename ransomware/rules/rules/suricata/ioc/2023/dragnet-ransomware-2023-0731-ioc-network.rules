@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0731 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e3a80ad2-a1ee-59ae-a67c-2670a0012d50
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0731 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/fapsinc.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/fapsinc.com"; nocase; classtype:trojan-activity; sid:4440850; rev:1;)

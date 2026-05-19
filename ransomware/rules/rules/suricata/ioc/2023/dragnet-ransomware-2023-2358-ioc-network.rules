@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2358 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 488613f4-4442-5a74-a6c7-5b82ef6cf2a3
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2358 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/constellationkidney.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/constellationkidney.com"; nocase; classtype:trojan-activity; sid:2746484; rev:1;)

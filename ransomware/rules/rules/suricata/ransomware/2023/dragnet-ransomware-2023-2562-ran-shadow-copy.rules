@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-2562 — Shadow Copy Deletion (lockbit3)" (ID: 2a92ff62-8a21-5664-b7ed-a65ab44c0997) targets "process_creation" — no network rule generated

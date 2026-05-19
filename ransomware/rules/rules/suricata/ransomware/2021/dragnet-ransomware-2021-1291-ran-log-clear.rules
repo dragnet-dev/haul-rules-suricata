@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1291 — Event Log Clearing (mountlocker)" (ID: 1257e668-de21-52c3-a0f8-8ae784c59f60) targets "process_creation" — no network rule generated

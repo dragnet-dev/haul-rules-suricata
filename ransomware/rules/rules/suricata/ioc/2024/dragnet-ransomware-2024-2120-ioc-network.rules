@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2120 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ac71b753-c1cf-5513-8e9e-7f321a6c51d9
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2120 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/asaro-dental-aesthetics/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/asaro-dental-aesthetics/"; nocase; classtype:trojan-activity; sid:5133651; rev:1;)

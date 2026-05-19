@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5245 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 279ba966-edc0-5df7-ace9-6354f45981ae
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5245 — Ransomware C2 Communication [http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/outback_pharmacies]"; dns.query; content:"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/outback_pharmacies"; nocase; classtype:trojan-activity; sid:8512870; rev:1;)

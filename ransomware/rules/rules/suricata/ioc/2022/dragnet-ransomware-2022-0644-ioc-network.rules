@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0644 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3dc017eb-7ecb-5f88-82b7-69c541d94969
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0644 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/stages-pediatric-care-new-40-personal-records/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/stages-pediatric-care-new-40-personal-records/"; nocase; classtype:trojan-activity; sid:1999211; rev:1;)

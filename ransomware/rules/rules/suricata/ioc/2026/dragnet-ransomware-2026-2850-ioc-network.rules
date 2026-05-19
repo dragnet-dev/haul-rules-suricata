@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2850 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: c9dec6f8-80f5-5002-9961-b5170173ea42
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2850 — Ransomware C2 Communication [https://handala-team.to/architect-of-zionist-warfare-exposed-eran-ortals-hidden-strategies-now-public/]"; dns.query; content:"https://handala-team.to/architect-of-zionist-warfare-exposed-eran-ortals-hidden-strategies-now-public/"; nocase; classtype:trojan-activity; sid:3820344; rev:1;)

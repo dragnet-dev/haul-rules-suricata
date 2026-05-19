@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2728 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 1a2bdeab-ecf8-5671-8b4d-b3ea420ada2c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2728 — Ransomware C2 Communication [http://lunalockcccxzkpfovwzifwxcytqkiuak6wzybnniqwxcmpsetpbetid.onion/victim/jafica/]"; dns.query; content:"http://lunalockcccxzkpfovwzifwxcytqkiuak6wzybnniqwxcmpsetpbetid.onion/victim/jafica/"; nocase; classtype:trojan-activity; sid:8082667; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0303 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 43b6433d-ae27-57bf-a597-2387cee4ccea
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0303 — Ransomware C2 Communication [http://funkxxkovrk7ctnggbjnthdajav4ggex53k6m2x3esjwlxrkb3qiztid.onion/treehotel.co.uk]"; dns.query; content:"http://funkxxkovrk7ctnggbjnthdajav4ggex53k6m2x3esjwlxrkb3qiztid.onion/treehotel.co.uk"; nocase; classtype:trojan-activity; sid:3018237; rev:1;)

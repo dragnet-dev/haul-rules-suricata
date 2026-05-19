@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2243 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: d5fc4abd-b5f7-50c4-a74c-1d4023d097b4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2243 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/QOSINA]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/QOSINA"; nocase; classtype:trojan-activity; sid:9081213; rev:1;)

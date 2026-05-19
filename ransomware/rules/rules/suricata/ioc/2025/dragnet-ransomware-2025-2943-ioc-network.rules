@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2943 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 6715d3a9-2e6a-54f8-ab42-9b10d2c34267
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2943 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/98/dovern-import]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/98/dovern-import"; nocase; classtype:trojan-activity; sid:2483689; rev:1;)

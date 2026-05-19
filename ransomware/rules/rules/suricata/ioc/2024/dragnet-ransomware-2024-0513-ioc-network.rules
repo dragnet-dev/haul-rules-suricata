@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0513 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4664f1b4-c331-56b5-903a-0c698664d5d3
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0513 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/co-ver-power-technology-spa/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/co-ver-power-technology-spa/"; nocase; classtype:trojan-activity; sid:3020596; rev:1;)

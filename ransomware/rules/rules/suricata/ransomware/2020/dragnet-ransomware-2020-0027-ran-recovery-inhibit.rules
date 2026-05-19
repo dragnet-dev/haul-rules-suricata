@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0027 — Recovery Inhibition (mamba)" (ID: 312c5f53-f710-5ef4-b825-5f340b721c9c) targets "process_creation" — no network rule generated

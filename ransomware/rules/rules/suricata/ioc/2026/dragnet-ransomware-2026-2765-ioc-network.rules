@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2765 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 522a77f5-cab9-50a2-8392-8f9bba36d470
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2765 — Ransomware C2 Communication [http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/st_andrew_s_ce_high_school]"; dns.query; content:"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/st_andrew_s_ce_high_school"; nocase; classtype:trojan-activity; sid:2514933; rev:1;)

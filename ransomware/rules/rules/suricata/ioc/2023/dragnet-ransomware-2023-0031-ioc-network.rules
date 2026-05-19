@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0031 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c72027c8-41f5-5222-a702-04a5ad611c79
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0031 — Ransomware C2 Communication [https://werewolves.pro/en/interfides-de.html]"; dns.query; content:"https://werewolves.pro/en/interfides-de.html"; nocase; classtype:trojan-activity; sid:2773320; rev:1;)

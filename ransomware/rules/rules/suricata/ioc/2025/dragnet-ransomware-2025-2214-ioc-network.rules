@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2214 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 52e52c4d-c35b-531b-8f79-87d1d5956d65
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2214 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/arlan-nl]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/arlan-nl"; nocase; classtype:trojan-activity; sid:5750797; rev:1;)

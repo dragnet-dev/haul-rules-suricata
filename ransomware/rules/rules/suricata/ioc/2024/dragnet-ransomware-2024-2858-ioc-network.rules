@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2858 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 0d67352e-2d99-595e-ab41-c4ca6fb95d0e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2858 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/trinitymgt.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/trinitymgt.com/"; nocase; classtype:trojan-activity; sid:9867630; rev:1;)

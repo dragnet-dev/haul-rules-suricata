@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3912 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 17bcb488-b442-5a83-9dd0-42d4f43e533c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3912 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/REGENCYFURNITUR]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/REGENCYFURNITUR"; nocase; classtype:trojan-activity; sid:3242952; rev:1;)

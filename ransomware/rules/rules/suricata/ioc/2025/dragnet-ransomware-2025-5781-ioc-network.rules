@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5781 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: bdf80f7c-702d-5ff9-868e-7610ee5eade7
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5781 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/KINSEY]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/KINSEY"; nocase; classtype:trojan-activity; sid:2150716; rev:1;)

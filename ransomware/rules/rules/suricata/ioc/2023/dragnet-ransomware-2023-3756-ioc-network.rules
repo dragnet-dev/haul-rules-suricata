@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3756 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e5d63e8d-bc96-5f6b-80c4-12ece1ecd211
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3756 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/full-access-to-the-school-network-usa/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/full-access-to-the-school-network-usa/"; nocase; classtype:trojan-activity; sid:5023181; rev:1;)

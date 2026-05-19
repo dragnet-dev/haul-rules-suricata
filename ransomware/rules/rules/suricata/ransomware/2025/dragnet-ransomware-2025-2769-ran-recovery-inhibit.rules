@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2025-2769 — Recovery Inhibition (GDLockerSec)" (ID: fa7bcf61-302e-5a2f-9613-3822d306a986) targets "process_creation" — no network rule generated

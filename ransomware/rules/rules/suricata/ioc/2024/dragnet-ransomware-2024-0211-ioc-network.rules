@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0211 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 468f44c6-2ef6-5b4c-bff4-9f24df05c60f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0211 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/total-patient-care-llca-sensitive-touch-home-healthalphastar-home-health-careheart-of-texas-home-healthcare-services-inc-data-leak/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/total-patient-care-llca-sensitive-touch-home-healthalphastar-home-health-careheart-of-texas-home-healthcare-services-inc-data-leak/"; nocase; classtype:trojan-activity; sid:5794374; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3627 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 090089be-daf3-5974-80e4-d06fd2f8450d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3627 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/plasticmolding.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/plasticmolding.com"; nocase; classtype:trojan-activity; sid:8030206; rev:1;)

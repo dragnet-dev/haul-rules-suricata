@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-4311 — Recovery Inhibition (fog)" (ID: 622b1df2-4c64-52e7-8fbf-680d4f65bd0b) targets "process_creation" — no network rule generated

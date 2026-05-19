@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0417 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 5e7353a7-b86d-517b-9898-cdcc489cd40d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0417 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sweetlake-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sweetlake-com"; nocase; classtype:trojan-activity; sid:1616359; rev:1;)

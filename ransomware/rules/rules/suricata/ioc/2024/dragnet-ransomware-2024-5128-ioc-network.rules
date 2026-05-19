@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5128 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4be24577-4bbd-5c8c-be21-b750d2280d4c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5128 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/mroyo.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/mroyo.com"; nocase; classtype:trojan-activity; sid:5120119; rev:1;)

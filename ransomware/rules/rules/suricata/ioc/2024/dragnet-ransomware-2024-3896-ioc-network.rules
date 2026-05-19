@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3896 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 71419a2e-9a0c-5dd0-8498-bb2db13400e1
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3896 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/hrtec.net/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/hrtec.net/"; nocase; classtype:trojan-activity; sid:2124718; rev:1;)

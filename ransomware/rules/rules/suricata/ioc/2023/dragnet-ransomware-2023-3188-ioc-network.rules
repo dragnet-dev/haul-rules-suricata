@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3188 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 21faf2d5-63ae-5582-9c2b-5bd95d3acbce
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3188 — Ransomware C2 Communication [http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/cl/clicks.php?uri=NEALBROTHERS/index.html]"; dns.query; content:"http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/cl/clicks.php?uri=NEALBROTHERS/index.html"; nocase; classtype:trojan-activity; sid:4094293; rev:1;)

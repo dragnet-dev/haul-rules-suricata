@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-0834 — Shadow Copy Deletion (AiLock)" (ID: 99589b0c-87b9-5beb-aeb1-085096b2daf9) targets "process_creation" — no network rule generated

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-1694 — Event Log Clearing (noescape)" (ID: a884704a-b5b0-568a-bd8f-6e5477e520d6) targets "process_creation" — no network rule generated

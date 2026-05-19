@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4714 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8a52cb55-eea1-582b-88d3-26206d64f46d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4714 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/aircanada.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/aircanada.com"; nocase; classtype:trojan-activity; sid:8681813; rev:1;)

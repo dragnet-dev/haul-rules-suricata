@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0606 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: f52af6ca-aa70-57db-8294-b410c32ac559
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0606 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/xefi/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/xefi/"; nocase; classtype:trojan-activity; sid:1233610; rev:1;)

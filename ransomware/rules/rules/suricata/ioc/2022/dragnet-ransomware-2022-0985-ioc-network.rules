@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0985 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 53c90359-33eb-53a1-aeb2-4faa32224a18
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0985 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/driveandshine-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/driveandshine-com"; nocase; classtype:trojan-activity; sid:2682521; rev:1;)

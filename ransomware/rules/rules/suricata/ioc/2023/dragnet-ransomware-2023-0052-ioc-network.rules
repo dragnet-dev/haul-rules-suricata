@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0052 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: afa2eeb0-da20-5724-b260-1770f7e84319
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0052 — Ransomware C2 Communication [http://mbrlkbtq5jonaqkurjwmxftytyn2ethqvbxfu4rgjbkkknndqwae6byd.onion/index.php?page=2topic.php?id=nO47VZf0h8wlgZ]"; dns.query; content:"http://mbrlkbtq5jonaqkurjwmxftytyn2ethqvbxfu4rgjbkkknndqwae6byd.onion/index.php?page=2topic.php?id=nO47VZf0h8wlgZ"; nocase; classtype:trojan-activity; sid:4690736; rev:1;)

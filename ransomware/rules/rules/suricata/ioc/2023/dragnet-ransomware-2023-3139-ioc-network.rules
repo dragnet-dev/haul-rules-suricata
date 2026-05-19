@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3139 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8c02954c-5691-551b-a7a5-5ed87c5dc2cc
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3139 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/access-to-the-large-database-of-a-us-medical-organization/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/access-to-the-large-database-of-a-us-medical-organization/"; nocase; classtype:trojan-activity; sid:9979532; rev:1;)

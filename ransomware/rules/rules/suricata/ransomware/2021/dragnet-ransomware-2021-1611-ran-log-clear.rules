@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1611 — Event Log Clearing (blacktor)" (ID: 02f8d27a-623f-5e2d-9507-a834d35bb44b) targets "process_creation" — no network rule generated

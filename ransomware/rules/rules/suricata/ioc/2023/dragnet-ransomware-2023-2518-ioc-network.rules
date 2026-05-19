@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2518 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 2448a7b0-64aa-5f3d-9865-3b7b5e871baa
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2518 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=unitedindustries.co.nz]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=unitedindustries.co.nz"; nocase; classtype:trojan-activity; sid:6741296; rev:1;)

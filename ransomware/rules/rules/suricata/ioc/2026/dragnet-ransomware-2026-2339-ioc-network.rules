@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2339 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: e6fd67c7-3b49-51c2-9d73-7397c4f8b086
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2339 — Ransomware C2 Communication [https://handala-team.to/from-hunter-to-hunted-mossads-former-chief-falls-into-the-trap/]"; dns.query; content:"https://handala-team.to/from-hunter-to-hunted-mossads-former-chief-falls-into-the-trap/"; nocase; classtype:trojan-activity; sid:6366855; rev:1;)

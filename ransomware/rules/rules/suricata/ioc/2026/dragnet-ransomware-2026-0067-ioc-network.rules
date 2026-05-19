@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0067 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 4e092acc-4abe-548c-a31e-93967bcf48b8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0067 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/wohnverbund-st-gertrudde/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/wohnverbund-st-gertrudde/"; nocase; classtype:trojan-activity; sid:5223628; rev:1;)

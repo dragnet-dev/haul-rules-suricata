@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0010 — Event Log Clearing (maze)" (ID: 0dfe8833-a188-51e6-9e80-c648ab88ca5e) targets "process_creation" — no network rule generated

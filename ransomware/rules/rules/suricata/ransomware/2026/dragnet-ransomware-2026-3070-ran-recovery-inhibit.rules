@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-3070 — Recovery Inhibition (kairos)" (ID: c92134d6-4bcf-5ff4-92f6-7abaf78aadb3) targets "process_creation" — no network rule generated

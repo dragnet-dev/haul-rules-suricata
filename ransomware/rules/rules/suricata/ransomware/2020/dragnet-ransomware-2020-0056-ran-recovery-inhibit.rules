@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0056 — Recovery Inhibition (coldlock)" (ID: 314b6f48-74c2-50ba-9355-aa1c65213877) targets "process_creation" — no network rule generated

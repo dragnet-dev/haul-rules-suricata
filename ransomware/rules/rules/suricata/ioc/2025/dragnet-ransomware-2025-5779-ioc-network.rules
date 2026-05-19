@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5779 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c66c4846-62a1-507c-b904-ec3e3488493b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5779 — Ransomware C2 Communication [http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/www.laclabichetransport.ca]"; dns.query; content:"http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/www.laclabichetransport.ca"; nocase; classtype:trojan-activity; sid:8985158; rev:1;)

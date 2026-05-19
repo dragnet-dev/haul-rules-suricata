@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0100 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ed80936a-d178-5171-b8e3-9cd5f7479957
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0100 — Ransomware C2 Communication [https://handala-hack.to/commemoration-of-commander-martyr-reza-awada/]"; dns.query; content:"https://handala-hack.to/commemoration-of-commander-martyr-reza-awada/"; nocase; classtype:trojan-activity; sid:7626538; rev:1;)

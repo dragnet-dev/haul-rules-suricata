@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7624 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3467d528-2260-5c55-b94f-60d496926803
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7624 — Ransomware C2 Communication [http://weyhro27ruifvuqkk3hxzcrtxv2lsalntxgkv6q2j3znkhdqudz54rqd.onion//leaks/terracaribbean]"; dns.query; content:"http://weyhro27ruifvuqkk3hxzcrtxv2lsalntxgkv6q2j3znkhdqudz54rqd.onion//leaks/terracaribbean"; nocase; classtype:trojan-activity; sid:7220008; rev:1;)

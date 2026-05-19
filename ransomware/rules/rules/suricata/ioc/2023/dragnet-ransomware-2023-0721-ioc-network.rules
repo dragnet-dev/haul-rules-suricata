@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0721 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: f6e60f6f-ecc1-5aa8-a5d2-8d7dbad3f2d8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0721 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/ferguson-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/ferguson-com"; nocase; classtype:trojan-activity; sid:3272367; rev:1;)

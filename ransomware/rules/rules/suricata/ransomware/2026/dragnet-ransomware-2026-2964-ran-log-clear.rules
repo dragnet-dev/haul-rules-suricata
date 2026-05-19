@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-2964 — Event Log Clearing (lapsus$)" (ID: c3331a37-5233-5c31-b1c5-7d47304fef0a) targets "process_creation" — no network rule generated

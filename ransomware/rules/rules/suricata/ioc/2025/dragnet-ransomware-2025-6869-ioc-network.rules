@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6869 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7767e9f9-edfa-5cbc-92eb-ea3a4f8f79c8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6869 — Ransomware C2 Communication [http://funksec.top/cimenyan.desa.id]"; dns.query; content:"http://funksec.top/cimenyan.desa.id"; nocase; classtype:trojan-activity; sid:6298809; rev:1;)

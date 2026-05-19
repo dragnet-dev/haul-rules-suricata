@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0581 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 153b3468-146c-5084-887e-87e844e9cc25
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0581 — Ransomware C2 Communication [http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/quinnjaypatent]"; dns.query; content:"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/quinnjaypatent"; nocase; classtype:trojan-activity; sid:6201576; rev:1;)

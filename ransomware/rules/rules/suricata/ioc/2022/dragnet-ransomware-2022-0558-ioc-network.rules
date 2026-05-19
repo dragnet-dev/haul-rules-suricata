@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0558 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 6f382097-df62-5180-a5bf-b2d5bcad7f90
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0558 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/orderexpress-com-mx]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/orderexpress-com-mx"; nocase; classtype:trojan-activity; sid:3949335; rev:1;)

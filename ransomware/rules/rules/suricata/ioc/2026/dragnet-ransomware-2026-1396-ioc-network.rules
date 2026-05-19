@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1396 — Ransomware C2 Communication
+# Status: test | Level: high | ID: a97f63ab-43b2-5f1d-bb68-47a33e270ea4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1396 — Ransomware C2 Communication [https://handala-hack.to/avraham-hayyim-mehrdad-rahimi-hacked-mossad-agent/]"; dns.query; content:"https://handala-hack.to/avraham-hayyim-mehrdad-rahimi-hacked-mossad-agent/"; nocase; classtype:trojan-activity; sid:9698091; rev:1;)

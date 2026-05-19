@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4974 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7ad91872-4927-550c-9d00-b8111d2b1365
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4974 — Ransomware C2 Communication [http://ebhmkoohccl45qesdbvrjqtyro2hmhkmh6vkyfyjjzfllm3ix72aqaid.onion/Wayne_County.php]"; dns.query; content:"http://ebhmkoohccl45qesdbvrjqtyro2hmhkmh6vkyfyjjzfllm3ix72aqaid.onion/Wayne_County.php"; nocase; classtype:trojan-activity; sid:1047922; rev:1;)

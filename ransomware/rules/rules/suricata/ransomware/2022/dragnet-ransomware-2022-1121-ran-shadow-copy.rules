@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-1121 — Shadow Copy Deletion (hive)" (ID: f07500cb-0c79-5a44-be2e-d0dfbd48826e) targets "process_creation" — no network rule generated

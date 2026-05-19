@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [IOC]: dragnet-ransomware-2026-3464 — Malicious File Hash" (ID: e599e6a8-ff5d-5342-86d7-8d3528f7e6b3) targets "file_event" — no network rule generated

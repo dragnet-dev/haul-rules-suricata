@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0255 — Event Log Clearing (snake)" (ID: 6b281b31-1ab5-57e2-8342-73dec6aff7af) targets "process_creation" — no network rule generated

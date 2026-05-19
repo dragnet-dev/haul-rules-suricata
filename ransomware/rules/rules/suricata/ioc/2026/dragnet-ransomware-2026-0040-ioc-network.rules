@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0040 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: e33b0e7b-48cf-5a7a-aff8-443d370f7c73
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0040 — Ransomware C2 Communication [http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/avanti-windows-doors-25cc6dc6]"; dns.query; content:"http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/avanti-windows-doors-25cc6dc6"; nocase; classtype:trojan-activity; sid:6298363; rev:1;)

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-0711 — Event Log Clearing (AiLock)" (ID: 7031fd9f-6ab0-5f95-b9f1-9ff4ec43b2c6) targets "process_creation" — no network rule generated

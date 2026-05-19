@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2024-3012 — Event Log Clearing (ciphbit)" (ID: 8fa8d696-50e6-5abc-a729-30d5c7520540) targets "process_creation" — no network rule generated

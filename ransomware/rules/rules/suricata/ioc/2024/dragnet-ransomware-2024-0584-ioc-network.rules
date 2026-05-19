@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0584 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 58247285-ecd1-5c76-9673-c6542afdbf6c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0584 — Ransomware C2 Communication [https://handala.to/maagan-michael-kibbutz-hacked/]"; dns.query; content:"https://handala.to/maagan-michael-kibbutz-hacked/"; nocase; classtype:trojan-activity; sid:3783621; rev:1;)
