@@ -1,3 +1,3 @@
 # Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0591 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 5da1f45c-f028-5a65-a685-732449a5a4a2
+# Status: experimental | Level: high | ID: 5da1f45c-f028-5a65-a685-732449a5a4a2
 alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0591 — Ransomware C2 Communication [http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=d6df820c-216c-4da6-85ca-f16b318ef4f4]"; dns.query; content:"http://z3wqggtxft7id3ibr7srivv5gjof5fwg76slewnzwwakjuf3nlhukdid.onion/blog/?post_uuid=d6df820c-216c-4da6-85ca-f16b318ef4f4"; nocase; classtype:trojan-activity; sid:5894940; rev:1;)
