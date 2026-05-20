@@ -1,3 +1,3 @@
 # Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7716 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 9ce3de2c-da4e-56f2-9777-79d525eb3206
+# Status: experimental | Level: high | ID: 9ce3de2c-da4e-56f2-9777-79d525eb3206
 alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7716 — Ransomware C2 Communication [http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/cigam]"; dns.query; content:"http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/cigam"; nocase; classtype:trojan-activity; sid:5179244; rev:1;)

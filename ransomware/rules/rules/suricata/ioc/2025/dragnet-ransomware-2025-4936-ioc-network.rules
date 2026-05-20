@@ -1,3 +1,3 @@
 # Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4936 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 0be8de8e-d7c2-5f4d-833f-9d970b3de32a
+# Status: experimental | Level: high | ID: 0be8de8e-d7c2-5f4d-833f-9d970b3de32a
 alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4936 — Ransomware C2 Communication [http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/kewaunee]"; dns.query; content:"http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/kewaunee"; nocase; classtype:trojan-activity; sid:2810702; rev:1;)
