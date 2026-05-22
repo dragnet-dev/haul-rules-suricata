@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0790 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 2724ea2c-d425-5653-bad2-b48409292fda
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0790 — Ransomware C2 Communication [https://breachforums.hn//carmax.html]"; dns.query; content:"https://breachforums.hn//carmax.html"; nocase; classtype:trojan-activity; sid:9730668; rev:1;)

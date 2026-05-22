@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3011 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 238bc87a-8bfb-5569-bb81-4554fc76de51
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3011 — Ransomware C2 Communication [http://rnsm777cdsjrsdlbs4v5qoeppu3px6sb2igmh53jzrx7ipcrbjz5b2ad.onion/2022/10/11/consorci-sanitari-integral-geseme/index.html]"; dns.query; content:"http://rnsm777cdsjrsdlbs4v5qoeppu3px6sb2igmh53jzrx7ipcrbjz5b2ad.onion/2022/10/11/consorci-sanitari-integral-geseme/index.html"; nocase; classtype:trojan-activity; sid:3363386; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3462 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 5b65dc5f-017b-51a6-b47e-b234d645e42b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3462 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=Aurubis]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=Aurubis"; nocase; classtype:trojan-activity; sid:4402207; rev:1;)

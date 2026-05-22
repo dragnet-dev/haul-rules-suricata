@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1801 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 114a2f24-a68a-5fc5-aee2-0f82e2e46fc1
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1801 — Ransomware C2 Communication [http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/actionaid-tacosa/]"; dns.query; content:"http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/actionaid-tacosa/"; nocase; classtype:trojan-activity; sid:3074404; rev:1;)

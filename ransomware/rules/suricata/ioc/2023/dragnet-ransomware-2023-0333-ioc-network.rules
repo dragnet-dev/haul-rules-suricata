@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0333 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: bb6ce6f2-1638-5e50-97c5-7c611d8e2dee
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0333 — Ransomware C2 Communication [http://rnsm777cdsjrsdlbs4v5qoeppu3px6sb2igmh53jzrx7ipcrbjz5b2ad.onion/./2023/10/27/telecommunications-services-of-trinidad-and-tobago/index.html]"; dns.query; content:"http://rnsm777cdsjrsdlbs4v5qoeppu3px6sb2igmh53jzrx7ipcrbjz5b2ad.onion/./2023/10/27/telecommunications-services-of-trinidad-and-tobago/index.html"; nocase; classtype:trojan-activity; sid:4476402; rev:1;)

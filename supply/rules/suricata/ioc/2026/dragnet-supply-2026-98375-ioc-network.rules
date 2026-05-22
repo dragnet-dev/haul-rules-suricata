@@ -1,0 +1,3 @@
+# Dragnet [IOC]: dragnet-supply-2026-98375 — C2 Network Communication
+# Status: test | Level: low | ID: 42f70c06-4c6b-5332-9d25-9175ce159c81
+alert ip any any -> 142.11.206.73 any (msg:"Dragnet [IOC]: dragnet-supply-2026-98375 — C2 Network Communication [142.11.206.73]"; classtype:policy-violation; sid:8486726; rev:1;)

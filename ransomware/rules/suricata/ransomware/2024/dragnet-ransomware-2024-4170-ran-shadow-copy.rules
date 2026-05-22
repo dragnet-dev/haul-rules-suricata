@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2024-4170 — Shadow Copy Deletion (lynx)" (ID: 63049a41-2d6c-552c-8360-a8b14c72bac6) targets "process_creation" — no network rule generated

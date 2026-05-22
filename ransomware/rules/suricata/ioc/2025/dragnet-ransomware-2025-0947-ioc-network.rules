@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0947 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: b914fbeb-95ca-53de-8c42-2e3f57c90db8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0947 — Ransomware C2 Communication [http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/jobshopsf]"; dns.query; content:"http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/jobshopsf"; nocase; classtype:trojan-activity; sid:1160171; rev:1;)

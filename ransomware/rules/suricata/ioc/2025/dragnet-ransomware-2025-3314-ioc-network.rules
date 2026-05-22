@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3314 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: b7921015-bc8e-53f6-9f03-726a0b554797
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3314 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/ferienwohnungende/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/ferienwohnungende/"; nocase; classtype:trojan-activity; sid:2802901; rev:1;)

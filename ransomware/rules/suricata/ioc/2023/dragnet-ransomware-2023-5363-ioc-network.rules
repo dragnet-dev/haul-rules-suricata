@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5363 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 83188ccd-a64e-527e-9bae-bec103b334a0
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5363 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=pecofoods.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=pecofoods.com"; nocase; classtype:trojan-activity; sid:4424205; rev:1;)

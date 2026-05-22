@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7793 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ff7c1a91-ad3a-5011-98e4-3bb47b363875
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7793 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/frontrol-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/frontrol-com"; nocase; classtype:trojan-activity; sid:3323345; rev:1;)

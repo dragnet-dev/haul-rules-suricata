@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3412 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 75a8ef54-7e10-59ec-b5e6-6237abde431c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3412 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=triflex.nl]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=triflex.nl"; nocase; classtype:trojan-activity; sid:4005588; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3475 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: fb1f6dff-d126-5cd6-97ec-b3a11e01679f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3475 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=climatech.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=climatech.com"; nocase; classtype:trojan-activity; sid:2140991; rev:1;)

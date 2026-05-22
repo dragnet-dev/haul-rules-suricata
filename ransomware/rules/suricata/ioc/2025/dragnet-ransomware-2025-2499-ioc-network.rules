@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2499 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 878f2fca-00ef-5fc0-901b-865a8cbf06fb
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2499 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mafas-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mafas-com"; nocase; classtype:trojan-activity; sid:7308042; rev:1;)

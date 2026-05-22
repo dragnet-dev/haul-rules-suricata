@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0238 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: d1a4011e-1e75-5ea3-b532-ca1e4667fd4d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0238 — Ransomware C2 Communication [http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/METOSystems/]"; dns.query; content:"http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/METOSystems/"; nocase; classtype:trojan-activity; sid:8186334; rev:1;)

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2024-0683 — Event Log Clearing (alphalocker)" (ID: 65263be7-507c-5119-8b75-8ed9de4ed34c) targets "process_creation" — no network rule generated

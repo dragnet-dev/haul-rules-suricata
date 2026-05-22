@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2345 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 2b76b6a4-54d8-558a-b42e-708b2a3a445f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2345 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/shomagroup.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/shomagroup.com"; nocase; classtype:trojan-activity; sid:1200292; rev:1;)

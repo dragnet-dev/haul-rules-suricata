@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6500 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4512e7af-1f1c-5aa6-a4b4-7939f35fa3ee
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6500 — Ransomware C2 Communication [http://securo45z554mw7rgrt7wcgv5eenj2xmxyrsdj3fcjsvindu63s4bsid.onion/Budinger&Associates/info.txt]"; dns.query; content:"http://securo45z554mw7rgrt7wcgv5eenj2xmxyrsdj3fcjsvindu63s4bsid.onion/Budinger&Associates/info.txt"; nocase; classtype:trojan-activity; sid:7866863; rev:1;)

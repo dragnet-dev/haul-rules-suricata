@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3512 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 54109c5f-0d9d-56e1-ae21-4b4f52502c90
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3512 — Ransomware C2 Communication [http://prinzfkbjiazbrur4mjje6mntjc4vydx3iatkkzycufoylqcoo4y7pqd.onion/standard-bank-group]"; dns.query; content:"http://prinzfkbjiazbrur4mjje6mntjc4vydx3iatkkzycufoylqcoo4y7pqd.onion/standard-bank-group"; nocase; classtype:trojan-activity; sid:7374751; rev:1;)

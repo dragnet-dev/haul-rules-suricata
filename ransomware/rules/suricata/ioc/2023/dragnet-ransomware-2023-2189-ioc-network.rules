@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2189 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ce9912c9-d09e-5354-8f2d-a07bbd4beb19
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2189 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/hormelfoods-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/hormelfoods-com"; nocase; classtype:trojan-activity; sid:2138313; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0583 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 318331be-1657-5cff-b7d9-f75f0ba2a6b5
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0583 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/brprinters-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/brprinters-com"; nocase; classtype:trojan-activity; sid:3681534; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0374 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: d7840958-f374-506a-8fa4-4d62f89fd46a
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0374 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/killinglyschoolsorg/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/killinglyschoolsorg/"; nocase; classtype:trojan-activity; sid:7754584; rev:1;)

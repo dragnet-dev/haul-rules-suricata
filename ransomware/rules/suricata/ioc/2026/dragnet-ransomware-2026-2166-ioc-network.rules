@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2166 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 53194ebb-ae93-5f5b-81e3-218daa72ac26
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2166 — Ransomware C2 Communication [http://m3ksukzn2glzfdvlusohril7n3iyk4z4fudf6mm22lwhpbpt5aiee5qd.onion#Ming%20Hwei%20Energy]"; dns.query; content:"http://m3ksukzn2glzfdvlusohril7n3iyk4z4fudf6mm22lwhpbpt5aiee5qd.onion#Ming%20Hwei%20Energy"; nocase; classtype:trojan-activity; sid:9167483; rev:1;)

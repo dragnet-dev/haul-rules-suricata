@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1246 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4b1bfba9-51ba-5061-8e49-f8ab322a85e4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1246 — Ransomware C2 Communication [http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/manhattan_retirement_foundation]"; dns.query; content:"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/manhattan_retirement_foundation"; nocase; classtype:trojan-activity; sid:1125097; rev:1;)

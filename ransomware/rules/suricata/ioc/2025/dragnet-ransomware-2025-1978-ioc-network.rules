@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1978 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 11d407f4-7bde-560f-bb23-8e8521a0e163
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1978 — Ransomware C2 Communication [http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/www.reliance-hvac.com]"; dns.query; content:"http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/www.reliance-hvac.com"; nocase; classtype:trojan-activity; sid:3108340; rev:1;)

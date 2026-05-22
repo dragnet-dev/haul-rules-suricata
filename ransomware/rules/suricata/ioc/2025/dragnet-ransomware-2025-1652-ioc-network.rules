@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1652 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c1e5c593-8fcd-5315-89f0-b83538358a2a
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1652 — Ransomware C2 Communication [http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/French-Gouv/]"; dns.query; content:"http://6sf5xa7eso3e3vk46i5tpcqhnlayczztj7zjktzaztlotyy75zs6j7qd.onion/French-Gouv/"; nocase; classtype:trojan-activity; sid:5061011; rev:1;)

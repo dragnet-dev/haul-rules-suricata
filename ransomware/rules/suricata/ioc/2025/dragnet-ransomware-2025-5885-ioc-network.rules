@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5885 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8000d958-4ffd-5cd9-9062-a4164273fa7d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5885 — Ransomware C2 Communication [http://nerqnacjmdy3obvevyol7qhazkwkv57dwqvye5v46k5bcujtfa6sduad.onion/detail?code=nightingalehammerson-org-uk]"; dns.query; content:"http://nerqnacjmdy3obvevyol7qhazkwkv57dwqvye5v46k5bcujtfa6sduad.onion/detail?code=nightingalehammerson-org-uk"; nocase; classtype:trojan-activity; sid:6539288; rev:1;)

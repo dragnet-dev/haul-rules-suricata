@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-0780 — Shadow Copy Deletion (safepay)" (ID: 22d217c0-bec8-53b5-b3fa-34c19ffa2f2e) targets "process_creation" — no network rule generated

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1539 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 595f3288-547e-56ba-bb88-be96c39e304b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1539 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=linksunlimited.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=linksunlimited.com"; nocase; classtype:trojan-activity; sid:6411080; rev:1;)

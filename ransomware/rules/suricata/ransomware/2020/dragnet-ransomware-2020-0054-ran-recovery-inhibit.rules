@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0054 — Recovery Inhibition (netwalker)" (ID: 514d0045-2639-5977-8379-469c4895a8d8) targets "process_creation" — no network rule generated

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1644 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: a78e3734-7c7d-5f80-badc-01000fef0104
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1644 — Ransomware C2 Communication [https://apos.blog/apos-raas/Bitz-Softwares-bc9e829383bb4f0086ed1598c052cefe]"; dns.query; content:"https://apos.blog/apos-raas/Bitz-Softwares-bc9e829383bb4f0086ed1598c052cefe"; nocase; classtype:trojan-activity; sid:4115316; rev:1;)

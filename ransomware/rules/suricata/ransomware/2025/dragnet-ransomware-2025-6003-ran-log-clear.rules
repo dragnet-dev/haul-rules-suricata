@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2025-6003 — Event Log Clearing (lynx)" (ID: 44b90621-a7b0-53c7-92f8-b969c7d0affd) targets "process_creation" — no network rule generated

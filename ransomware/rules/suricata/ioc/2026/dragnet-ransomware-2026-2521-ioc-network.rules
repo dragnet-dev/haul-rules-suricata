@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2521 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 37417842-e37e-57d7-9f97-4726eb6807e8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2521 — Ransomware C2 Communication [http://m3ksukzn2glzfdvlusohril7n3iyk4z4fudf6mm22lwhpbpt5aiee5qd.onion#Gastroenterology%20%26%20Hepatology%20of%20CNY]"; dns.query; content:"http://m3ksukzn2glzfdvlusohril7n3iyk4z4fudf6mm22lwhpbpt5aiee5qd.onion#Gastroenterology%20%26%20Hepatology%20of%20CNY"; nocase; classtype:trojan-activity; sid:1037506; rev:1;)

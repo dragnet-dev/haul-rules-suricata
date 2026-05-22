@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1826 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 1675d5f3-fe88-558b-ac8d-7b6e710c11b7
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1826 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/preferreditgroup.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/preferreditgroup.com"; nocase; classtype:trojan-activity; sid:8821235; rev:1;)

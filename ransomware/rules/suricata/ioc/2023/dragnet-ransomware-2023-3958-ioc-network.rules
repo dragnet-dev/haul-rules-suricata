@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3958 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 152ed43d-8175-586a-a577-52f82b1868df
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3958 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/guinnesspartnership-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/guinnesspartnership-com"; nocase; classtype:trojan-activity; sid:5390525; rev:1;)

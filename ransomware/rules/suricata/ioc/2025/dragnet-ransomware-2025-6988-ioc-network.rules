@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6988 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4ed681c1-5051-5d2e-a00e-b5cf6f953876
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6988 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/48/fukoku-co-ltd]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/48/fukoku-co-ltd"; nocase; classtype:trojan-activity; sid:9680769; rev:1;)

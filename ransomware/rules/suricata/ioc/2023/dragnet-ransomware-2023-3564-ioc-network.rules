@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3564 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 035d0a7f-334c-5663-80a3-c70eaf859461
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3564 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/neweratech-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/neweratech-com"; nocase; classtype:trojan-activity; sid:3429183; rev:1;)

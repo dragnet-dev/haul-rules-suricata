@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0175 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c554db98-d416-51ca-b0a3-378d23b3cefd
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0175 — Ransomware C2 Communication [http://noname2j6zkgnt7ftxsjju5tfd3s45s4i3egq5bqtl72kgum4ldc6qyd.onion/wp/nerolac-com/]"; dns.query; content:"http://noname2j6zkgnt7ftxsjju5tfd3s45s4i3egq5bqtl72kgum4ldc6qyd.onion/wp/nerolac-com/"; nocase; classtype:trojan-activity; sid:8672792; rev:1;)

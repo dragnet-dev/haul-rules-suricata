@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7544 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 7f5f85ac-9e45-59da-ab3d-4b7d3badc927
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7544 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/seeberger-appelde/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/seeberger-appelde/"; nocase; classtype:trojan-activity; sid:4966572; rev:1;)

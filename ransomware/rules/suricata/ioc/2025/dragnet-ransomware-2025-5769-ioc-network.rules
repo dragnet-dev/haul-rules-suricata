@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5769 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 54614e0a-bc9f-50af-b221-dd4ea35a600d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5769 — Ransomware C2 Communication [http://j3dp6okmaklajrsk6zljl5sfa2vpui7j2w6cwmhmmqhab6frdfbphhid.onion#chirurgiemaxillo]"; dns.query; content:"http://j3dp6okmaklajrsk6zljl5sfa2vpui7j2w6cwmhmmqhab6frdfbphhid.onion#chirurgiemaxillo"; nocase; classtype:trojan-activity; sid:3663114; rev:1;)

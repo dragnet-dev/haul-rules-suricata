@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-2000 — Event Log Clearing (medusa)" (ID: 008b90da-e87b-5d69-8b94-d18e19e5636c) targets "process_creation" — no network rule generated

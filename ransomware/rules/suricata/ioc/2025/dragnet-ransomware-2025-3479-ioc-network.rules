@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3479 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3e8b7cf8-b773-5689-8822-2b987856a6ac
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3479 — Ransomware C2 Communication [https://drive.proton.me/urls/MD2MM7KGFC#188HB2IgpONm]"; dns.query; content:"https://drive.proton.me/urls/MD2MM7KGFC#188HB2IgpONm"; nocase; classtype:trojan-activity; sid:6328888; rev:1;)

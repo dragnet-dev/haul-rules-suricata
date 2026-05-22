@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5345 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ab436b38-1c18-594d-8bb1-717f5c31fa6d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5345 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/avidxchange-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/avidxchange-com"; nocase; classtype:trojan-activity; sid:3322296; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5145 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 12a47815-8c38-59c0-9e79-758ea95733ac
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5145 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=continentalserves.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=continentalserves.com"; nocase; classtype:trojan-activity; sid:7768533; rev:1;)

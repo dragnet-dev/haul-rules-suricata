@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1400 — Shadow Copy Deletion (pysa)" (ID: bfa64aaf-fa42-5661-b9e4-f09263050c52) targets "process_creation" — no network rule generated

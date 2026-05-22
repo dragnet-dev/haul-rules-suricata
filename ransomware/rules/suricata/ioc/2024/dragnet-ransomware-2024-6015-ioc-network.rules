@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-6015 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: f9f4f284-f1f7-5136-a3bc-8e72099d5699
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-6015 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/medical-technology-industries-inc/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/medical-technology-industries-inc/"; nocase; classtype:trojan-activity; sid:9579652; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1808 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7d2ca801-8851-5186-ae5c-2b980081990b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1808 — Ransomware C2 Communication [http://funkxxkovrk7ctnggbjnthdajav4ggex53k6m2x3esjwlxrkb3qiztid.onion/inmobiliariamaspormenos.com]"; dns.query; content:"http://funkxxkovrk7ctnggbjnthdajav4ggex53k6m2x3esjwlxrkb3qiztid.onion/inmobiliariamaspormenos.com"; nocase; classtype:trojan-activity; sid:4078593; rev:1;)

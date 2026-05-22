@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-1472 — Event Log Clearing (hive)" (ID: 899e88d2-2dd6-591d-8bdf-2bd2c0b153bb) targets "process_creation" — no network rule generated

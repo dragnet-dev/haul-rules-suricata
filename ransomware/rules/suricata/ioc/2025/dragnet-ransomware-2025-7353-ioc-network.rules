@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7353 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 9e0f0e33-d528-5f83-a8e5-bab528fae4a4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7353 — Ransomware C2 Communication [http://devmanblggk7ddrtqj3tsocnayow3bwnozab2s4yhv4shpv6ueitjzid.onion#abdulhadi-hospital]"; dns.query; content:"http://devmanblggk7ddrtqj3tsocnayow3bwnozab2s4yhv4shpv6ueitjzid.onion#abdulhadi-hospital"; nocase; classtype:trojan-activity; sid:6786803; rev:1;)

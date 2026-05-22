@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0493 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 2fd71d66-9b54-5725-a426-da70ea4da04d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0493 — Ransomware C2 Communication [https://handala-hack.to/tosaf-hacked/]"; dns.query; content:"https://handala-hack.to/tosaf-hacked/"; nocase; classtype:trojan-activity; sid:2626918; rev:1;)

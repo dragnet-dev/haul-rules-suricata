@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0734 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 410d043f-109a-566d-b006-995ce15911aa
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0734 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/84/northland-auto-solutions]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/84/northland-auto-solutions"; nocase; classtype:trojan-activity; sid:3372095; rev:1;)

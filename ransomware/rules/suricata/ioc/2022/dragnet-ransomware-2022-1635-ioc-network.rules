@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-1635 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 6f489866-2480-55a5-9279-4c020bd0bd2b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-1635 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/jdavidtaxlaw-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/jdavidtaxlaw-com"; nocase; classtype:trojan-activity; sid:5028582; rev:1;)

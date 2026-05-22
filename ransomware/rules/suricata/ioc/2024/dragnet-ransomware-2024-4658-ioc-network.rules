@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4658 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 913716a3-7eec-5300-96a6-64e019a55635
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4658 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/country-inn-suites-by-radisson/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/country-inn-suites-by-radisson/"; nocase; classtype:trojan-activity; sid:7306595; rev:1;)

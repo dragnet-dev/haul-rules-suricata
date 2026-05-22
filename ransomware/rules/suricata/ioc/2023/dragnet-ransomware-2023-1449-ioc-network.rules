@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1449 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7ea8f6cf-8efd-5beb-93d0-64845c6d6b3f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1449 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/westat-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/westat-com"; nocase; classtype:trojan-activity; sid:2002447; rev:1;)

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-3378 — Recovery Inhibition (noescape)" (ID: a7d3ad5b-f6ed-51b0-8dfa-91e70657d40f) targets "process_creation" — no network rule generated

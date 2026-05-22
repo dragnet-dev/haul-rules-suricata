@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0299 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 2dad6c7c-75eb-5913-bd2d-4500e00ed712
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0299 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Nutrabio_/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Nutrabio_/"; nocase; classtype:trojan-activity; sid:2340220; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5807 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 76a959b7-7c70-5e49-946f-33b2afea0f4b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5807 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/acpideas-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/acpideas-com"; nocase; classtype:trojan-activity; sid:2810039; rev:1;)

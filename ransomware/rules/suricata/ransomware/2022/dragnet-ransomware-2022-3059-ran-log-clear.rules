@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-3059 — Event Log Clearing (kelvinsecurity)" (ID: 9c0e604f-e23b-5139-ac30-c2fd85b031ea) targets "process_creation" — no network rule generated

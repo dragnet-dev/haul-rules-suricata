@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-1366 — Event Log Clearing (blackbyte)" (ID: 90edf9f2-1403-5b13-9690-2988032b1b0b) targets "process_creation" — no network rule generated

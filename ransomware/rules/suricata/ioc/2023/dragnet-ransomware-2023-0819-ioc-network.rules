@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0819 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: f17c0e19-bc0c-5930-817d-9e13adc48521
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0819 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/deltadental-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/deltadental-com"; nocase; classtype:trojan-activity; sid:2439129; rev:1;)

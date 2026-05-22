@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2024-3559 — Recovery Inhibition (lynx)" (ID: 270e778d-1301-54fd-bb48-c079d0b8f77f) targets "process_creation" — no network rule generated

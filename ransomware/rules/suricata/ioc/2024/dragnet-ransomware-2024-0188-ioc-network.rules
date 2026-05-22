@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0188 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 01cc6398-c9dc-5764-8eb4-3f2252bb5d0f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0188 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/aspen-healthcare/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/aspen-healthcare/"; nocase; classtype:trojan-activity; sid:4172056; rev:1;)

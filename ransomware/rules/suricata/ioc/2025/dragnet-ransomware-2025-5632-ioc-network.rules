@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5632 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 406f63e2-b29a-5a79-a5b1-f91985dcea96
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5632 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/REVITALASH]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/REVITALASH"; nocase; classtype:trojan-activity; sid:2041890; rev:1;)

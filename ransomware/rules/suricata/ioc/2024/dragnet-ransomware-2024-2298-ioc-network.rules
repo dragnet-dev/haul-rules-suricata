@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2298 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: f479cc22-54f8-56cb-bf61-7bd01e309e4e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2298 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/3/mr-bean]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/3/mr-bean"; nocase; classtype:trojan-activity; sid:7622818; rev:1;)

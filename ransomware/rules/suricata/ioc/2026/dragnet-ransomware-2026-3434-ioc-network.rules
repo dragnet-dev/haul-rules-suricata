@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3434 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 651b58ab-5277-58a3-b577-ad55222e57fd
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3434 — Ransomware C2 Communication [https://handala-team.to/zionist-propaganda-chief-and-former-mossad-deputy-exposed-by-handala-hack/]"; dns.query; content:"https://handala-team.to/zionist-propaganda-chief-and-former-mossad-deputy-exposed-by-handala-hack/"; nocase; classtype:trojan-activity; sid:5290987; rev:1;)

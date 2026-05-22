@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1140 — Mass File Rename (mountlocker)" (ID: 640722b9-d996-5805-a9ad-71d46487c7b0) targets "file_rename" — no network rule generated

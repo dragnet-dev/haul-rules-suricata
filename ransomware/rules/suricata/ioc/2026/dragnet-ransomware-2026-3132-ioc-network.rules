@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3132 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 9cccdbcb-536f-5ba4-8cac-641a2cbf121a
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3132 — Ransomware C2 Communication [https://handala-hack.to/unveiling-the-secrets-inside-the-whatsapp-chats-of-a-minister/]"; dns.query; content:"https://handala-hack.to/unveiling-the-secrets-inside-the-whatsapp-chats-of-a-minister/"; nocase; classtype:trojan-activity; sid:3671307; rev:1;)

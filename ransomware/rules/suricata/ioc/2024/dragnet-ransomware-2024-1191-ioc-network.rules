@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1191 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 14b589da-55f9-5415-ac69-2503c2236ecb
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1191 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/battlelumberco.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/battlelumberco.com/"; nocase; classtype:trojan-activity; sid:6441626; rev:1;)

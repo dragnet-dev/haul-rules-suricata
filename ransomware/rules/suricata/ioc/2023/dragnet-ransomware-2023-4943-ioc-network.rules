@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4943 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8c58134b-29fb-56a6-ae11-ad6ce5f2d218
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4943 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/palig-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/palig-com"; nocase; classtype:trojan-activity; sid:6582347; rev:1;)

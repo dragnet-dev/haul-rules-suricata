@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0108 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 60dc1797-a90f-59b4-8787-2ccb89b7b9e5
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0108 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/pemerintah-kabupaten-bojonegoro]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/pemerintah-kabupaten-bojonegoro"; nocase; classtype:trojan-activity; sid:6036695; rev:1;)

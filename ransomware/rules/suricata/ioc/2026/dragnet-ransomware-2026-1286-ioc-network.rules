@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1286 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 928eb002-ce16-5373-ab05-cea45ef718a9
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1286 — Ransomware C2 Communication [http://4e3p3in2bl67hxchuwza7qvnpe7pyeloyztr5fnh257fxkovfhappjyd.onion/shame/parkengage/]"; dns.query; content:"http://4e3p3in2bl67hxchuwza7qvnpe7pyeloyztr5fnh257fxkovfhappjyd.onion/shame/parkengage/"; nocase; classtype:trojan-activity; sid:2824706; rev:1;)

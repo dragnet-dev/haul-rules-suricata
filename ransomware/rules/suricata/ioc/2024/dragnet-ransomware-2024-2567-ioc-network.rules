@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2567 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 6acaefd6-c94a-5652-b7c1-c88c489df147
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2567 — Ransomware C2 Communication [https://handala.to/zionists-amigour-company-hacked/]"; dns.query; content:"https://handala.to/zionists-amigour-company-hacked/"; nocase; classtype:trojan-activity; sid:1684566; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6058 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3543e563-1530-5893-ad81-e0dd4d9c0b42
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6058 — Ransomware C2 Communication [http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/dongaline]"; dns.query; content:"http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/dongaline"; nocase; classtype:trojan-activity; sid:3642083; rev:1;)

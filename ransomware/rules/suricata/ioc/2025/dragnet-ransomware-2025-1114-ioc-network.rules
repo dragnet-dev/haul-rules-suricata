@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1114 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 973c37f6-e534-5833-b06b-3b1bfa4575ab
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1114 — Ransomware C2 Communication [https://handala-hack.to/clockworkadmin-hacked/]"; dns.query; content:"https://handala-hack.to/clockworkadmin-hacked/"; nocase; classtype:trojan-activity; sid:9306102; rev:1;)

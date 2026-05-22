@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1017 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 2942fd14-a58f-55b2-8702-684bcc9d7836
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1017 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/fanucamerica-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/fanucamerica-com"; nocase; classtype:trojan-activity; sid:9256020; rev:1;)

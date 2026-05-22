@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0406 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8c4d0e01-61be-53d8-819d-11a797461824
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0406 — Ransomware C2 Communication [http://krakenccj3wr23452a4ibkbkuph4d6soyx2xgjoogtuamc3m7u7wemad.onion/news/e912d8fc13aec3cf9d6b345cb36b11fd]"; dns.query; content:"http://krakenccj3wr23452a4ibkbkuph4d6soyx2xgjoogtuamc3m7u7wemad.onion/news/e912d8fc13aec3cf9d6b345cb36b11fd"; nocase; classtype:trojan-activity; sid:5860097; rev:1;)

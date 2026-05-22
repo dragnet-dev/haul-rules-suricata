@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0518 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e989d408-6f2a-52e2-ad86-5ebb114364e8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0518 — Ransomware C2 Communication [https://handala.to/independent-education-system-hacked/]"; dns.query; content:"https://handala.to/independent-education-system-hacked/"; nocase; classtype:trojan-activity; sid:4124040; rev:1;)

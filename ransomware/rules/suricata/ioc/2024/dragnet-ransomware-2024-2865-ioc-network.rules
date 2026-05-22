@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2865 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 5180fcc2-1598-5878-a260-083a6330e3bf
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2865 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=pctinternational.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=pctinternational.com"; nocase; classtype:trojan-activity; sid:9407810; rev:1;)

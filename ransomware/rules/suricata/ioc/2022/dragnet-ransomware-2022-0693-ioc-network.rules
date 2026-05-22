@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0693 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 07d13c19-b4be-5a99-bf75-f95e3d6a54b1
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0693 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/south-staffs-water-co-uk]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/south-staffs-water-co-uk"; nocase; classtype:trojan-activity; sid:6152921; rev:1;)

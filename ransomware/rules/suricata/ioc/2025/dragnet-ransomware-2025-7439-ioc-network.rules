@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7439 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8909c8aa-9cdd-5759-bb87-8a51bb7b6ab9
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7439 — Ransomware C2 Communication [http://j3dp6okmaklajrsk6zljl5sfa2vpui7j2w6cwmhmmqhab6frdfbphhid.onion#notar-roemer-troisdorf]"; dns.query; content:"http://j3dp6okmaklajrsk6zljl5sfa2vpui7j2w6cwmhmmqhab6frdfbphhid.onion#notar-roemer-troisdorf"; nocase; classtype:trojan-activity; sid:5119786; rev:1;)

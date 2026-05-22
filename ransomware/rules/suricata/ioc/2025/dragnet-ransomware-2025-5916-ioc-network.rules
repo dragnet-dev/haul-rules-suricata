@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5916 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7de75731-a28b-57d1-bf13-e5f85da1eb62
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5916 — Ransomware C2 Communication [http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/focus-r-technologies-pvt]"; dns.query; content:"http://fjg4zi4opkxkvdz7mvwp7h6goe4tcby3hhkrz43pht4j3vakhy75znyd.onion/companies/focus-r-technologies-pvt"; nocase; classtype:trojan-activity; sid:7313137; rev:1;)

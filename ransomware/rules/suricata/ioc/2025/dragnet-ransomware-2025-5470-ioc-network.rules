@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5470 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4c6a4ed7-21c1-5610-92fa-f0c7c7a0bbc3
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5470 — Ransomware C2 Communication [http://wugurgyscp5rxpihef5vl6b6m5ont3b6sezhl7boboso2enib2k3q6qd.onion#wwwsigrucom]"; dns.query; content:"http://wugurgyscp5rxpihef5vl6b6m5ont3b6sezhl7boboso2enib2k3q6qd.onion#wwwsigrucom"; nocase; classtype:trojan-activity; sid:5035415; rev:1;)

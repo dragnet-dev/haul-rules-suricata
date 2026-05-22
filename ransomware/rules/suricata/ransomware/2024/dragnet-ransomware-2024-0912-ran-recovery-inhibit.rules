@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2024-0912 — Recovery Inhibition (termite)" (ID: 52bccec6-3ec4-508b-9f7b-07940f127e5f) targets "process_creation" — no network rule generated

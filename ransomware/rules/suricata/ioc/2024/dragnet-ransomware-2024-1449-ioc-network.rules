@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1449 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 8c070200-7c13-5c88-ae01-30cbb667ac7e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1449 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/39/intermed-hospital-mongolia]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/39/intermed-hospital-mongolia"; nocase; classtype:trojan-activity; sid:1269504; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4537 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: a621495a-1455-594a-97fc-546d0e9b5aa6
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4537 — Ransomware C2 Communication [http://nz4z6ruzcekriti5cjjiiylzvrmysyqwibxztk6voem4trtx7gstpjid.onion#hurst-schroeder]"; dns.query; content:"http://nz4z6ruzcekriti5cjjiiylzvrmysyqwibxztk6voem4trtx7gstpjid.onion#hurst-schroeder"; nocase; classtype:trojan-activity; sid:7199322; rev:1;)

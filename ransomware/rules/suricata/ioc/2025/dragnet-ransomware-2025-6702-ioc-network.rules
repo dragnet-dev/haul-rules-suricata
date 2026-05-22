@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6702 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 2244d332-4f0e-591e-8707-f85d029a7190
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6702 — Ransomware C2 Communication [http://ransomwvbabemdnwl7lzgeenyfmmhskaed6jcruwhkvapsia76vttzyd.onion/ticketmaster/]"; dns.query; content:"http://ransomwvbabemdnwl7lzgeenyfmmhskaed6jcruwhkvapsia76vttzyd.onion/ticketmaster/"; nocase; classtype:trojan-activity; sid:8935858; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4179 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 08f290ce-4388-57b6-b4f9-ad67d04d9e8f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4179 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/reger-zahntechnikde/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/reger-zahntechnikde/"; nocase; classtype:trojan-activity; sid:7114510; rev:1;)

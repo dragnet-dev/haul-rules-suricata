@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4363 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 79d9ab10-825c-517e-a7a6-f6d6d8fc9a94
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4363 — Ransomware C2 Communication [https://handala-hack.to/operation-octopus-naftali-bennett-hacked/]"; dns.query; content:"https://handala-hack.to/operation-octopus-naftali-bennett-hacked/"; nocase; classtype:trojan-activity; sid:2308240; rev:1;)

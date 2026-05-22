@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0227 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: ee8d1e54-1b46-590e-977e-b762f359ce1d
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0227 — Ransomware C2 Communication [http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/bayou-title-inc-2d5014bd]"; dns.query; content:"http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/bayou-title-inc-2d5014bd"; nocase; classtype:trojan-activity; sid:7225748; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0311 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 1b2d0b0a-4278-51ec-ae55-40c3e8d95019
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0311 — Ransomware C2 Communication [https://handala.to/israel-massad-quality-hacked/]"; dns.query; content:"https://handala.to/israel-massad-quality-hacked/"; nocase; classtype:trojan-activity; sid:6936778; rev:1;)

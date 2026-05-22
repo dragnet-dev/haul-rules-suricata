@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1837 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 37ded3be-cc1a-5f98-b10b-34a04b31b0d8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1837 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/bkifg.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/bkifg.com"; nocase; classtype:trojan-activity; sid:2350078; rev:1;)

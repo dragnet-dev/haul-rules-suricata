@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5717 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 9b010d1f-aaa9-5877-9863-c9dff2f6998b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5717 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/durayduncan-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/durayduncan-com"; nocase; classtype:trojan-activity; sid:9537375; rev:1;)

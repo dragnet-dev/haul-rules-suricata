@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4043 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7c4a9db4-94f4-5d5a-b63e-775b07029777
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4043 — Ransomware C2 Communication [http://trfqksm6peaeyz4q6egxbij5n2ih6zrg65of4kwasrejc7hnw2jtxryd.onion/kido]"; dns.query; content:"http://trfqksm6peaeyz4q6egxbij5n2ih6zrg65of4kwasrejc7hnw2jtxryd.onion/kido"; nocase; classtype:trojan-activity; sid:7264820; rev:1;)

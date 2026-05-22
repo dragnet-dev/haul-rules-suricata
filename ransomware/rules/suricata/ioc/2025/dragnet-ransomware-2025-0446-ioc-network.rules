@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0446 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 53893d90-941b-5d94-a4ff-e00ab7a72106
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0446 — Ransomware C2 Communication [http://leak7y2247fj7dbb35rpfyxuyaqtwbshiwxp6h35ttzlhrxmhvi4fead.onion/ramajudicial]"; dns.query; content:"http://leak7y2247fj7dbb35rpfyxuyaqtwbshiwxp6h35ttzlhrxmhvi4fead.onion/ramajudicial"; nocase; classtype:trojan-activity; sid:7503120; rev:1;)

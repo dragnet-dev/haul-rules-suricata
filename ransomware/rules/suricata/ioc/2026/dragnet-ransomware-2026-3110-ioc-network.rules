@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3110 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 05e7f82c-c6df-5d4a-8bec-a80c9ccc5c7a
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3110 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/fishwindowcleaning-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/fishwindowcleaning-com"; nocase; classtype:trojan-activity; sid:1088428; rev:1;)

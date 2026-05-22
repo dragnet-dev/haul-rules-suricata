@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3437 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: cafa4451-3382-530a-af15-1af7b61a01b9
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3437 — Ransomware C2 Communication [https://apos.blog/apos-raas/Sunlux-Group-50eda5d7962a4b2fabf3ea9bb30cfbe6]"; dns.query; content:"https://apos.blog/apos-raas/Sunlux-Group-50eda5d7962a4b2fabf3ea9bb30cfbe6"; nocase; classtype:trojan-activity; sid:4399121; rev:1;)

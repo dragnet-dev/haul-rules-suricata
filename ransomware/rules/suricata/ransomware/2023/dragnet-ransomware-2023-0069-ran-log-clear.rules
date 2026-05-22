@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-0069 — Event Log Clearing (donutleaks)" (ID: 0b078ae1-19e8-581b-82c4-f1f1c510b2fd) targets "process_creation" — no network rule generated

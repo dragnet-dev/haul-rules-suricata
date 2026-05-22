@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5400 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 79e48268-b9e0-5761-897a-ba112a426436
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5400 — Ransomware C2 Communication [http://lunalockcccxzkpfovwzifwxcytqkiuak6wzybnniqwxcmpsetpbetid.onion/]"; dns.query; content:"http://lunalockcccxzkpfovwzifwxcytqkiuak6wzybnniqwxcmpsetpbetid.onion/"; nocase; classtype:trojan-activity; sid:3018728; rev:1;)

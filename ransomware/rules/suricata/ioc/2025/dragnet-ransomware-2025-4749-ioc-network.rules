@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4749 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: aad7c568-84ee-52b3-8f24-1ed9bb3b6837
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4749 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/avanticmedicallab]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/avanticmedicallab"; nocase; classtype:trojan-activity; sid:5267496; rev:1;)

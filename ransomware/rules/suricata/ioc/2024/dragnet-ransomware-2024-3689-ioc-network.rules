@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3689 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 860b2e55-7b90-5d06-b3d8-839a953a974b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3689 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/martinaire.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/martinaire.com"; nocase; classtype:trojan-activity; sid:8879701; rev:1;)

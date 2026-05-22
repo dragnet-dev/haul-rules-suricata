@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2549 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 0d703bde-033e-5173-a319-2e01f2ef0d80
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2549 — Ransomware C2 Communication [http://xfv4jzckytb4g3ckwemcny3ihv4i5p4lqzdpi624cxisu35my5fwi5qd.onion/detail?id=341f592f9a089c7f5ebf18df9030632d]"; dns.query; content:"http://xfv4jzckytb4g3ckwemcny3ihv4i5p4lqzdpi624cxisu35my5fwi5qd.onion/detail?id=341f592f9a089c7f5ebf18df9030632d"; nocase; classtype:trojan-activity; sid:1459166; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7053 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 10c9bdf1-fdc8-53c2-8ecb-f4cbb8cd68ec
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7053 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/affinitycanada-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/affinitycanada-com"; nocase; classtype:trojan-activity; sid:3656817; rev:1;)

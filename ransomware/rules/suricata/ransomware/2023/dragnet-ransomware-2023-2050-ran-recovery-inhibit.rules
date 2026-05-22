@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-2050 — Recovery Inhibition (clop)" (ID: 15d3c899-3b4c-56e1-bc00-a4d5dc5de8d6) targets "process_creation" — no network rule generated

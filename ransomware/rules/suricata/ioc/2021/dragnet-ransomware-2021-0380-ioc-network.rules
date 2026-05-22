@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2021-0380 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 1fbc6f57-7117-50d0-913b-4f96e3136e2b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2021-0380 — Ransomware C2 Communication [http://lbb6ud2vyf23z4hw6fzskr5gru7eftbjfbd6yzra3hzuqqvjy63blqqd.onion//post/vicFSnVZxSR18HG166e6ee71e8c8d]"; dns.query; content:"http://lbb6ud2vyf23z4hw6fzskr5gru7eftbjfbd6yzra3hzuqqvjy63blqqd.onion//post/vicFSnVZxSR18HG166e6ee71e8c8d"; nocase; classtype:trojan-activity; sid:2442967; rev:1;)

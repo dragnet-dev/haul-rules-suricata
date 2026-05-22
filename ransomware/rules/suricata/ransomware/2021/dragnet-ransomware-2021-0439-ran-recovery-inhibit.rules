@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-0439 — Recovery Inhibition (lapsus$)" (ID: b27c0ada-f450-5b7a-8f94-e92c02c2eb73) targets "process_creation" — no network rule generated

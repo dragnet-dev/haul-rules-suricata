@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0054 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: a2e6fe4b-63dc-50c4-8495-99c3f1de7de0
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0054 — Ransomware C2 Communication [https://handala-team.to/kash-patel-current-director-of-the-fbi-hacked/]"; dns.query; content:"https://handala-team.to/kash-patel-current-director-of-the-fbi-hacked/"; nocase; classtype:trojan-activity; sid:7047371; rev:1;)

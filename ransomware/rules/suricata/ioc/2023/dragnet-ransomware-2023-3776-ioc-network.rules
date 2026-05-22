@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3776 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: a199aa5f-4f8a-5f13-8c4a-fcd427993144
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3776 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/energytransfer-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/energytransfer-com"; nocase; classtype:trojan-activity; sid:3202399; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1827 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 72aa5e78-481f-526b-8a7d-29c6b1083a9b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1827 — Ransomware C2 Communication [https://dispossessor.com/blogs/184]"; dns.query; content:"https://dispossessor.com/blogs/184"; nocase; classtype:trojan-activity; sid:7767928; rev:1;)

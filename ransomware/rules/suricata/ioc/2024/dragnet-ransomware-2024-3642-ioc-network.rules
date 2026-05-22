@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3642 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 515b96c8-25fa-5ee4-827e-019ee49afaa1
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3642 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/ISOMETRIX]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/ISOMETRIX"; nocase; classtype:trojan-activity; sid:6956872; rev:1;)

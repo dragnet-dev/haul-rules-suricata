@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1389 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: b877c373-4a0d-58bc-8e59-df424ce3a3ed
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1389 — Ransomware C2 Communication [http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/articles/Wine_Works_Australia.html]"; dns.query; content:"http://direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion/articles/Wine_Works_Australia.html"; nocase; classtype:trojan-activity; sid:8856563; rev:1;)

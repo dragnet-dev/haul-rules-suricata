@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3456 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ce95946e-3072-533d-aee0-44af476ee09f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3456 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/les-miroirs-st-antoine-inc/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/les-miroirs-st-antoine-inc/"; nocase; classtype:trojan-activity; sid:1909358; rev:1;)

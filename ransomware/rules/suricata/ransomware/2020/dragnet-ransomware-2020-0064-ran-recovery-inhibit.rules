@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0064 — Recovery Inhibition (doppelpaymer)" (ID: 2410d330-c5d2-50e9-9cce-990620b8cf1c) targets "process_creation" — no network rule generated

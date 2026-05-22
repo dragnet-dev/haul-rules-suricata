@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4380 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: b93ac9f1-0be8-5ae3-b707-951701b3b009
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4380 — Ransomware C2 Communication [http://bianliaoxoeriowgqohcly4a6sbkpc3se2yvxgidxomxlpuhx5ehrpad.onion/companies/gdwlawfirm.com/]"; dns.query; content:"http://bianliaoxoeriowgqohcly4a6sbkpc3se2yvxgidxomxlpuhx5ehrpad.onion/companies/gdwlawfirm.com/"; nocase; classtype:trojan-activity; sid:3637745; rev:1;)

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-1586 — Shadow Copy Deletion (incransom)" (ID: f28b6a05-ecf9-5c9a-92c4-a7440b5e8b12) targets "process_creation" — no network rule generated

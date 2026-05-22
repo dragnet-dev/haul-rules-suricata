@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4633 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 119d5871-c462-57a9-8519-e6720bdf854a
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4633 — Ransomware C2 Communication [https://dispossessor.com/blogs/977]"; dns.query; content:"https://dispossessor.com/blogs/977"; nocase; classtype:trojan-activity; sid:8524465; rev:1;)

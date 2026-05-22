@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1380 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 5faafe8b-3e95-5dad-8577-ab4501c8a200
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1380 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/hiberus.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/hiberus.com"; nocase; classtype:trojan-activity; sid:4041803; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1785 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c609f461-fae1-5be0-af0d-b5bd10649322
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1785 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/mitsubishi-chemical-group/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/mitsubishi-chemical-group/"; nocase; classtype:trojan-activity; sid:2541153; rev:1;)

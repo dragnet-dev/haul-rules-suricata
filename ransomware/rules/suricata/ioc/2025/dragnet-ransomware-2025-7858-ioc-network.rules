@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7858 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: de9d98ca-78ce-57f6-8469-440c1b231991
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7858 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/islandrealty.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/islandrealty.com/"; nocase; classtype:trojan-activity; sid:9870218; rev:1;)

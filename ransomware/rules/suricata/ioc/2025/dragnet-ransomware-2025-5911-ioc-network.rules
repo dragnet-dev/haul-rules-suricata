@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5911 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: d474bd33-83f5-576e-a5de-0699b6a4637a
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5911 — Ransomware C2 Communication [http://funknqn44slwmgwgnewne6bintbooauwkaupik4yrlgtycew3ergraid.onion/punjab.gov.in]"; dns.query; content:"http://funknqn44slwmgwgnewne6bintbooauwkaupik4yrlgtycew3ergraid.onion/punjab.gov.in"; nocase; classtype:trojan-activity; sid:1420403; rev:1;)

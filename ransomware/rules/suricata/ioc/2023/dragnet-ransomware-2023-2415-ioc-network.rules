@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2415 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 08cd8277-2ffa-5218-b5f9-79b70d18ab9e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2415 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/orcaaudit-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/orcaaudit-com"; nocase; classtype:trojan-activity; sid:4686007; rev:1;)

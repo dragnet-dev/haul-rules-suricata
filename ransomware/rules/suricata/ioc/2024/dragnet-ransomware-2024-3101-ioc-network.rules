@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3101 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3ac0f8f5-9491-59eb-82dc-00fce790e881
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3101 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/affiliateddermatologists.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/affiliateddermatologists.com"; nocase; classtype:trojan-activity; sid:5725173; rev:1;)

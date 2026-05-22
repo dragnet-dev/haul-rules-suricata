@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3368 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 52462685-6aea-5754-a680-f727be23a555
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3368 — Ransomware C2 Communication [https://handala.to/israel-radars-hacked/]"; dns.query; content:"https://handala.to/israel-radars-hacked/"; nocase; classtype:trojan-activity; sid:4329093; rev:1;)

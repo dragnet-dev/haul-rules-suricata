@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5155 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c368f0a4-7f8d-5088-b0d5-c4a126ecbbef
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5155 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/artistic-family-dentalvalue-dental-centersparkling-smiles-family-dentistry-data-leak/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/artistic-family-dentalvalue-dental-centersparkling-smiles-family-dentistry-data-leak/"; nocase; classtype:trojan-activity; sid:3434468; rev:1;)

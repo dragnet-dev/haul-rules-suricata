@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1602 — Recovery Inhibition (pysa)" (ID: dec17525-a76f-5c53-98fd-6ee82164f11d) targets "process_creation" — no network rule generated

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-0147 — Recovery Inhibition (cyclops)" (ID: 41fa0082-dbfa-595b-834c-c2774fe4bd4b) targets "process_creation" — no network rule generated

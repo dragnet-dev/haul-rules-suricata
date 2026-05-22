@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-1910 — Recovery Inhibition (qilin)" (ID: 50a05f73-a4bd-5d6f-8c81-2638e113b3ae) targets "process_creation" — no network rule generated

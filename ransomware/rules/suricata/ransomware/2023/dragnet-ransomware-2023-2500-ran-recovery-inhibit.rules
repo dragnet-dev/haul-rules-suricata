@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-2500 — Recovery Inhibition (werewolves)" (ID: 97fc2d59-3ae6-5f16-a2fc-82f90ff48eca) targets "process_creation" — no network rule generated

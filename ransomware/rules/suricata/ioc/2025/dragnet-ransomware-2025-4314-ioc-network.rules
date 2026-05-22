@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4314 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 45e48a67-0711-5537-9db1-5c1444534d6b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4314 — Ransomware C2 Communication [http://ks5424y3wpr5zlug5c7i6svvxweinhbdcqcfnptkfcutrncfazzgz5id.onion/posts.php?pid=LDNSSP2dpDCtrO3IHHEle5TG]"; dns.query; content:"http://ks5424y3wpr5zlug5c7i6svvxweinhbdcqcfnptkfcutrncfazzgz5id.onion/posts.php?pid=LDNSSP2dpDCtrO3IHHEle5TG"; nocase; classtype:trojan-activity; sid:3605543; rev:1;)

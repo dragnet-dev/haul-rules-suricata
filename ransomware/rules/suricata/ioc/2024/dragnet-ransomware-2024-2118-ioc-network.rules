@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2118 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 7c3a23b8-18c5-5ed4-a548-8b562300c85e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2118 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/14/lee-trevino-dental-usatx]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/14/lee-trevino-dental-usatx"; nocase; classtype:trojan-activity; sid:6185016; rev:1;)

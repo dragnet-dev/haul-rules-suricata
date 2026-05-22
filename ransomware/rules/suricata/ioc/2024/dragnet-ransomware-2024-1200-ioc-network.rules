@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1200 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 52ce5df0-621f-5e18-b1e3-4df53732e399
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1200 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/21/heli-securite]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/21/heli-securite"; nocase; classtype:trojan-activity; sid:4256176; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1358 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 6efbc51f-24f1-5a45-8575-f9a8c6444565
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1358 — Ransomware C2 Communication [https://handala-team.to/official-statement-by-handala-group-in-response-to-threats-from-the-us-and-its-allies/]"; dns.query; content:"https://handala-team.to/official-statement-by-handala-group-in-response-to-threats-from-the-us-and-its-allies/"; nocase; classtype:trojan-activity; sid:8993759; rev:1;)

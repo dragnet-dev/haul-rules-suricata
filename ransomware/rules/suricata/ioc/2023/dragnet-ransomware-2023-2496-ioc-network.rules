@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2496 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 0eb4b38c-a9e8-52ef-a79d-1d71e40539bb
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2496 — Ransomware C2 Communication [https://werewolves.pro/en/habarovsk-amaks-hotels-ru.html]"; dns.query; content:"https://werewolves.pro/en/habarovsk-amaks-hotels-ru.html"; nocase; classtype:trojan-activity; sid:4723468; rev:1;)

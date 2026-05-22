@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0416 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3adce62c-fe4c-5725-bb67-743f791fcce0
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0416 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/liebermanllp.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/liebermanllp.com"; nocase; classtype:trojan-activity; sid:7555372; rev:1;)

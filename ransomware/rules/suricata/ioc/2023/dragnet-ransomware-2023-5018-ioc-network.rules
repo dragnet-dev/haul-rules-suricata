@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5018 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ba106b8b-0a45-5329-9c34-29051c47cc10
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5018 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/aeliusmd.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/aeliusmd.com"; nocase; classtype:trojan-activity; sid:8638283; rev:1;)

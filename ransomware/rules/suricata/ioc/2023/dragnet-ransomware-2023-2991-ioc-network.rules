@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2991 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 87e433da-6d26-571a-8d54-9b487172d0ce
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2991 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/aut-tech-group-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/aut-tech-group-com"; nocase; classtype:trojan-activity; sid:3879642; rev:1;)

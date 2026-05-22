@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-1999 — Shadow Copy Deletion (blackbasta)" (ID: 74cfaa7b-cad3-5610-b888-355d3b92735e) targets "process_creation" — no network rule generated

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4985 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 54781273-8a6b-5195-8cf5-a34ea081b2d9
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4985 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=DONOTCOPYLINK1]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=DONOTCOPYLINK1"; nocase; classtype:trojan-activity; sid:5155187; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0965 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c71e14a0-e263-5d1b-be8c-9a213574127c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0965 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/baysidenh-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/baysidenh-com"; nocase; classtype:trojan-activity; sid:2637344; rev:1;)

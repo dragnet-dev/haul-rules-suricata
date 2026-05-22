@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2210 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 364449d8-f112-5beb-9966-bd646766c9e4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2210 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=teaspa.it]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=teaspa.it"; nocase; classtype:trojan-activity; sid:2445016; rev:1;)

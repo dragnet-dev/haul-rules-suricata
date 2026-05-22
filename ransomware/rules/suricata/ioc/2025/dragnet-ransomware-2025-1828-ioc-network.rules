@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1828 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: fd302904-c2dc-5ec4-9b00-f3d14020be58
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1828 — Ransomware C2 Communication [http://ralord3htj7v2dkavss2hjzviviwgsf4anfdnihn5qcjl6eb5if3cuqd.onion/HELUKABEL]"; dns.query; content:"http://ralord3htj7v2dkavss2hjzviviwgsf4anfdnihn5qcjl6eb5if3cuqd.onion/HELUKABEL"; nocase; classtype:trojan-activity; sid:9791876; rev:1;)

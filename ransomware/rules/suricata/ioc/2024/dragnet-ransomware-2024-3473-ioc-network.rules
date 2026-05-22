@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3473 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e6cb403b-3a05-5380-9942-5030301bd8b0
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3473 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/pearlcohen.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/pearlcohen.com/"; nocase; classtype:trojan-activity; sid:3079931; rev:1;)

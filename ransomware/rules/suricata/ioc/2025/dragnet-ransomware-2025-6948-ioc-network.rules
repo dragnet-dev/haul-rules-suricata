@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6948 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: af891df7-bd29-5e07-ae10-e64d7328576c
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6948 — Ransomware C2 Communication [https://darkforums.st/Thread-Source-Code-SystemExec-Co-Ltd-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%82%B0%E3%82%BC-GitLab-naked-repo-leak-30G]"; dns.query; content:"https://darkforums.st/Thread-Source-Code-SystemExec-Co-Ltd-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A8%E3%82%B0%E3%82%BC-GitLab-naked-repo-leak-30G"; nocase; classtype:trojan-activity; sid:2998903; rev:1;)

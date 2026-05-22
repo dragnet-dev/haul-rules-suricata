@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0954 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 94c26878-d214-5890-a95c-e0ebb4157451
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0954 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=duvel.com%20|%20boulevard.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=duvel.com%20|%20boulevard.com"; nocase; classtype:trojan-activity; sid:3768696; rev:1;)

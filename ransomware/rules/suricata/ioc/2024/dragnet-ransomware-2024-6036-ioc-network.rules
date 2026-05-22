@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-6036 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: df09fc37-eaf7-51ad-831b-ec7ff1eac49b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-6036 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/2/todoagro]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/2/todoagro"; nocase; classtype:trojan-activity; sid:7973559; rev:1;)

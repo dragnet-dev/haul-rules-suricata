@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1898 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4eaf641e-2c6e-55d1-b55f-2d2204399581
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1898 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/pharmaron-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/pharmaron-com"; nocase; classtype:trojan-activity; sid:7117278; rev:1;)

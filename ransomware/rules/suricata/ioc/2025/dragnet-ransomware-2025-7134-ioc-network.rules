@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7134 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c85b6753-a146-5042-9ba4-dc911386d42a
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7134 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/tango-hotelcomar/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/tango-hotelcomar/"; nocase; classtype:trojan-activity; sid:5433427; rev:1;)

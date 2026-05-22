@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-0653 — Shadow Copy Deletion (atomsilo)" (ID: fbb7ce38-ec52-55b8-a9e5-684464b89901) targets "process_creation" — no network rule generated

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2025-4225 — Event Log Clearing (clop)" (ID: 560df1e7-9b63-52e8-9435-e2538aa1804e) targets "process_creation" — no network rule generated

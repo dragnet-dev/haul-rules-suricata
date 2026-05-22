@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3872 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 73d780b8-8897-50c5-903a-f1a1501ed1ef
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3872 — Ransomware C2 Communication [http://funksec.top/moon/moon-tech.html]"; dns.query; content:"http://funksec.top/moon/moon-tech.html"; nocase; classtype:trojan-activity; sid:9503032; rev:1;)

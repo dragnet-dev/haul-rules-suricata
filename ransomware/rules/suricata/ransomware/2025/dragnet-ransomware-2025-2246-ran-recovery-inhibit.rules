@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2025-2246 — Recovery Inhibition (hellcat)" (ID: 22f32a74-fad0-5d15-92cd-c7f9d2828dfd) targets "process_creation" — no network rule generated

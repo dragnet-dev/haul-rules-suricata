@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5318 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: b237ef4c-6160-5c83-9c10-e85a510ea34b
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5318 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/AGORAVITA]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/AGORAVITA"; nocase; classtype:trojan-activity; sid:3010188; rev:1;)

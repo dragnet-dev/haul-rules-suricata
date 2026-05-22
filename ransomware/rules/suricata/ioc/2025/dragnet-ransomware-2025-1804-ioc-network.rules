@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1804 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c83371aa-3a82-5b9a-af22-cfd36a715ce4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1804 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/dynamichomerepaircom/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/dynamichomerepaircom/"; nocase; classtype:trojan-activity; sid:2814634; rev:1;)

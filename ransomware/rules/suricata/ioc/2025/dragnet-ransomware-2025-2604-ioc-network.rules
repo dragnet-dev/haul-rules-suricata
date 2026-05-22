@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2604 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: b7298a0c-01a1-5f09-9df3-b19c0cb197ad
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2604 — Ransomware C2 Communication [http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/mcm-construction-inc]"; dns.query; content:"http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/mcm-construction-inc"; nocase; classtype:trojan-activity; sid:4952844; rev:1;)

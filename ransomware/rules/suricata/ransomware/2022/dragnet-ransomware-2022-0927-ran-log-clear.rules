@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-0927 — Event Log Clearing (onyx)" (ID: 249e1370-22d3-5ead-aa7e-b9cbdbc1d9fa) targets "process_creation" — no network rule generated

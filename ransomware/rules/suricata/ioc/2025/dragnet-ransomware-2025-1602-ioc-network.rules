@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1602 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 432d9aa1-4822-5fe1-a42f-314d66366e9f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1602 — Ransomware C2 Communication [http://wugurgyscp5rxpihef5vl6b6m5ont3b6sezhl7boboso2enib2k3q6qd.onion#promisedlandcomtwh21-million-usdtime-remaining---buy-files]"; dns.query; content:"http://wugurgyscp5rxpihef5vl6b6m5ont3b6sezhl7boboso2enib2k3q6qd.onion#promisedlandcomtwh21-million-usdtime-remaining---buy-files"; nocase; classtype:trojan-activity; sid:3062177; rev:1;)

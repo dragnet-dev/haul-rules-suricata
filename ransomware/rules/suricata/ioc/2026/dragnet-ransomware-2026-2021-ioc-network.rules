@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2021 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 4b3a3cd0-11ab-5128-b7d2-70c5bca0e9bb
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2021 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/idealwelders-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/idealwelders-com"; nocase; classtype:trojan-activity; sid:3107856; rev:1;)

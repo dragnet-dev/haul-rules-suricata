@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1894 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 5978fba6-ea81-5255-9ac7-ff96b60b81cb
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1894 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/aigbusiness-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/aigbusiness-com"; nocase; classtype:trojan-activity; sid:8100966; rev:1;)

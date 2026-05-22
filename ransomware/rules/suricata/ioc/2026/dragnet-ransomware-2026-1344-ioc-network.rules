@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1344 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 7e0b5f31-8264-5867-84ce-8707a6b32549
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1344 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/genesysspine-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/genesysspine-com"; nocase; classtype:trojan-activity; sid:9674481; rev:1;)

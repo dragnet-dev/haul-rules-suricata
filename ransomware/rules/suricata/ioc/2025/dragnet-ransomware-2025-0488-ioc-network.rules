@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0488 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 9efeb13d-5b34-562c-9f7f-c96c16fbb565
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0488 — Ransomware C2 Communication [http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/rlglawfirm]"; dns.query; content:"http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/rlglawfirm"; nocase; classtype:trojan-activity; sid:4491645; rev:1;)

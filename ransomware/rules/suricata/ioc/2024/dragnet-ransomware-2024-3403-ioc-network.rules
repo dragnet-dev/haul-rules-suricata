@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3403 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 657c1a3f-ae9c-5875-b5df-0ad806c551b8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3403 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=keystonetech.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=keystonetech.com"; nocase; classtype:trojan-activity; sid:2631999; rev:1;)

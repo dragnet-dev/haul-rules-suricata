@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2996 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: fe53acbb-8410-5fc1-892b-4f2209c35ad8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2996 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=lagunitas.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=lagunitas.com"; nocase; classtype:trojan-activity; sid:1896571; rev:1;)

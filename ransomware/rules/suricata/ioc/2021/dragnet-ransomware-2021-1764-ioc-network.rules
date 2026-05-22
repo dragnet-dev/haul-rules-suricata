@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2021-1764 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 97bd245d-3da7-5c3e-a2ba-6de8789659a5
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2021-1764 — Ransomware C2 Communication [http://npmh5ahrgakbniuntyc7io4adm6ietbdbuejrfonowqtyqn24or556qd.onion/leaks.html/post.html?id=eisai]"; dns.query; content:"http://npmh5ahrgakbniuntyc7io4adm6ietbdbuejrfonowqtyqn24or556qd.onion/leaks.html/post.html?id=eisai"; nocase; classtype:trojan-activity; sid:8755229; rev:1;)

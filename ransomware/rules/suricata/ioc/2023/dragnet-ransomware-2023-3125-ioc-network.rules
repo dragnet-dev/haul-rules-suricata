@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3125 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ebbb2c3d-f66a-5d02-b764-55e4fdad6adf
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3125 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/amerisave-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/amerisave-com"; nocase; classtype:trojan-activity; sid:4912317; rev:1;)

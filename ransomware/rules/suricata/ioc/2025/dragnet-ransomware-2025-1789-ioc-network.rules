@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1789 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 876e0e48-8fb5-587a-ba01-50255ba7d680
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1789 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/66/industrial-corona-de-mexico]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/66/industrial-corona-de-mexico"; nocase; classtype:trojan-activity; sid:5136776; rev:1;)

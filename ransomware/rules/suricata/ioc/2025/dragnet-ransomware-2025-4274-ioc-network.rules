@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4274 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 0cd27546-e5d2-5210-9453-317a2a063316
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4274 — Ransomware C2 Communication [http://novavdivko2zvtrvtllnq45lxhba2rfzp76qigb4nrliklem5au7czqd.onion/PISA]"; dns.query; content:"http://novavdivko2zvtrvtllnq45lxhba2rfzp76qigb4nrliklem5au7czqd.onion/PISA"; nocase; classtype:trojan-activity; sid:9119174; rev:1;)

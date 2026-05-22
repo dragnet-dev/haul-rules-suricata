@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3346 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: c190d6e8-bc00-5df5-a109-895ae0013572
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3346 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/lenduboistrucking.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/lenduboistrucking.com"; nocase; classtype:trojan-activity; sid:8494888; rev:1;)

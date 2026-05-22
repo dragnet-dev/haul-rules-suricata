@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2643 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: db2da622-c0de-5639-b70b-e83e995fb81e
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2643 — Ransomware C2 Communication [https://handala.to/innovalve-bio-medical-hacked/]"; dns.query; content:"https://handala.to/innovalve-bio-medical-hacked/"; nocase; classtype:trojan-activity; sid:6201954; rev:1;)

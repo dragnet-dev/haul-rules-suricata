@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4481 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 2e978bb6-e9f6-51c5-9504-eb2ffe88f897
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4481 — Ransomware C2 Communication [https://handala.to/solidcam-hacked/]"; dns.query; content:"https://handala.to/solidcam-hacked/"; nocase; classtype:trojan-activity; sid:8683638; rev:1;)

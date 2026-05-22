@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4015 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 0720324b-a32f-555e-86da-cb0b04c95b01
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4015 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/groupebgfibank.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/groupebgfibank.com"; nocase; classtype:trojan-activity; sid:3550539; rev:1;)

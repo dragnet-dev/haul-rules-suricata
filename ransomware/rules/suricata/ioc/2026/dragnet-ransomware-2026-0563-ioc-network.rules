@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0563 — Ransomware C2 Communication
+# Status: test | Level: high | ID: addb4b71-fdb0-5246-a7db-a281f0b4b270
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0563 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/118/wagner-metal-concept]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/118/wagner-metal-concept"; nocase; classtype:trojan-activity; sid:1830065; rev:1;)

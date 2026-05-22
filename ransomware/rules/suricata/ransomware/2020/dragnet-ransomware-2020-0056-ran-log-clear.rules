@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0056 — Event Log Clearing (coldlock)" (ID: 9f228273-1854-5c62-85df-077cfa9e3b10) targets "process_creation" — no network rule generated

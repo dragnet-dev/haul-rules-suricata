@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5629 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 530d1fad-241b-5173-83c8-830d1a8d47c5
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5629 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/12/hytera-us-inc]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/12/hytera-us-inc"; nocase; classtype:trojan-activity; sid:8369005; rev:1;)

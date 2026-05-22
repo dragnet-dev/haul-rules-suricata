@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7084 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: bbd0c443-5a1c-5158-86b0-93683ed7bff2
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7084 — Ransomware C2 Communication [http://pifk3xu3vad6cuxsjll4qjomyaaaoyvnyqppro75pazadzctrrvpdnyd.onion/#swiss-rose-factory]"; dns.query; content:"http://pifk3xu3vad6cuxsjll4qjomyaaaoyvnyqppro75pazadzctrrvpdnyd.onion/#swiss-rose-factory"; nocase; classtype:trojan-activity; sid:2021123; rev:1;)

@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0031 — Event Log Clearing (agelocker)" (ID: 0d0f66cb-4dfb-53c6-98a9-7439819c6b2d) targets "process_creation" — no network rule generated

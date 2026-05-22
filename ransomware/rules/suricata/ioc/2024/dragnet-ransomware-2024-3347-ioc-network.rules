@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3347 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e9a4a93e-1220-5a06-9606-8b000b8ffc97
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3347 — Ransomware C2 Communication [http://k67ivvik3dikqi4gy4ua7xa6idijl4si7k5ad5lotbaeirfcsx4sgbid.onion/vitaldent.com]"; dns.query; content:"http://k67ivvik3dikqi4gy4ua7xa6idijl4si7k5ad5lotbaeirfcsx4sgbid.onion/vitaldent.com"; nocase; classtype:trojan-activity; sid:5882558; rev:1;)

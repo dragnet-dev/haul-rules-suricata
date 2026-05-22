@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3153 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 4e60d680-d112-51ea-a415-fd06e388bcfc
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3153 — Ransomware C2 Communication [http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/flautolawyer]"; dns.query; content:"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/flautolawyer"; nocase; classtype:trojan-activity; sid:1969216; rev:1;)

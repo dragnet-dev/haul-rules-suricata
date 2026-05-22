@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0154 — Event Log Clearing (ryuk)" (ID: bbd00ec3-72f8-52b8-b3fd-3eda36ad1d1f) targets "process_creation" — no network rule generated

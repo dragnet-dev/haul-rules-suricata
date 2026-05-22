@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0284 — Ransomware C2 Communication
+# Status: test | Level: high | ID: dc633f40-58e8-5a46-b1c1-90f451f5f0f7
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0284 — Ransomware C2 Communication [http://sinobi6ftrg27d6g4sjdt65malds6cfptlnjyw52rskakqjda6uvb7yd.onion/leaks/696d3e0f6387a4c9a26e4df3]"; dns.query; content:"http://sinobi6ftrg27d6g4sjdt65malds6cfptlnjyw52rskakqjda6uvb7yd.onion/leaks/696d3e0f6387a4c9a26e4df3"; nocase; classtype:trojan-activity; sid:8491776; rev:1;)

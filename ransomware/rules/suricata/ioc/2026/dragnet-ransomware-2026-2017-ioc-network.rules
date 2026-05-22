@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2017 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 38326991-9ca6-50ef-a3ed-7e798dbffab8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2017 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/asian-lite-international]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/asian-lite-international"; nocase; classtype:trojan-activity; sid:7827921; rev:1;)

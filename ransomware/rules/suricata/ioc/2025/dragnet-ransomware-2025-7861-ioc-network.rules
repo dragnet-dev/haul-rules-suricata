@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7861 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 291a4c7d-3041-534f-94b2-8e6fa07468c9
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7861 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/95/supercash-reuploaded]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/95/supercash-reuploaded"; nocase; classtype:trojan-activity; sid:6589373; rev:1;)

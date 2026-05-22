@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5696 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 88fdb30d-0b33-578a-90b4-973045b1f5a6
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5696 — Ransomware C2 Communication [http://wugurgyscp5rxpihef5vl6b6m5ont3b6sezhl7boboso2enib2k3q6qd.onion#wwwdiethelmtravelcom]"; dns.query; content:"http://wugurgyscp5rxpihef5vl6b6m5ont3b6sezhl7boboso2enib2k3q6qd.onion#wwwdiethelmtravelcom"; nocase; classtype:trojan-activity; sid:4327821; rev:1;)

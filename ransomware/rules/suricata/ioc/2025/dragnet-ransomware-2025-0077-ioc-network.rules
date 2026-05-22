@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0077 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ce4febfa-d288-5712-a63f-f9dcc67ef441
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0077 — Ransomware C2 Communication [http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/chnm-law]"; dns.query; content:"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/chnm-law"; nocase; classtype:trojan-activity; sid:6344250; rev:1;)

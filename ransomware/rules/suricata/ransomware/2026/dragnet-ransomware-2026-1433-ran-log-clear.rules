@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2026-1433 — Event Log Clearing (atomsilo)" (ID: 24058e3d-92f8-5dea-9f93-f5776d69ed32) targets "process_creation" — no network rule generated

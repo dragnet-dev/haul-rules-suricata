@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2024-1292 — Event Log Clearing (killsec)" (ID: 2a0e5902-82f5-516f-8af9-947f0fba63f2) targets "process_creation" — no network rule generated

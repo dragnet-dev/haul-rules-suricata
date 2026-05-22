@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2020-0142 — Recovery Inhibition (ryuk)" (ID: 0e30bf07-74fd-542f-9348-51d7fd4647bc) targets "process_creation" — no network rule generated

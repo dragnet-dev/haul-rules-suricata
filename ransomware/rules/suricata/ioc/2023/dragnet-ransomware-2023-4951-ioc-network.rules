@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4951 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: bac468c4-1f22-5f2c-bbdb-f16371e6da72
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4951 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/axisbank-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/axisbank-com"; nocase; classtype:trojan-activity; sid:2434052; rev:1;)

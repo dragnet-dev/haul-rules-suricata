@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0567 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 75bd0a55-5c57-591f-a092-9fdad1899c69
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0567 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/cumberlandpharma.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/cumberlandpharma.com"; nocase; classtype:trojan-activity; sid:5323221; rev:1;)

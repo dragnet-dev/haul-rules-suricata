@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3761 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 3e1d7cbb-ac6a-5d43-a909-770df243c466
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3761 — Ransomware C2 Communication [https://breachforums.hn//republicservices.html]"; dns.query; content:"https://breachforums.hn//republicservices.html"; nocase; classtype:trojan-activity; sid:8119867; rev:1;)

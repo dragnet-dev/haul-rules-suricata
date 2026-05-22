@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-1301 — Shadow Copy Deletion (mountlocker)" (ID: b85b429d-a220-58ec-9111-73b5324a2146) targets "process_creation" — no network rule generated

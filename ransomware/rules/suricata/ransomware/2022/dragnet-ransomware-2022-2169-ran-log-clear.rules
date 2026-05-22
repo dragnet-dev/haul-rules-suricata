@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2022-2169 — Event Log Clearing (alphv)" (ID: 537c2479-4bfe-5dd0-817a-bdaeb545b40e) targets "process_creation" — no network rule generated

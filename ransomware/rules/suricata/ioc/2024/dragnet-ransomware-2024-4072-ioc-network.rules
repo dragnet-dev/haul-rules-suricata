@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4072 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: f36e2230-a758-5eca-b60b-5f5526d8da6f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4072 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/voorhees-family-office-services/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/voorhees-family-office-services/"; nocase; classtype:trojan-activity; sid:8081200; rev:1;)

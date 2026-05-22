@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4744 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e27da264-4771-51ad-a76f-fc6f97ef39ff
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4744 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/BLUEDGE]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/BLUEDGE"; nocase; classtype:trojan-activity; sid:2884388; rev:1;)

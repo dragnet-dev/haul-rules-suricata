@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5066 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e64e3bf6-7a62-5e14-a65f-45c83af67f9f
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5066 — Ransomware C2 Communication [https://werewolves.pro/en/lzaim38-ru.html]"; dns.query; content:"https://werewolves.pro/en/lzaim38-ru.html"; nocase; classtype:trojan-activity; sid:3886838; rev:1;)

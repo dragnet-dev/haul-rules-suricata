@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2370 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 4f206145-be85-55e2-9035-ad017ad57b18
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2370 — Ransomware C2 Communication [https://handala.to/zionists-sonol-hacked-gas-stations/]"; dns.query; content:"https://handala.to/zionists-sonol-hacked-gas-stations/"; nocase; classtype:trojan-activity; sid:5522117; rev:1;)

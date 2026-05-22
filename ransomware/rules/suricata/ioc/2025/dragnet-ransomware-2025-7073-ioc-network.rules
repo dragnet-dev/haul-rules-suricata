@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7073 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 19c49359-fef7-527f-8bc1-5364bdf4f4cc
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7073 — Ransomware C2 Communication [http://funkxxkovrk7ctnggbjnthdajav4ggex53k6m2x3esjwlxrkb3qiztid.onion/citybank]"; dns.query; content:"http://funkxxkovrk7ctnggbjnthdajav4ggex53k6m2x3esjwlxrkb3qiztid.onion/citybank"; nocase; classtype:trojan-activity; sid:1313177; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3038 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 6065bb73-142f-540e-b8b3-4859e74984c4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3038 — Ransomware C2 Communication [http://ebhmkoohccl45qesdbvrjqtyro2hmhkmh6vkyfyjjzfllm3ix72aqaid.onion/Cathexis_Holdings_LP.php]"; dns.query; content:"http://ebhmkoohccl45qesdbvrjqtyro2hmhkmh6vkyfyjjzfllm3ix72aqaid.onion/Cathexis_Holdings_LP.php"; nocase; classtype:trojan-activity; sid:7279859; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1252 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 8a51f339-e5ae-5512-9c13-df85cafb8216
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1252 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mcmathlaw-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mcmathlaw-com"; nocase; classtype:trojan-activity; sid:8626489; rev:1;)

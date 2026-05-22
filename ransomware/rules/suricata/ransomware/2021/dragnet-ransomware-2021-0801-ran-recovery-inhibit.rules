@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2021-0801 — Recovery Inhibition (snatch)" (ID: 1dd2ebd6-14b1-55cf-97df-3f391f133df8) targets "process_creation" — no network rule generated

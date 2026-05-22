@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0973 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: cc285af9-4bdd-5c4b-b6dd-3dbfefc010bb
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0973 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/ggelectronics.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/ggelectronics.com"; nocase; classtype:trojan-activity; sid:6196793; rev:1;)

@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1083 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: a058071b-0c03-5a84-bbde-e2e4acd935e8
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1083 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/74/fujipoly-hong-kong-ltd]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/74/fujipoly-hong-kong-ltd"; nocase; classtype:trojan-activity; sid:9123547; rev:1;)

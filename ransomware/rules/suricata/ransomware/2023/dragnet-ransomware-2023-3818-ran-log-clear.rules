@@ -1,0 +1,1 @@
+# Suricata: rule "Dragnet [Ransomware]: dragnet-ransomware-2023-3818 — Event Log Clearing (toufan)" (ID: 7e351eda-f7a3-596c-91cd-7afac8f71fdb) targets "process_creation" — no network rule generated

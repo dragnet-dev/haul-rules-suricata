@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4897 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: aa8b7e1f-3e96-5761-8036-0a919d1113c4
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4897 — Ransomware C2 Communication [http://hgxyonufefcglpekxma55fttev3lcfucrf7jvep2c3j6447cjroadead.onion/comp/hartwick.edu/index]"; dns.query; content:"http://hgxyonufefcglpekxma55fttev3lcfucrf7jvep2c3j6447cjroadead.onion/comp/hartwick.edu/index"; nocase; classtype:trojan-activity; sid:9268511; rev:1;)

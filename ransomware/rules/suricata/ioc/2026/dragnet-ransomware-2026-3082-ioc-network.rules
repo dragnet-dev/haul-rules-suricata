@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3082 — Ransomware C2 Communication
+# Status: test | Level: high | ID: 16209f49-48c6-5d20-a86c-ef04d403f948
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3082 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#dubai-air-wing]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#dubai-air-wing"; nocase; classtype:trojan-activity; sid:3236681; rev:1;)

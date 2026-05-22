@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0957 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e668ea20-6978-5388-bda6-cf788459f669
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0957 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/SUMMIT01]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/SUMMIT01"; nocase; classtype:trojan-activity; sid:5635360; rev:1;)

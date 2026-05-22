@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4641 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: 2a7e8c5f-82dc-5b66-87ed-c73aebc42e69
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4641 — Ransomware C2 Communication [http://pifk3xu3vad6cuxsjll4qjomyaaaoyvnyqppro75pazadzctrrvpdnyd.onion/#university-of-gavle]"; dns.query; content:"http://pifk3xu3vad6cuxsjll4qjomyaaaoyvnyqppro75pazadzctrrvpdnyd.onion/#university-of-gavle"; nocase; classtype:trojan-activity; sid:2936543; rev:1;)

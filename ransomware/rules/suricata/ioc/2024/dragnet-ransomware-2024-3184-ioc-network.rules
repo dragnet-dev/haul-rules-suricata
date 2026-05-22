@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3184 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: ca56fe95-693b-58c4-9eea-661047dd37ce
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3184 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/advantageorthopedic.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/advantageorthopedic.com"; nocase; classtype:trojan-activity; sid:2698901; rev:1;)

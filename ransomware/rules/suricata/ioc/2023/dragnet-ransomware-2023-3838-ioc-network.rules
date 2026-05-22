@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3838 — Ransomware C2 Communication
+# Status: experimental | Level: high | ID: e319c587-8575-5f2f-9aa7-5044e1a4ae11
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3838 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=PFGUSA_2]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=PFGUSA_2"; nocase; classtype:trojan-activity; sid:4116999; rev:1;)
