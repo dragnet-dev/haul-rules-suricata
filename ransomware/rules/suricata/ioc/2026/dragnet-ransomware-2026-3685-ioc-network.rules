@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3685 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: cebd579e-5eff-5d7a-8932-d6545f14b2b2
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3685 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Advanced_Psychiatry_Associates/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Advanced_Psychiatry_Associates/"; nocase; classtype:trojan-activity; sid:4515230; rev:1;)
