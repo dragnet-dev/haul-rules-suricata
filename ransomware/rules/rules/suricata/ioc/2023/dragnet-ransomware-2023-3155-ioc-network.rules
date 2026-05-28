@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3155 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a9d47740-6082-5834-93f1-f76a22779523
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3155 — Ransomware C2 Communication [http://h3reihqb2y7woqdary2g3bmk3apgtxuyhx4j2ftovbhe3l5svev7bdyd.onion/berjayaclubs.html]"; dns.query; content:"http://h3reihqb2y7woqdary2g3bmk3apgtxuyhx4j2ftovbhe3l5svev7bdyd.onion/berjayaclubs.html"; nocase; classtype:trojan-activity; sid:6273664; rev:1;)

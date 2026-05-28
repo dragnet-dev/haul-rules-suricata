@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1257 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: aaa1ac3b-43b0-5faa-813d-f180457b2626
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1257 — Ransomware C2 Communication [http://k7kg3jqxang3wh7hnmaiokchk7qoebupfgoik6rha6mjpzwupwtj25yd.onion/topic.php?id=rRBgoJxsdxyQTy]"; dns.query; content:"http://k7kg3jqxang3wh7hnmaiokchk7qoebupfgoik6rha6mjpzwupwtj25yd.onion/topic.php?id=rRBgoJxsdxyQTy"; nocase; classtype:trojan-activity; sid:1722107; rev:1;)

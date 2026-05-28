@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1407 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 7ebcf778-4eb7-59ab-8dda-16872510223f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1407 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/islandoutpost-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/islandoutpost-com"; nocase; classtype:trojan-activity; sid:3313336; rev:1;)

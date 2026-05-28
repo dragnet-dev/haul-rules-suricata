@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2853 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 1b9a6d89-8a45-56aa-8bf2-809ec8c8f657
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2853 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/78/universal-software-solutions]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/78/universal-software-solutions"; nocase; classtype:trojan-activity; sid:5105417; rev:1;)

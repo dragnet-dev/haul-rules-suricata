@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0680 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: acf9344b-13fa-5fde-afca-6902d5ca1adb
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0680 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/goshenmedical.org/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/goshenmedical.org/"; nocase; classtype:trojan-activity; sid:5013003; rev:1;)

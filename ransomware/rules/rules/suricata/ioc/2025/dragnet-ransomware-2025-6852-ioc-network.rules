@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6852 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: ad598c01-56e7-5e28-b09f-016f2db1944f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6852 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/capitalfinemeats-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/capitalfinemeats-com"; nocase; classtype:trojan-activity; sid:2326913; rev:1;)

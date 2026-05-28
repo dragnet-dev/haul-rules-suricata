@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3117 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 6baba925-c142-5653-8a9a-54bdce719eb6
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3117 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/alpineent.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/alpineent.com/"; nocase; classtype:trojan-activity; sid:7412069; rev:1;)

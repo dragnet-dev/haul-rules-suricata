@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0989 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: ecc90c3f-324e-5b82-978c-51bbb668ed8a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0989 — Ransomware C2 Communication [http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#kbtoys.com.au]"; dns.query; content:"http://4k6plf4h2cm2nco6ae3inrsxnmqgl6lllmwefydhnlcq4tuhwbj4qpad.onion#kbtoys.com.au"; nocase; classtype:trojan-activity; sid:4598847; rev:1;)

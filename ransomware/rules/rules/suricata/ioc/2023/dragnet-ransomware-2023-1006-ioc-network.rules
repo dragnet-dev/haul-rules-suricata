@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1006 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: ef35e0fe-3f2b-5b3a-a192-c5a48720f120
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1006 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/telnet-ri.es/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/telnet-ri.es/"; nocase; classtype:trojan-activity; sid:9285630; rev:1;)

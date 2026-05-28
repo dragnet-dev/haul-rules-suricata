@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1288 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a44a61f7-88e5-5455-8132-f7ef2a7aa81e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1288 — Ransomware C2 Communication [http://funksec53xh7j5t6ysgwnaidj5vkh3aqajanplix533kwxdz3qrwugid.onion/unimore.it]"; dns.query; content:"http://funksec53xh7j5t6ysgwnaidj5vkh3aqajanplix533kwxdz3qrwugid.onion/unimore.it"; nocase; classtype:trojan-activity; sid:3338167; rev:1;)

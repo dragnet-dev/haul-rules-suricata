@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0293 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 752c96cd-dfae-5377-bf86-ae8edf1b357e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0293 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/gcargo.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/gcargo.com"; nocase; classtype:trojan-activity; sid:4856461; rev:1;)

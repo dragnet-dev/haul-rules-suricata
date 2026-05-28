@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0434 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 5f49fd1a-b343-5f75-a4a1-97d7ee66950d
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0434 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/tallyteeth.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/tallyteeth.com"; nocase; classtype:trojan-activity; sid:6684442; rev:1;)

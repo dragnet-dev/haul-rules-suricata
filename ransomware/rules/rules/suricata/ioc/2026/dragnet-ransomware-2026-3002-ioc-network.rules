@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3002 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 0e3d343c-8b08-53ed-b332-3d17c200b1b0
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3002 — Ransomware C2 Communication [https://handala-hack.to/sharjah-national-oil-corporation-hacked/]"; dns.query; content:"https://handala-hack.to/sharjah-national-oil-corporation-hacked/"; nocase; classtype:trojan-activity; sid:5892092; rev:1;)

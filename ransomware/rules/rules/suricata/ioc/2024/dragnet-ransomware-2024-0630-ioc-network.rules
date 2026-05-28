@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0630 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 48f1fb30-f916-5314-8c86-8e49d15b7188
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0630 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/pureform-radiology-center/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/pureform-radiology-center/"; nocase; classtype:trojan-activity; sid:9818032; rev:1;)

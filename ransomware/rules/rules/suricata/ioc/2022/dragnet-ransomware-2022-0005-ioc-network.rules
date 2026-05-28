@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0005 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e4f7e183-d583-59b1-b76c-6a3e9a0f7c8f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0005 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/netzsch-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/netzsch-com"; nocase; classtype:trojan-activity; sid:8450371; rev:1;)

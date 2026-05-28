@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-1927 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 393bcb39-befb-5b6a-a453-040e45c215c2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-1927 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/utilitytrailer-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/utilitytrailer-com"; nocase; classtype:trojan-activity; sid:7219961; rev:1;)

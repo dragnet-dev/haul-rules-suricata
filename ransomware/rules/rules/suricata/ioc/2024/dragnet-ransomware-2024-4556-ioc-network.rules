@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4556 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 7d6e1099-f806-5790-a9ad-d751058a57ff
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4556 — Ransomware C2 Communication [http://dataleakypypu7uwblm5kttv726l3iripago6p336xjnbstkjwrlnlid.onion/posts/goughhomes.com]"; dns.query; content:"http://dataleakypypu7uwblm5kttv726l3iripago6p336xjnbstkjwrlnlid.onion/posts/goughhomes.com"; nocase; classtype:trojan-activity; sid:8365209; rev:1;)

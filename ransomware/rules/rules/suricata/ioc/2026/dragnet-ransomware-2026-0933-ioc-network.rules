@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0933 — Ransomware C2 Communication
-# Status: test | Level: high | ID: a86c9ff1-409a-5e4d-bd81-ae674ae42765
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0933 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mark-finn-co-uk]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mark-finn-co-uk"; nocase; classtype:trojan-activity; sid:9691121; rev:1;)

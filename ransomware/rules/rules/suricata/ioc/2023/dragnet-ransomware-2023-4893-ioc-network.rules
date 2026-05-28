@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4893 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 491a0e21-f013-5ba7-968a-215469468730
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4893 — Ransomware C2 Communication [http://k7kg3jqxang3wh7hnmaiokchk7qoebupfgoik6rha6mjpzwupwtj25yd.onion/topic.php?id=58kTQi8mUwwJtB]"; dns.query; content:"http://k7kg3jqxang3wh7hnmaiokchk7qoebupfgoik6rha6mjpzwupwtj25yd.onion/topic.php?id=58kTQi8mUwwJtB"; nocase; classtype:trojan-activity; sid:3444321; rev:1;)

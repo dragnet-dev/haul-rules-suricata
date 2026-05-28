@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0383 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: fe926ae5-825f-5f00-aea0-45e9154e0bda
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0383 — Ransomware C2 Communication [http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/f3f85c6d129371a31960935069bb979d]"; dns.query; content:"http://lockbitapt67g6rwzjbcxnww5efpg4qok6vpfeth7wx3okj52ks4wtad.onion/post/f3f85c6d129371a31960935069bb979d"; nocase; classtype:trojan-activity; sid:6008485; rev:1;)

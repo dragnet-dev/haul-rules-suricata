@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1211 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 3c80c75e-ec40-56ef-a83f-461a84087a8b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1211 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/bandbelectric.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/bandbelectric.com"; nocase; classtype:trojan-activity; sid:8072606; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0632 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a6c45a75-41dd-5cf3-9f74-2f9fb0933173
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0632 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/nyhhc.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/nyhhc.com"; nocase; classtype:trojan-activity; sid:8886069; rev:1;)

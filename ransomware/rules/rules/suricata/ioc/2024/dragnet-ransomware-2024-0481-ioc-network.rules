@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0481 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 8c311699-7f82-52a4-bc3d-c65dd684fac4
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0481 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/premierworksupport.co.uk/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/premierworksupport.co.uk/"; nocase; classtype:trojan-activity; sid:4027289; rev:1;)

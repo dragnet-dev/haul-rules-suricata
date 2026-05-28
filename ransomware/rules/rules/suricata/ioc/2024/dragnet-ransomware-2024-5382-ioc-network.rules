@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5382 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 62a26a50-dcac-5160-b9b3-f741a34a0070
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5382 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=flynncompanies.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=flynncompanies.com"; nocase; classtype:trojan-activity; sid:8811216; rev:1;)

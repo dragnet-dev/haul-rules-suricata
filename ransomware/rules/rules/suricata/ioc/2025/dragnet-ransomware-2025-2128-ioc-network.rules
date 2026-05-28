@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2128 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 8243c4fa-b744-51cb-926f-625b8623533c
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2128 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/minnesotaorthodontics.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/minnesotaorthodontics.com/"; nocase; classtype:trojan-activity; sid:8479418; rev:1;)

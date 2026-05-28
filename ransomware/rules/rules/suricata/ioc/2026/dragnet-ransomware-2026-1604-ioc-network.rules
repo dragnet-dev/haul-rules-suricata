@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1604 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 141299fa-4094-5c5e-9823-45d74bbd431b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1604 — Ransomware C2 Communication [https://handala-hack.to/contact-handala/]"; dns.query; content:"https://handala-hack.to/contact-handala/"; nocase; classtype:trojan-activity; sid:4763386; rev:1;)

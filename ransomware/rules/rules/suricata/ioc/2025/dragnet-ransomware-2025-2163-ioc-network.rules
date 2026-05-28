@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2163 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 27842336-2b8d-5117-bdd6-dd20b3b87f64
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2163 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/logitech-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/logitech-com"; nocase; classtype:trojan-activity; sid:6971190; rev:1;)

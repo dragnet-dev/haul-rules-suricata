@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5025 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: caabfac3-6d55-5c3b-9e01-52cd29df0b42
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5025 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/hudsonbussales-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/hudsonbussales-com"; nocase; classtype:trojan-activity; sid:8268483; rev:1;)

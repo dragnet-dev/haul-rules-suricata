@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4213 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 190c1627-71d5-5e38-93ee-b7387c0d0046
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4213 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bostonglobe-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bostonglobe-com"; nocase; classtype:trojan-activity; sid:7222503; rev:1;)

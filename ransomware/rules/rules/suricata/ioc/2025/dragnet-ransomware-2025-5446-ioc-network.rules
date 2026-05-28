@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5446 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 6afdf6c6-2833-52cf-947a-ba0f69a43256
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5446 — Ransomware C2 Communication [http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/AdvancedHealthcareProfessionals/]"; dns.query; content:"http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/AdvancedHealthcareProfessionals/"; nocase; classtype:trojan-activity; sid:5028678; rev:1;)

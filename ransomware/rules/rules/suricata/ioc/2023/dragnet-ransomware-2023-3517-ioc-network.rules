@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3517 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: f0117d85-bac7-5378-9f43-cba28d26018e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3517 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/hermesmedical.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/hermesmedical.com"; nocase; classtype:trojan-activity; sid:5678085; rev:1;)

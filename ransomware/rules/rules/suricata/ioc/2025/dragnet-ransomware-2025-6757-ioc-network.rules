@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6757 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 2eb99cef-dcb0-52f5-bbee-3a3811ff6573
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6757 — Ransomware C2 Communication [https://breachforums.hn//asics.html]"; dns.query; content:"https://breachforums.hn//asics.html"; nocase; classtype:trojan-activity; sid:1916271; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0890 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 5a7bdd5a-0368-5550-bda4-522d0df0368a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0890 — Ransomware C2 Communication [http://cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd.onion/company/txmplant.co.uk]"; dns.query; content:"http://cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd.onion/company/txmplant.co.uk"; nocase; classtype:trojan-activity; sid:7067034; rev:1;)

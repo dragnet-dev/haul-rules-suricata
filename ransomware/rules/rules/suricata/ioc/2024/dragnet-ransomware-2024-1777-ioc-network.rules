@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1777 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 05be58b7-3226-54b1-9998-dc3d8b8c44e0
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1777 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=stemcor.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=stemcor.com"; nocase; classtype:trojan-activity; sid:7360631; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3052 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: d790af34-f383-5d11-bff1-9e4efdde99c9
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3052 — Ransomware C2 Communication [http://kill432ltnkqvaqntbalnsgojqqs2wz4lhnamrqjg66tq6fuvcztilyd.onion/post/excellifecoaching.com.html]"; dns.query; content:"http://kill432ltnkqvaqntbalnsgojqqs2wz4lhnamrqjg66tq6fuvcztilyd.onion/post/excellifecoaching.com.html"; nocase; classtype:trojan-activity; sid:8583476; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0450 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 9d627da3-7257-5773-b5b4-880a64586eb8
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0450 — Ransomware C2 Communication [https://werewolves.pro/en/emprint.html]"; dns.query; content:"https://werewolves.pro/en/emprint.html"; nocase; classtype:trojan-activity; sid:4477603; rev:1;)

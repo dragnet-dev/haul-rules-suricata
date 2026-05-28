@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1944 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 8dad18cf-838c-5da5-a3f6-77570824f3fa
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1944 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/DEMOSGROUP]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/DEMOSGROUP"; nocase; classtype:trojan-activity; sid:1931535; rev:1;)

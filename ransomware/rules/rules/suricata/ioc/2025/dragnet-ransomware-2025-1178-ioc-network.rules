@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1178 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 4b9bdd60-37a9-5e50-9483-427d0a71dc01
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1178 — Ransomware C2 Communication [http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/twinoakschurch]"; dns.query; content:"http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/twinoakschurch"; nocase; classtype:trojan-activity; sid:9505952; rev:1;)

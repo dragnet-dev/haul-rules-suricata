@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5371 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 9f6d2dae-bcd2-5e53-a4f8-c0457745011e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5371 — Ransomware C2 Communication [http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/albert-rih/]"; dns.query; content:"http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/albert-rih/"; nocase; classtype:trojan-activity; sid:2732462; rev:1;)

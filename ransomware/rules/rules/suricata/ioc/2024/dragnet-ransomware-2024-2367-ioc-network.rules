@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2367 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 4e425366-8e1e-5423-8382-1bb7743aa17a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2367 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/unicred-com-ar]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/unicred-com-ar"; nocase; classtype:trojan-activity; sid:8969574; rev:1;)

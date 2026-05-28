@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2234 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 5f09d9d0-dcd2-5af4-a7d8-4fb472680210
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2234 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/lindsayhospital.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/lindsayhospital.com"; nocase; classtype:trojan-activity; sid:2481104; rev:1;)

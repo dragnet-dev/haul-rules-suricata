@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0584 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 03e441ad-c1ef-5829-aee7-99fa65a625c0
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0584 — Ransomware C2 Communication [http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/orthopaedic_specialists_of_massachusetts]"; dns.query; content:"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/orthopaedic_specialists_of_massachusetts"; nocase; classtype:trojan-activity; sid:3290669; rev:1;)

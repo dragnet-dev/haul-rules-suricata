@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3835 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c3bd38dd-cae3-5bdb-b420-3fb94836cfe4
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3835 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/kovair-software/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/kovair-software/"; nocase; classtype:trojan-activity; sid:8957981; rev:1;)

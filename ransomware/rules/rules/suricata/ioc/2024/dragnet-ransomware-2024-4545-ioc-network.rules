@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4545 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: eb4f32a6-e9bd-5c87-a7ac-96e195060b8d
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4545 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/capozziadler.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/capozziadler.com"; nocase; classtype:trojan-activity; sid:6836070; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1467 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 780a6848-9262-5396-b915-a1160e0bf49f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1467 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/longhornorganics-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/longhornorganics-com"; nocase; classtype:trojan-activity; sid:7947976; rev:1;)

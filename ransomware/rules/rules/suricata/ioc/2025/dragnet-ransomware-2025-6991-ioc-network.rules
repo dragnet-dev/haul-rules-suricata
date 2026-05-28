@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6991 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 24cbefb0-cba1-5149-a516-099072b14b4b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6991 — Ransomware C2 Communication [https://breachforums.hn/toyota.html]"; dns.query; content:"https://breachforums.hn/toyota.html"; nocase; classtype:trojan-activity; sid:6344944; rev:1;)

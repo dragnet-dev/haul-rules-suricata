@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7276 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 7439e4da-a7f8-5c42-be56-c1148566ea82
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7276 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/waverlychildcareorg/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/waverlychildcareorg/"; nocase; classtype:trojan-activity; sid:6951194; rev:1;)

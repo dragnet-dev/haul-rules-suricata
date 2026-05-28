@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2642 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: b4eb93d3-b0a9-57f9-8836-2fc3c8804e9a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2642 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/hatchbank-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/hatchbank-com"; nocase; classtype:trojan-activity; sid:3337683; rev:1;)

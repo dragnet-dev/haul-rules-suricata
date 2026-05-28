@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1002 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: fdaf0f91-5438-5768-8cf8-d7ba6f4d5ba9
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1002 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=carolinafoodsinc.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=carolinafoodsinc.com"; nocase; classtype:trojan-activity; sid:9108433; rev:1;)

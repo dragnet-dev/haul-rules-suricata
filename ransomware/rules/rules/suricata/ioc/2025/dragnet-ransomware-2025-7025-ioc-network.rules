@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7025 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 86969e2b-5747-5d43-b737-5a4f4e24c751
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7025 — Ransomware C2 Communication [http://nerqnacjmdy3obvevyol7qhazkwkv57dwqvye5v46k5bcujtfa6sduad.onion/detail?code=wilsenergy-com-usa-77-1gb]"; dns.query; content:"http://nerqnacjmdy3obvevyol7qhazkwkv57dwqvye5v46k5bcujtfa6sduad.onion/detail?code=wilsenergy-com-usa-77-1gb"; nocase; classtype:trojan-activity; sid:9017835; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0250 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 0445adc7-46a4-53f5-889d-e3d99721daac
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0250 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/parkland-ca]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/parkland-ca"; nocase; classtype:trojan-activity; sid:9675335; rev:1;)

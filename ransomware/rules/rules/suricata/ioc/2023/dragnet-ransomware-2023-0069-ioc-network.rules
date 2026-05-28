@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0069 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 509a47c9-a816-551c-8b17-f109f45eb4e4
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0069 — Ransomware C2 Communication [http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/jacklyn-dawson-solicitors/]"; dns.query; content:"http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/jacklyn-dawson-solicitors/"; nocase; classtype:trojan-activity; sid:3288201; rev:1;)

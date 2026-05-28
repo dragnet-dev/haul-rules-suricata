@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5336 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 428e428d-4b65-5616-ae5e-3c654ff4510f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5336 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/bunkhousegroup.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/bunkhousegroup.com"; nocase; classtype:trojan-activity; sid:1619405; rev:1;)

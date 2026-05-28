@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5283 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e6ceeaf9-dd48-544f-999d-9220d99b9d06
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5283 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=NOVATI]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=NOVATI"; nocase; classtype:trojan-activity; sid:3320249; rev:1;)

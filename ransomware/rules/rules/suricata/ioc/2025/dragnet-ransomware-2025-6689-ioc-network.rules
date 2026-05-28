@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6689 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 243ae3bb-18bd-532b-9f98-d71263bd920e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6689 — Ransomware C2 Communication [http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/legalaidsocietyofsaltlake.org/]"; dns.query; content:"http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/legalaidsocietyofsaltlake.org/"; nocase; classtype:trojan-activity; sid:5839163; rev:1;)

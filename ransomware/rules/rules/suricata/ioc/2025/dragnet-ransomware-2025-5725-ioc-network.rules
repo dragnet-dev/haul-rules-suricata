@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5725 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 42327ad7-46f9-5ad0-9196-17a0a6828c6f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5725 — Ransomware C2 Communication [http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/schneider-treuhand]"; dns.query; content:"http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/schneider-treuhand"; nocase; classtype:trojan-activity; sid:4604503; rev:1;)

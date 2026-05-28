@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4111 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: f5d767ef-b9ea-5f95-b83a-230792dbe4cf
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4111 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/themelgroup.co.uk/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/themelgroup.co.uk/"; nocase; classtype:trojan-activity; sid:3534767; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3964 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 784e6c36-79d9-5a01-a12c-91a8e4f6137e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3964 — Ransomware C2 Communication [http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/trimble-gerrard/]"; dns.query; content:"http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/trimble-gerrard/"; nocase; classtype:trojan-activity; sid:3405430; rev:1;)

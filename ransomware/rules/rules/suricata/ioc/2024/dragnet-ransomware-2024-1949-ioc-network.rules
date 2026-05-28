@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1949 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 6bf3e41a-4808-587e-bb76-7058a8f0a56d
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1949 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=schlesingerlaw.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=schlesingerlaw.com"; nocase; classtype:trojan-activity; sid:3145754; rev:1;)

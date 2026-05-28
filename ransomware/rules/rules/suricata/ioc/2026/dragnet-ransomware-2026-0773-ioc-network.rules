@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0773 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 860afd58-eb55-5a3c-a222-e00df4631678
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0773 — Ransomware C2 Communication [https://handala-hack.tw/st-joseph-county-hacked/]"; dns.query; content:"https://handala-hack.tw/st-joseph-county-hacked/"; nocase; classtype:trojan-activity; sid:8867160; rev:1;)

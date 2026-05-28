@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5773 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 01318b4c-d4b9-5c8e-b953-332898f3f024
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5773 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=creativeenvironments.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=creativeenvironments.com"; nocase; classtype:trojan-activity; sid:3024140; rev:1;)

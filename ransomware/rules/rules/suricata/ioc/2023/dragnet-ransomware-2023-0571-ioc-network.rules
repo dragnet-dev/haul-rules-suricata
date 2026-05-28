@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0571 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 35d5a690-9f79-540f-a600-276db7e83f7b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0571 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/lesliespool-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/lesliespool-com"; nocase; classtype:trojan-activity; sid:4194256; rev:1;)

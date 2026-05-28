@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6862 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 23ed81c5-894c-5ffe-8247-7cbc213041e4
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6862 — Ransomware C2 Communication [http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/hamiltonparkinteriors]"; dns.query; content:"http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/hamiltonparkinteriors"; nocase; classtype:trojan-activity; sid:9767813; rev:1;)

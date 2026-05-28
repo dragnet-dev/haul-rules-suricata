@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0654 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 96001c73-9991-5d8f-bf61-510aca29ee81
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0654 — Ransomware C2 Communication [http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/Zaner/]"; dns.query; content:"http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/Zaner/"; nocase; classtype:trojan-activity; sid:6589683; rev:1;)

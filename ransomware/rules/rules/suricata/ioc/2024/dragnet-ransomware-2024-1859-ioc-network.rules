@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1859 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 0578ff88-7a4b-5f83-ae9e-a21f4b029847
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1859 — Ransomware C2 Communication [https://handala.to/israel-textile-hacked/]"; dns.query; content:"https://handala.to/israel-textile-hacked/"; nocase; classtype:trojan-activity; sid:2815816; rev:1;)

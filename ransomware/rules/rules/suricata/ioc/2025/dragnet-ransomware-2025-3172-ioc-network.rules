@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3172 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 641c2369-d675-5205-be00-3d80dafa1b2a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3172 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#national-health-insurance-management-authority]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#national-health-insurance-management-authority"; nocase; classtype:trojan-activity; sid:6565673; rev:1;)

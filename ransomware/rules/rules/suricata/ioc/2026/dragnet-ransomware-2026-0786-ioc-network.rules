@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0786 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 8489fb03-54b9-5e96-af75-7c66377fdea2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0786 — Ransomware C2 Communication [https://titanblog.org/post/quahe-woo-palmer-llc-rtosr5edr7]"; dns.query; content:"https://titanblog.org/post/quahe-woo-palmer-llc-rtosr5edr7"; nocase; classtype:trojan-activity; sid:1635203; rev:1;)

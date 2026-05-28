@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3768 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 34ef661b-c45e-57d0-b610-5ad46acd355b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3768 — Ransomware C2 Communication [http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/cl/clicks.php?uri=INTECH/index.html]"; dns.query; content:"http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/cl/clicks.php?uri=INTECH/index.html"; nocase; classtype:trojan-activity; sid:7104475; rev:1;)

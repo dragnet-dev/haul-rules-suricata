@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3310 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 8f8abb0e-0b7e-588b-965b-a92ab76bd982
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3310 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/shackelford-law]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/shackelford-law"; nocase; classtype:trojan-activity; sid:6233742; rev:1;)

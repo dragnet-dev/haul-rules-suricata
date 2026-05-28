@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4037 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: bbf38661-169d-595b-acf5-361738269488
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4037 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/agriloja-pt-demo-leak/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/agriloja-pt-demo-leak/"; nocase; classtype:trojan-activity; sid:4299041; rev:1;)

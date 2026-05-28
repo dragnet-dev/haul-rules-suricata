@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0470 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 3eb04b9d-dff6-53bf-ad44-97c7657ea263
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0470 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/lcpublishinggroupcom/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/lcpublishinggroupcom/"; nocase; classtype:trojan-activity; sid:8741085; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5261 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: b0e04bac-b4cb-540d-a783-9ae93fe441df
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5261 — Ransomware C2 Communication [http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/el_paso_quality_dentistry]"; dns.query; content:"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/el_paso_quality_dentistry"; nocase; classtype:trojan-activity; sid:7489452; rev:1;)

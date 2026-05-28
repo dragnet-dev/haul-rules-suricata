@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0609 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 2dc3dedc-676e-5be8-8892-ef2cdedd77f2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-0609 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bluebonnetnutrition-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bluebonnetnutrition-com"; nocase; classtype:trojan-activity; sid:3811292; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0305 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 84a70b65-2c48-5bb8-b33a-5bf8c05460d1
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0305 — Ransomware C2 Communication [http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/jack-designer-sparrow/]"; dns.query; content:"http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/jack-designer-sparrow/"; nocase; classtype:trojan-activity; sid:3539941; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3863 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 7990f4a0-b632-5d00-b7eb-e7af28ff907f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3863 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/carvinsoftware.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/carvinsoftware.com"; nocase; classtype:trojan-activity; sid:6542944; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0412 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 5fd20984-b21b-53a7-99c7-b406a294a0fe
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0412 — Ransomware C2 Communication [http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/virmedice]"; dns.query; content:"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/virmedice"; nocase; classtype:trojan-activity; sid:6600516; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2384 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 9c899614-b04a-5afe-915a-7ed78078d0b8
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2384 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/aqm-com-sa]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/aqm-com-sa"; nocase; classtype:trojan-activity; sid:8262548; rev:1;)

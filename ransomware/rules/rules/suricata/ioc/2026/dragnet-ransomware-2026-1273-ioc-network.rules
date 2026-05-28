@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1273 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 36f85d2e-c576-5123-ac14-a7aa77aea3a2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1273 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/rstrt-it]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/rstrt-it"; nocase; classtype:trojan-activity; sid:5246446; rev:1;)

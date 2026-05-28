@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5273 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 18a8c4a2-77dc-53d6-8273-c62955bbd132
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5273 — Ransomware C2 Communication [http://incapt.blog/blog/leak/0C23D0EE595F03AD]"; dns.query; content:"http://incapt.blog/blog/leak/0C23D0EE595F03AD"; nocase; classtype:trojan-activity; sid:9713570; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6577 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e1439b75-bcea-5bac-b130-a0f82a889770
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6577 — Ransomware C2 Communication [http://securo45z554mw7rgrt7wcgv5eenj2xmxyrsdj3fcjsvindu63s4bsid.onion/FasseValves/]"; dns.query; content:"http://securo45z554mw7rgrt7wcgv5eenj2xmxyrsdj3fcjsvindu63s4bsid.onion/FasseValves/"; nocase; classtype:trojan-activity; sid:9304309; rev:1;)

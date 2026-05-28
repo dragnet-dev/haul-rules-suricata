@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0243 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 96570578-366e-5c55-9a7f-d3b68c685f90
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0243 — Ransomware C2 Communication [http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/foxbroermann]"; dns.query; content:"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/foxbroermann"; nocase; classtype:trojan-activity; sid:3285432; rev:1;)

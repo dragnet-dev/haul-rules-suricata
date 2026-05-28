@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2467 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 7621b039-368d-5b32-824f-ff482e443c55
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2467 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=dupont-restauration.fr]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=dupont-restauration.fr"; nocase; classtype:trojan-activity; sid:2919289; rev:1;)

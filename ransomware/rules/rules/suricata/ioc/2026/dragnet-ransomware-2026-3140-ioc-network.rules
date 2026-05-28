@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3140 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: e77e2e7b-66d3-519e-8843-30dfd1e0558d
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3140 — Ransomware C2 Communication [https://handala-hack.to/hebrew-university-of-jerusalem-hacked/]"; dns.query; content:"https://handala-hack.to/hebrew-university-of-jerusalem-hacked/"; nocase; classtype:trojan-activity; sid:5806331; rev:1;)

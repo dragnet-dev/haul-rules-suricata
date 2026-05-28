@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1013 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c28df9d2-bca7-5ff8-a200-e37b530d6ba7
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1013 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/agilysys-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/agilysys-com"; nocase; classtype:trojan-activity; sid:7084434; rev:1;)

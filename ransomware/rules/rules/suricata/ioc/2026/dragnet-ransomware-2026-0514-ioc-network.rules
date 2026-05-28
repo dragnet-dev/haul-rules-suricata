@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0514 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 20cd2311-1b3b-56f7-82b4-b77583d10b43
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0514 — Ransomware C2 Communication [https://handala-hack.to/handala-new-account-sunset-of-the-lions/]"; dns.query; content:"https://handala-hack.to/handala-new-account-sunset-of-the-lions/"; nocase; classtype:trojan-activity; sid:2314769; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0359 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 9c5222ff-f119-5c81-8313-7ca2c488f401
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0359 — Ransomware C2 Communication [http://nokoleakb76znymx443veg4n6fytx6spck6pc7nkr4dvfuygpub6jsid.onion/leak/63acb4be0cc2cef7f87770a3]"; dns.query; content:"http://nokoleakb76znymx443veg4n6fytx6spck6pc7nkr4dvfuygpub6jsid.onion/leak/63acb4be0cc2cef7f87770a3"; nocase; classtype:trojan-activity; sid:4628607; rev:1;)

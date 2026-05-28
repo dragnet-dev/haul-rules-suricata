@@ -1,3 +1,3 @@
 # Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1051 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: bbe88351-c5c0-5b96-9e24-50123d4d1f22
+# Status: test | Level: high | ID: bbe88351-c5c0-5b96-9e24-50123d4d1f22
 alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1051 — Ransomware C2 Communication [http://tezwsse5czllksjb7cwp65rvnk4oobmzti2znn42i43bjdfd2prqqkad.onion]"; dns.query; content:"http://tezwsse5czllksjb7cwp65rvnk4oobmzti2znn42i43bjdfd2prqqkad.onion"; nocase; classtype:trojan-activity; sid:3577361; rev:1;)

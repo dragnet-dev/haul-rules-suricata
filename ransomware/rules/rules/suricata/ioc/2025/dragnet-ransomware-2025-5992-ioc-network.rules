@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5992 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 2f3cf842-96a4-55ed-9f20-e18807786c5a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5992 — Ransomware C2 Communication [http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/ACLA/]"; dns.query; content:"http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/ACLA/"; nocase; classtype:trojan-activity; sid:1524866; rev:1;)

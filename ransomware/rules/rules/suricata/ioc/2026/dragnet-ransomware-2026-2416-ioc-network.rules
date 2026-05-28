@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2416 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 2d499b78-cc2b-5516-adad-8187e3d9c71c
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2416 — Ransomware C2 Communication [http://m3ksukzn2glzfdvlusohril7n3iyk4z4fudf6mm22lwhpbpt5aiee5qd.onion#Marborges%20Agroindustria]"; dns.query; content:"http://m3ksukzn2glzfdvlusohril7n3iyk4z4fudf6mm22lwhpbpt5aiee5qd.onion#Marborges%20Agroindustria"; nocase; classtype:trojan-activity; sid:4798648; rev:1;)

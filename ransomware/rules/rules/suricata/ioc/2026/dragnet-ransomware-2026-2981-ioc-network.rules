@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2981 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 8ffa9ad6-cf87-57a5-a32a-21dff6a72801
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2981 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mckeegroup-net]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mckeegroup-net"; nocase; classtype:trojan-activity; sid:4565526; rev:1;)

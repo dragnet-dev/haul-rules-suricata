@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0141 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c79cf1a7-e156-5b8f-aa73-089cfb0a46fd
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0141 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/cloudmed-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/cloudmed-com"; nocase; classtype:trojan-activity; sid:1951463; rev:1;)

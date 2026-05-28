@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6249 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: dc56cc21-e1ca-5058-981b-97a88e029d20
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6249 — Ransomware C2 Communication [http://bianliaoxoeriowgqohcly4a6sbkpc3se2yvxgidxomxlpuhx5ehrpad.onion/companies/mabmd.com/]"; dns.query; content:"http://bianliaoxoeriowgqohcly4a6sbkpc3se2yvxgidxomxlpuhx5ehrpad.onion/companies/mabmd.com/"; nocase; classtype:trojan-activity; sid:7675873; rev:1;)

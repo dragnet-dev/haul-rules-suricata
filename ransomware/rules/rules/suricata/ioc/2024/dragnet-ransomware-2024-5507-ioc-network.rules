@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5507 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 357bee08-94b5-5c7f-bb58-57c673b85e02
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5507 — Ransomware C2 Communication [http://kill432ltnkqvaqntbalnsgojqqs2wz4lhnamrqjg66tq6fuvcztilyd.onion/post/maxcess-logistics.com.html]"; dns.query; content:"http://kill432ltnkqvaqntbalnsgojqqs2wz4lhnamrqjg66tq6fuvcztilyd.onion/post/maxcess-logistics.com.html"; nocase; classtype:trojan-activity; sid:7314312; rev:1;)

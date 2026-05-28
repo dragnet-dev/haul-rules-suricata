@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0083 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 74ab45b3-1201-5bae-9c64-3390b4cbc1b5
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0083 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/sml-group.co.uk/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/sml-group.co.uk/"; nocase; classtype:trojan-activity; sid:5381555; rev:1;)

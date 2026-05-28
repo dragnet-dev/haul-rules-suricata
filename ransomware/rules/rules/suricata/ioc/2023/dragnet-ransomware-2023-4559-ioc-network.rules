@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4559 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 04aac13c-a9b8-5041-b0a1-0db12411d9a7
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4559 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/valmet-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/valmet-com"; nocase; classtype:trojan-activity; sid:7299452; rev:1;)

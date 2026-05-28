@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6222 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 1d517a8d-60d9-56aa-b207-c615e29a12ac
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6222 — Ransomware C2 Communication [http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/oliveracanarias.com]"; dns.query; content:"http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/oliveracanarias.com"; nocase; classtype:trojan-activity; sid:6879053; rev:1;)

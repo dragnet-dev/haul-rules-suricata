@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2305 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 573a4473-d8cd-52d1-b5fc-06b9d74c1436
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2305 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/pilotpen-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/pilotpen-com"; nocase; classtype:trojan-activity; sid:6436403; rev:1;)

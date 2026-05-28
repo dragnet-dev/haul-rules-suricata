@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5624 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 02a7f53f-2ce9-568d-b211-52619a2aa723
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5624 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/37/precision-steel-services]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/37/precision-steel-services"; nocase; classtype:trojan-activity; sid:9561727; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6140 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a6631a24-f073-530f-b644-d7d2e8b6ffee
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6140 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/auroraimporting-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/auroraimporting-com"; nocase; classtype:trojan-activity; sid:2512612; rev:1;)

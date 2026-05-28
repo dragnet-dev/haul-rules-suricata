@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3121 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e19e8025-b096-56bc-a0e8-5d5c66218ab2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3121 — Ransomware C2 Communication [http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/HASA-ARG]"; dns.query; content:"http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/HASA-ARG"; nocase; classtype:trojan-activity; sid:6261093; rev:1;)

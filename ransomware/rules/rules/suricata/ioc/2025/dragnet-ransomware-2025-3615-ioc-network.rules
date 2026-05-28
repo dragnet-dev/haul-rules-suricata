@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3615 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 374e8f7b-63c6-567c-856e-09477408508d
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3615 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Air Miles_España,_S.A/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Air Miles_España,_S.A/"; nocase; classtype:trojan-activity; sid:1895419; rev:1;)

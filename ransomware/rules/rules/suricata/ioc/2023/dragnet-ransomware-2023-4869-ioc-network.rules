@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4869 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 5c314fc8-b17d-5a54-879c-8d6a26df4fe6
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4869 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/tdameritrade-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/tdameritrade-com"; nocase; classtype:trojan-activity; sid:8735560; rev:1;)

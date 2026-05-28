@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0159 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: ca8e951f-ee70-51e1-ac35-4f97eba836d3
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0159 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/73/curewell-pharmacy-surgicals]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/73/curewell-pharmacy-surgicals"; nocase; classtype:trojan-activity; sid:6341919; rev:1;)

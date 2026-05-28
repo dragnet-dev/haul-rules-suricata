@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5613 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 65a0ec2b-4b7e-5cf0-b71a-bb1d20357f0a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5613 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bensonmills-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bensonmills-com"; nocase; classtype:trojan-activity; sid:5045035; rev:1;)

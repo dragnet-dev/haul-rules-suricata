@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5205 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: f7c32c8c-1b73-5670-bdd3-c855e85d1e62
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5205 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=willislease.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=willislease.com"; nocase; classtype:trojan-activity; sid:8763276; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3044 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: eebedb64-8fd4-584f-a779-1256b9d64f4a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3044 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/93/acuna-fombona-afom]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/93/acuna-fombona-afom"; nocase; classtype:trojan-activity; sid:1485412; rev:1;)

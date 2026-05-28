@@ -1,3 +1,3 @@
 # Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0168 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 1d8ac7b8-bfe9-528a-903b-a2f7b545d1a1
+# Status: test | Level: high | ID: 1d8ac7b8-bfe9-528a-903b-a2f7b545d1a1
 alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0168 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#nebraska-hearing]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#nebraska-hearing"; nocase; classtype:trojan-activity; sid:1634360; rev:1;)

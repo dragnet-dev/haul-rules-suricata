@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1982 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c680b1ec-467c-5e49-a3e8-f2f0a2334c1c
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1982 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=imancorp.es]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=imancorp.es"; nocase; classtype:trojan-activity; sid:1322924; rev:1;)

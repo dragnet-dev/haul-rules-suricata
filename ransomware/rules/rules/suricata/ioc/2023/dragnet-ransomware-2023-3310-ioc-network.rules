@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3310 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c5120f67-f59b-5985-b41f-eb4e4577fd11
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3310 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/chevronfcu-org]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/chevronfcu-org"; nocase; classtype:trojan-activity; sid:4295143; rev:1;)

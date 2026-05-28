@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0777 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: b49b325b-5fdb-533d-bdc9-6e7609c47410
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0777 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/swishsmiles-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/swishsmiles-com"; nocase; classtype:trojan-activity; sid:7069851; rev:1;)

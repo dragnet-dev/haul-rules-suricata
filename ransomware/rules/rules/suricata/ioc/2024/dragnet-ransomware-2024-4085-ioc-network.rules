@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4085 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 80fb6ff1-99c7-598b-9b54-332a14229d7d
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4085 — Ransomware C2 Communication [http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/romeopitaro.com]"; dns.query; content:"http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/romeopitaro.com"; nocase; classtype:trojan-activity; sid:4961841; rev:1;)

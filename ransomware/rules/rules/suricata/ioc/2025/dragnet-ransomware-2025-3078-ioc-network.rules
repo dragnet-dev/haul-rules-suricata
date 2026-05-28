@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3078 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e5e13cce-8869-5feb-94d5-afeb4fb89b5f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3078 — Ransomware C2 Communication [http://funkxxkovrk7ctnggbjnthdajav4ggex53k6m2x3esjwlxrkb3qiztid.onion/forum-rainbow-rp.forumotion.eu]"; dns.query; content:"http://funkxxkovrk7ctnggbjnthdajav4ggex53k6m2x3esjwlxrkb3qiztid.onion/forum-rainbow-rp.forumotion.eu"; nocase; classtype:trojan-activity; sid:5743630; rev:1;)

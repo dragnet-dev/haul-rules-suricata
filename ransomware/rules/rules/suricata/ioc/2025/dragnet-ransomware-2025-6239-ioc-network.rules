@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6239 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 2b5d2b91-9854-56d7-a74f-02f54fc481ad
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6239 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/autohaus-paschkede/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/autohaus-paschkede/"; nocase; classtype:trojan-activity; sid:8526289; rev:1;)

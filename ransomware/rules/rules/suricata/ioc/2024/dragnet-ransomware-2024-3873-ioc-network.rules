@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3873 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: dbd2ab0c-bbb6-5af5-8403-dc6e14273899
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3873 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=talalayglobal.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=talalayglobal.com"; nocase; classtype:trojan-activity; sid:8016652; rev:1;)

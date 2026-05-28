@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2723 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 23fb1395-5691-56e7-b099-2e6fef24b8a3
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2723 — Ransomware C2 Communication [http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/sl-employmentlaw]"; dns.query; content:"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/sl-employmentlaw"; nocase; classtype:trojan-activity; sid:1657109; rev:1;)

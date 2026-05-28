@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1679 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e5d36521-2d01-5074-8370-98fdb52c5017
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1679 — Ransomware C2 Communication [http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/montgomery-general-hospital/]"; dns.query; content:"http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/montgomery-general-hospital/"; nocase; classtype:trojan-activity; sid:4836449; rev:1;)

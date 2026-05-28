@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5314 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 72ace5ab-7c64-5577-8ff1-aa60e8f22f90
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5314 — Ransomware C2 Communication [http://medusaxko7jxtrojdkxo66j7ck4q5tgktf7uqsqyfry4ebnxlcbkccyd.onion/detail?id=3b2635f6d6cc6e249fccf7296e972a91]"; dns.query; content:"http://medusaxko7jxtrojdkxo66j7ck4q5tgktf7uqsqyfry4ebnxlcbkccyd.onion/detail?id=3b2635f6d6cc6e249fccf7296e972a91"; nocase; classtype:trojan-activity; sid:7933611; rev:1;)

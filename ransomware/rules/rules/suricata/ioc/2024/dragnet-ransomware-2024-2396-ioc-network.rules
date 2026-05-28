@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2396 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: dd94f1ab-f7f8-50bb-bb55-4c75ae9467e0
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2396 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=northamericansigns.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=northamericansigns.com"; nocase; classtype:trojan-activity; sid:1525931; rev:1;)

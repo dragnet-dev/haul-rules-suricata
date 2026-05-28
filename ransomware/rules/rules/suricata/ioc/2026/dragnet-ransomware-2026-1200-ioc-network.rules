@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1200 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 301e3b7a-f987-51c4-bfef-46e420521cb2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1200 — Ransomware C2 Communication [http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/69a38f9b8f1d14b7436e50f9]"; dns.query; content:"http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion/blog/disclosures/69a38f9b8f1d14b7436e50f9"; nocase; classtype:trojan-activity; sid:7287674; rev:1;)

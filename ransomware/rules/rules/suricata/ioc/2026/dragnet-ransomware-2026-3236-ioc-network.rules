@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3236 — Ransomware C2 Communication
-# Status: test | Level: high | ID: cf094f99-77c7-50c2-af91-85877f7a0721
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3236 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/emeg-co-uk]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/emeg-co-uk"; nocase; classtype:trojan-activity; sid:9493913; rev:1;)

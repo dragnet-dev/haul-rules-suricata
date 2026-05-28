@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1508 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: ef866964-eb5a-5845-8c7b-4902f3e86b8d
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1508 — Ransomware C2 Communication [https://titanblog.org/post/all-files-encrypted-critical-data-downloaded-analyzed-k7l2v0ck48]"; dns.query; content:"https://titanblog.org/post/all-files-encrypted-critical-data-downloaded-analyzed-k7l2v0ck48"; nocase; classtype:trojan-activity; sid:5563428; rev:1;)

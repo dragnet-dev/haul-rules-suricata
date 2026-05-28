@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0429 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 8f8a0e10-52a5-5927-b8e5-51a80082f650
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0429 — Ransomware C2 Communication [https://handala-hack.to/ignite-chaos-at-your-own-risk-i24-channel-hacked/]"; dns.query; content:"https://handala-hack.to/ignite-chaos-at-your-own-risk-i24-channel-hacked/"; nocase; classtype:trojan-activity; sid:6189456; rev:1;)

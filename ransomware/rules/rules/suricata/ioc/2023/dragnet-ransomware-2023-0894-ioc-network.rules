@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0894 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 1757b082-c42d-5fcd-ad96-6e9ac3b3449f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0894 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/fhinds.co.uk/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/fhinds.co.uk/"; nocase; classtype:trojan-activity; sid:5622786; rev:1;)

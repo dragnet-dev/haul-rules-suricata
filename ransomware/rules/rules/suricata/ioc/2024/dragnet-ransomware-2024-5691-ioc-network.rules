@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5691 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: fc3ec0d2-5b32-53c9-9d17-7e53a89ea4d2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5691 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/LUMIPLAN]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/LUMIPLAN"; nocase; classtype:trojan-activity; sid:2971026; rev:1;)

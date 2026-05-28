@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4352 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 62cee944-3519-5715-a5a7-0f85bfcaa92c
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4352 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/setex-textilde/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/setex-textilde/"; nocase; classtype:trojan-activity; sid:2727300; rev:1;)

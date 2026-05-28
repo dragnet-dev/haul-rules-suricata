@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5337 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 3d703876-93e8-5bd6-aeb1-6c59b8532297
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5337 — Ransomware C2 Communication [http://h3reihqb2y7woqdary2g3bmk3apgtxuyhx4j2ftovbhe3l5svev7bdyd.onion/Nipun.html]"; dns.query; content:"http://h3reihqb2y7woqdary2g3bmk3apgtxuyhx4j2ftovbhe3l5svev7bdyd.onion/Nipun.html"; nocase; classtype:trojan-activity; sid:5764662; rev:1;)

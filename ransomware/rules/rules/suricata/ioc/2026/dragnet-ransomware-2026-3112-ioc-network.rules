@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3112 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 05c10f79-4eb1-51fd-817e-15d8ecb4db76
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3112 — Ransomware C2 Communication [https://handala-hack.to/laura-gilinski-hacked/]"; dns.query; content:"https://handala-hack.to/laura-gilinski-hacked/"; nocase; classtype:trojan-activity; sid:7538489; rev:1;)

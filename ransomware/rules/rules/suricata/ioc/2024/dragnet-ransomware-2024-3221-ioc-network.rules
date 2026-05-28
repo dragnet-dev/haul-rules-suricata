@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3221 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a231191a-aaa5-5195-9277-7db2809b07e2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3221 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/40/cnhw-landscape-design-ltd]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/40/cnhw-landscape-design-ltd"; nocase; classtype:trojan-activity; sid:4126682; rev:1;)

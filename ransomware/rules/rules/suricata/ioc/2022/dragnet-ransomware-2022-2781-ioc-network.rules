@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-2781 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: da18116a-7218-54ce-933e-cf1cc1f8ee09
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-2781 — Ransomware C2 Communication [https://dispossessor.com/blogs/117]"; dns.query; content:"https://dispossessor.com/blogs/117"; nocase; classtype:trojan-activity; sid:6010410; rev:1;)

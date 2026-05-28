@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5743 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a13a0622-9a19-589b-8ece-8f5c2edd5925
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5743 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/cukierski-associates-llc/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/cukierski-associates-llc/"; nocase; classtype:trojan-activity; sid:5934434; rev:1;)

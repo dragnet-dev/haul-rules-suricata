@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2021-1671 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: f8b844d7-4b76-5628-b398-41ea4f133b08
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2021-1671 — Ransomware C2 Communication [http://npmh5ahrgakbniuntyc7io4adm6ietbdbuejrfonowqtyqn24or556qd.onion/leaks.html/post.html?id=tegravendas]"; dns.query; content:"http://npmh5ahrgakbniuntyc7io4adm6ietbdbuejrfonowqtyqn24or556qd.onion/leaks.html/post.html?id=tegravendas"; nocase; classtype:trojan-activity; sid:6825815; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1222 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 899c16ec-e063-5fe6-a6e1-a8c98f718ee7
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1222 — Ransomware C2 Communication [https://handala-team.to/the-slightest-aggression-enemy-infrastructure-reduced-to-ashes/]"; dns.query; content:"https://handala-team.to/the-slightest-aggression-enemy-infrastructure-reduced-to-ashes/"; nocase; classtype:trojan-activity; sid:5708076; rev:1;)

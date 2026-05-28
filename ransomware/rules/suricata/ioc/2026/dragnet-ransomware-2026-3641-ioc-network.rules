@@ -1,0 +1,3 @@
+# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3641 — Ransomware C2 Communication
+# Status: stable | Level: high | ID: 7f40f7b7-d631-549d-9d17-47609814e436
+alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3641 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/textile-testing-services-of-america]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/textile-testing-services-of-america"; nocase; classtype:trojan-activity; sid:2964151; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2764 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 554086ec-ea9b-5bf3-bcfb-55e5c7ce94e3
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2764 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/integroy-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/integroy-com"; nocase; classtype:trojan-activity; sid:9292204; rev:1;)

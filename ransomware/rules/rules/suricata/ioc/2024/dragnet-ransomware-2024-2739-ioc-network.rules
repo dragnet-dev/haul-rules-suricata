@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2739 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 74e03e06-20dc-5917-92c0-4d0bcc8b473e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2739 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=leclairgroup.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=leclairgroup.com"; nocase; classtype:trojan-activity; sid:8852998; rev:1;)

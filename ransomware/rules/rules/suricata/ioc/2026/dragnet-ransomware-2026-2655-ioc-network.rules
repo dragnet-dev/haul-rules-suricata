@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2655 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 66cc143a-ae50-5700-945d-1584401bd056
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2655 — Ransomware C2 Communication [https://handala-hack.to/atlas-insurances-ltd-hacked/]"; dns.query; content:"https://handala-hack.to/atlas-insurances-ltd-hacked/"; nocase; classtype:trojan-activity; sid:6650554; rev:1;)

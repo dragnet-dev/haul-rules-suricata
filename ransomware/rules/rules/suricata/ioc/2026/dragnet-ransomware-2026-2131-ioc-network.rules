@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2131 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 986ae7fc-89ff-51f3-af11-04fcb81f1759
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2131 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/ettoaustralia-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/ettoaustralia-com"; nocase; classtype:trojan-activity; sid:2143036; rev:1;)

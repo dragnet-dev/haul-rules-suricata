@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3967 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: f6e88d49-15f8-5762-939c-7e230a1fdb83
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3967 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/healthequity-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/healthequity-com"; nocase; classtype:trojan-activity; sid:3435657; rev:1;)

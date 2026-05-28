@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4444 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: da490324-f9b5-59fc-9375-ac1db174d7e5
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4444 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/dublinairport/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/dublinairport/"; nocase; classtype:trojan-activity; sid:9218020; rev:1;)

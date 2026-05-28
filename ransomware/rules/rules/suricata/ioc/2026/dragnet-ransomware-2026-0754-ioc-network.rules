@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0754 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: ce1a3e4f-4eb6-5ff1-b7da-c1066ab05bf6
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0754 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/genealogysaorgau/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/genealogysaorgau/"; nocase; classtype:trojan-activity; sid:2826383; rev:1;)

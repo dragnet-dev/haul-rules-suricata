@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0710 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 2e90d241-5d84-5ed8-adac-68abb8977135
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0710 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/BIOCAIR-INT]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/BIOCAIR-INT"; nocase; classtype:trojan-activity; sid:8242945; rev:1;)

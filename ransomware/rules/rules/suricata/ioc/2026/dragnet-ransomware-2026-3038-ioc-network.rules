@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3038 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 17952dc5-e71a-577e-9328-8e7410bd71b3
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3038 — Ransomware C2 Communication [https://handala-hack.tw/publication-of-photos-and-personal-details-of-iranwires-traitorous-members/]"; dns.query; content:"https://handala-hack.tw/publication-of-photos-and-personal-details-of-iranwires-traitorous-members/"; nocase; classtype:trojan-activity; sid:9652549; rev:1;)

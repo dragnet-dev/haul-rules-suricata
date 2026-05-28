@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5516 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 06b063c5-b4b3-5e24-b6c9-55c2ddc497a0
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5516 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/29/ebl-partners-constructioninteriors-florida]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/29/ebl-partners-constructioninteriors-florida"; nocase; classtype:trojan-activity; sid:5223173; rev:1;)

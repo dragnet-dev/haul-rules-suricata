@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0595 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c0cede95-7a68-5a97-be26-07b6ed699a62
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0595 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/ATMOS]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/ATMOS"; nocase; classtype:trojan-activity; sid:4782869; rev:1;)

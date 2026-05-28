@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3147 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: aed0f004-fd6f-52ae-ae1c-40be392261f7
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3147 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/harvardenergy.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/harvardenergy.com"; nocase; classtype:trojan-activity; sid:8928516; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2159 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 7ea79cad-48c5-5d18-be36-a97b007becf6
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2159 — Ransomware C2 Communication [http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/deltapipeline.com]"; dns.query; content:"http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/deltapipeline.com"; nocase; classtype:trojan-activity; sid:1913837; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3338 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: bf7d83a4-aa42-5c11-a2ac-41e84915c3af
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3338 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Parque_Eólico_Toabré/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Parque_Eólico_Toabré/"; nocase; classtype:trojan-activity; sid:9673956; rev:1;)

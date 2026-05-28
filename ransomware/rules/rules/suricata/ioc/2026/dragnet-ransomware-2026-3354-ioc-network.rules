@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3354 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: e7a63110-b34b-5e04-9ad3-1172f9eacd57
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3354 — Ransomware C2 Communication [http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/y6Zs7Km0McU+AxV0h+9CJSYjm18Rg7tOuOs74gFBj9qQ7BAT+BnVtnbbpLifs2g8b5vcw2iQdi2tsGoBtlOdjBMZ3RhbFl5]"; dns.query; content:"http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/y6Zs7Km0McU+AxV0h+9CJSYjm18Rg7tOuOs74gFBj9qQ7BAT+BnVtnbbpLifs2g8b5vcw2iQdi2tsGoBtlOdjBMZ3RhbFl5"; nocase; classtype:trojan-activity; sid:8428432; rev:1;)

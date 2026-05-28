@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2980 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 17c31142-6cd2-59aa-8703-ba2d8146d590
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2980 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mediaworld-com-hk]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/mediaworld-com-hk"; nocase; classtype:trojan-activity; sid:3659906; rev:1;)

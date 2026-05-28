@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0512 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 08b11eba-e493-582e-b3bd-9f48d790c9d7
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0512 — Ransomware C2 Communication [https://handala-team.to/lockheed-martin-employees-given-48-hours-to-respond-a-tight-deadline-looms/]"; dns.query; content:"https://handala-team.to/lockheed-martin-employees-given-48-hours-to-respond-a-tight-deadline-looms/"; nocase; classtype:trojan-activity; sid:2825466; rev:1;)

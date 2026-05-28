@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2824 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: aada7807-fd13-5670-bf73-0524989b966c
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2824 — Ransomware C2 Communication [https://handala-hack.to/sanzer-hasidic-community-hacked/]"; dns.query; content:"https://handala-hack.to/sanzer-hasidic-community-hacked/"; nocase; classtype:trojan-activity; sid:5444295; rev:1;)

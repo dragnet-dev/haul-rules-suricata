@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3197 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 06e83e82-3105-5416-aa3b-b7e7c9a4db13
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3197 — Ransomware C2 Communication [http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/mesquiteplumbing]"; dns.query; content:"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/mesquiteplumbing"; nocase; classtype:trojan-activity; sid:8883650; rev:1;)

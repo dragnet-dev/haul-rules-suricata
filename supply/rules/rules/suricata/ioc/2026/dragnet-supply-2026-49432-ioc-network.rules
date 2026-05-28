@@ -1,3 +1,0 @@
-# Dragnet [IOC]: dragnet-supply-2026-49432 — C2 Network Communication
-# Status: test | Level: high | ID: ba315551-1c72-5e56-b228-b9513468ea22
-alert dns any any -> any any (msg:"Dragnet [IOC]: dragnet-supply-2026-49432 — C2 Network Communication [https://tdtqy-oyaaa-aaaae-af2dq-cai.raw.icp0.io/]"; dns.query; content:"https://tdtqy-oyaaa-aaaae-af2dq-cai.raw.icp0.io/"; nocase; classtype:trojan-activity; sid:1795281; rev:1;)

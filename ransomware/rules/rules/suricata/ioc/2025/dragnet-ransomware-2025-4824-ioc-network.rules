@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4824 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 0bbde67a-a183-508e-b6f7-098e1f86a3ae
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4824 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/inpipeproductscom/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/inpipeproductscom/"; nocase; classtype:trojan-activity; sid:8994682; rev:1;)

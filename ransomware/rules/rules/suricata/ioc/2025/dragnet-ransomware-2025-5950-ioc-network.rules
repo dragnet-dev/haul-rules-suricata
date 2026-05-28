@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5950 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 6820e0cd-d191-5a6d-854a-2c373f737739
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5950 — Ransomware C2 Communication [http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/homseylawcenter]"; dns.query; content:"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/homseylawcenter"; nocase; classtype:trojan-activity; sid:1985165; rev:1;)

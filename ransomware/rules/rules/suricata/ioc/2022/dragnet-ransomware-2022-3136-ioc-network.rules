@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3136 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c2d6e315-f848-5ce9-9432-3dfb2efb5b88
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3136 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/nft-co-uk]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/nft-co-uk"; nocase; classtype:trojan-activity; sid:2862741; rev:1;)

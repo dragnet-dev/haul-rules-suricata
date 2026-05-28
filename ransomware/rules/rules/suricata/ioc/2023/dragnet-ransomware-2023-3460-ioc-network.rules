@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3460 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 94a51686-7a7b-5d35-a084-cd6041f01982
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3460 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/int-bio.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/int-bio.com"; nocase; classtype:trojan-activity; sid:1847174; rev:1;)

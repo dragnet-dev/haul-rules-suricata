@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4771 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 4823a235-13b7-5056-a1ac-a237458c93e0
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4771 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=birchallfoodservice.co.uk]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=birchallfoodservice.co.uk"; nocase; classtype:trojan-activity; sid:5294837; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3156 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: f0aed37c-1e73-5277-b04c-28ccc58a820b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3156 — Ransomware C2 Communication [http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/garro_fabril]"; dns.query; content:"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/garro_fabril"; nocase; classtype:trojan-activity; sid:6989244; rev:1;)

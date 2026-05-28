@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1345 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 0b51d441-2faa-5f8c-9fa1-f9de504af899
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1345 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/international-business-solution-de-mexico]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/international-business-solution-de-mexico"; nocase; classtype:trojan-activity; sid:1912129; rev:1;)

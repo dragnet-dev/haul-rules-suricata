@@ -1,3 +1,3 @@
 # Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3221 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 602ee6fc-569a-55b5-b7b5-3cd85a5048b1
+# Status: experimental | Level: high | ID: 602ee6fc-569a-55b5-b7b5-3cd85a5048b1
 alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3221 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Iberia/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Iberia/"; nocase; classtype:trojan-activity; sid:3686524; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0107 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 1df9011f-7fbf-5066-ab3a-043c0aacc57a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0107 — Ransomware C2 Communication [https://handala-hack.to/unprecedented-disclosure-of-50-senior-israeli-air-force-officers-information/]"; dns.query; content:"https://handala-hack.to/unprecedented-disclosure-of-50-senior-israeli-air-force-officers-information/"; nocase; classtype:trojan-activity; sid:8858015; rev:1;)

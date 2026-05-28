@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0327 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 66b64268-580c-5553-a308-7bf1c3519d68
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0327 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/spalfamilylaw.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/spalfamilylaw.com/"; nocase; classtype:trojan-activity; sid:5220584; rev:1;)

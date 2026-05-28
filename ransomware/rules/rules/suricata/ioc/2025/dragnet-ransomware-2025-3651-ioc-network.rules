@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3651 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 385277c7-4ef1-5002-bffb-c41b4747e823
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3651 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/THERMOID]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/THERMOID"; nocase; classtype:trojan-activity; sid:9928711; rev:1;)

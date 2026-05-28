@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0071 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 532b7077-daa5-5784-8328-4fc1fdfd073a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0071 — Ransomware C2 Communication [https://handala-hack.to/naftali-bennett-chats/]"; dns.query; content:"https://handala-hack.to/naftali-bennett-chats/"; nocase; classtype:trojan-activity; sid:1355767; rev:1;)

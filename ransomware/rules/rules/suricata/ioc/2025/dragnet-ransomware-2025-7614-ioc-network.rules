@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7614 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e61b4457-b026-520b-898e-e534206e1ebe
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7614 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/ELECTROCRAFT]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/ELECTROCRAFT"; nocase; classtype:trojan-activity; sid:9546647; rev:1;)

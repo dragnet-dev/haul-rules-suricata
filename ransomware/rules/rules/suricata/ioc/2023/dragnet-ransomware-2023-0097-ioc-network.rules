@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0097 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: eb66713e-bebc-581a-af06-4072b445d4d9
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0097 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sodalessolutions-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sodalessolutions-com"; nocase; classtype:trojan-activity; sid:8359422; rev:1;)

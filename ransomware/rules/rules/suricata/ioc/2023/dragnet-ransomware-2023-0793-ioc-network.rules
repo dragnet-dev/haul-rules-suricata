@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0793 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 8d1177a9-ad6e-58f9-b41c-499f55c5bc0b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0793 — Ransomware C2 Communication [https://weerwolven.biz/en/auditexpertnn-ru.html]"; dns.query; content:"https://weerwolven.biz/en/auditexpertnn-ru.html"; nocase; classtype:trojan-activity; sid:9732201; rev:1;)

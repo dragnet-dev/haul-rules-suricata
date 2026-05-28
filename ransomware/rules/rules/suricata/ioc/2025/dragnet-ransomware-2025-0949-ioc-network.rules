@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0949 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 94c6c1fd-7858-54d2-9127-86fdac10d375
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0949 — Ransomware C2 Communication [https://breachforums.hn//triplea.html]"; dns.query; content:"https://breachforums.hn//triplea.html"; nocase; classtype:trojan-activity; sid:4053757; rev:1;)

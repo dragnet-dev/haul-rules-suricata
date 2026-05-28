@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-2252 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 3e8ef417-fe93-5b60-9030-74f6c1425c17
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-2252 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/elandretail-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/elandretail-com"; nocase; classtype:trojan-activity; sid:6555991; rev:1;)

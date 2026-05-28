@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2600 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 8cf92684-aefd-5004-8044-205c57f335c6
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2600 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#the-national-auto-loan-network]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#the-national-auto-loan-network"; nocase; classtype:trojan-activity; sid:8138564; rev:1;)

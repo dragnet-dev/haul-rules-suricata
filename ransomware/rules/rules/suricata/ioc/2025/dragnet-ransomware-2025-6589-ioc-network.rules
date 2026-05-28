@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6589 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c5691c20-302e-5cf7-9821-1a27054fbf3b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6589 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/97/rios-espinosa]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/97/rios-espinosa"; nocase; classtype:trojan-activity; sid:1000032; rev:1;)

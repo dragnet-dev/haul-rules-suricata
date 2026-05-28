@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3343 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: bad8b0c8-fb59-58e8-9d5f-8ed1c857311e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3343 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/paynejones.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/paynejones.com"; nocase; classtype:trojan-activity; sid:3763208; rev:1;)

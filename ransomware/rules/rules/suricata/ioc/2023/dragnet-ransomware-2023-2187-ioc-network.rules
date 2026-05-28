@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2187 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: b99c94b9-ff7f-5493-9ba9-cd4b8976a937
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2187 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/magnoliasteel.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/magnoliasteel.com"; nocase; classtype:trojan-activity; sid:1046649; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2383 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 4d2762b8-1505-5478-bc29-f4c4cffecc45
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2383 — Ransomware C2 Communication [https://handala-hack.tw/north-country-business-products-breached-2680-pos-terminals-disabled-nationwide/]"; dns.query; content:"https://handala-hack.tw/north-country-business-products-breached-2680-pos-terminals-disabled-nationwide/"; nocase; classtype:trojan-activity; sid:8426808; rev:1;)

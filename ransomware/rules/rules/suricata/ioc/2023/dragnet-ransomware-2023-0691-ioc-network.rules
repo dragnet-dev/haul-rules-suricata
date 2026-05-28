@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0691 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 8bdc507a-0db0-5e78-9e92-11be3b045067
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0691 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bankers-bank-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/bankers-bank-com"; nocase; classtype:trojan-activity; sid:7471546; rev:1;)

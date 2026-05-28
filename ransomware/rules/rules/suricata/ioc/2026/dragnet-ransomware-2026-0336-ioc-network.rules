@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0336 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 888e51a9-589b-5ad8-873b-f312a2b4c954
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0336 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/119/elgon-cosmetic]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/119/elgon-cosmetic"; nocase; classtype:trojan-activity; sid:6028393; rev:1;)

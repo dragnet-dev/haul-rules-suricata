@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1922 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 910c9735-8c2d-5c13-98de-8ea18368b464
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1922 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/notar-gerresheimde/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/notar-gerresheimde/"; nocase; classtype:trojan-activity; sid:4521461; rev:1;)

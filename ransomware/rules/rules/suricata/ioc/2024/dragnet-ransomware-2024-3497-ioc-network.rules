@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3497 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: b1f39abe-346f-5fa2-a490-c24ef2e28975
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3497 — Ransomware C2 Communication [http://zu3wfrmrkl4ltqqnpt3owp3cwa33rqwod4gpe3ttb5o4vf2is2gzm6qd.onion/2024/12/18/Groupe-fimar-Commercial-and-Logistics-Group/]"; dns.query; content:"http://zu3wfrmrkl4ltqqnpt3owp3cwa33rqwod4gpe3ttb5o4vf2is2gzm6qd.onion/2024/12/18/Groupe-fimar-Commercial-and-Logistics-Group/"; nocase; classtype:trojan-activity; sid:7532094; rev:1;)

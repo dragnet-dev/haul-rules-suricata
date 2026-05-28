@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5290 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c8741eae-9a78-51d2-9392-59c7b52b3e88
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5290 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=TWINTOWER]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=TWINTOWER"; nocase; classtype:trojan-activity; sid:7053230; rev:1;)

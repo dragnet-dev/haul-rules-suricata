@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2951 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 619a11d4-c70e-5112-a888-7c76a61732ba
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2951 — Ransomware C2 Communication [http://funksec.top/extreme]"; dns.query; content:"http://funksec.top/extreme"; nocase; classtype:trojan-activity; sid:9487060; rev:1;)

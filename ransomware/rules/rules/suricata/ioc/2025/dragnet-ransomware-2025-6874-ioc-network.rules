@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6874 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 0af417b1-eaf9-5b15-bf4e-9171b8e52e68
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6874 — Ransomware C2 Communication [http://rnsm777cdsjrsdlbs4v5qoeppu3px6sb2igmh53jzrx7ipcrbjz5b2ad.onion/2025/01/31/lakeshore-title-agency/]"; dns.query; content:"http://rnsm777cdsjrsdlbs4v5qoeppu3px6sb2igmh53jzrx7ipcrbjz5b2ad.onion/2025/01/31/lakeshore-title-agency/"; nocase; classtype:trojan-activity; sid:4769009; rev:1;)

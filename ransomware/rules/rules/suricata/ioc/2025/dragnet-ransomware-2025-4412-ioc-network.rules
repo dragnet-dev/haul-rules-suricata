@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4412 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 15211c5e-fb10-5f2d-8498-12d050284a7a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4412 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/nipponsteel.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/nipponsteel.com/"; nocase; classtype:trojan-activity; sid:4491486; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3546 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 53e1983c-e022-566a-a61f-3fc431db6e17
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3546 — Ransomware C2 Communication [http://funksec53xh7j5t6ysgwnaidj5vkh3aqajanplix533kwxdz3qrwugid.onion/semaphore.asso.fr]"; dns.query; content:"http://funksec53xh7j5t6ysgwnaidj5vkh3aqajanplix533kwxdz3qrwugid.onion/semaphore.asso.fr"; nocase; classtype:trojan-activity; sid:4293500; rev:1;)

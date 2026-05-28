@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1590 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: da2b222a-0c48-5e6b-82b5-1320b7e663fa
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1590 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=siemensmfg.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=siemensmfg.com"; nocase; classtype:trojan-activity; sid:7259882; rev:1;)

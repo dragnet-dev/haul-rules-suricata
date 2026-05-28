@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4225 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 75ba3107-cd27-5864-b230-cd3dcfdb3b62
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4225 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/victoriapark.se/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/victoriapark.se/"; nocase; classtype:trojan-activity; sid:5136519; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5310 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 4c74b630-7801-5eb3-828f-c3de7d1be65b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5310 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=agromatic.de]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=agromatic.de"; nocase; classtype:trojan-activity; sid:5717232; rev:1;)

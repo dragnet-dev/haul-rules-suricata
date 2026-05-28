@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4989 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a1e475e0-6acc-5505-9780-96d045a13a56
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4989 — Ransomware C2 Communication [https://breachforums.hn//hulu.html]"; dns.query; content:"https://breachforums.hn//hulu.html"; nocase; classtype:trojan-activity; sid:8104160; rev:1;)

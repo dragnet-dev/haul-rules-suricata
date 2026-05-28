@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2379 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 67a1f7cf-e503-5345-bade-f0b491b1185a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2379 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/pincu-barkan-law-office-and-notary/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/pincu-barkan-law-office-and-notary/"; nocase; classtype:trojan-activity; sid:2667983; rev:1;)

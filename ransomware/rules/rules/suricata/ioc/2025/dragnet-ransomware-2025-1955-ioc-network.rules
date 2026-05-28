@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1955 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: ffe3a281-3d3f-50e9-af80-4420ee8a63f8
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1955 — Ransomware C2 Communication [http://novavdivko2zvtrvtllnq45lxhba2rfzp76qigb4nrliklem5au7czqd.onion/bioclimaservice]"; dns.query; content:"http://novavdivko2zvtrvtllnq45lxhba2rfzp76qigb4nrliklem5au7czqd.onion/bioclimaservice"; nocase; classtype:trojan-activity; sid:1108353; rev:1;)

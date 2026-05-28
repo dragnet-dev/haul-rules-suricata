@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3114 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: ede18d5e-8e0a-5489-ad2b-6227619aa127
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-3114 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/storafile-co-uk]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/storafile-co-uk"; nocase; classtype:trojan-activity; sid:4981982; rev:1;)

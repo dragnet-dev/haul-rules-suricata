@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2840 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 1ec3e48a-04f1-5326-82d6-053193afa9d2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2840 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/pioneeroil.net/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/pioneeroil.net/"; nocase; classtype:trojan-activity; sid:4154506; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0205 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a94a11e4-76ee-5550-ae6b-608249127554
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0205 — Ransomware C2 Communication [http://rnsm777cdsjrsdlbs4v5qoeppu3px6sb2igmh53jzrx7ipcrbjz5b2ad.onion/2025/03/07/adda-io-software/]"; dns.query; content:"http://rnsm777cdsjrsdlbs4v5qoeppu3px6sb2igmh53jzrx7ipcrbjz5b2ad.onion/2025/03/07/adda-io-software/"; nocase; classtype:trojan-activity; sid:6203748; rev:1;)

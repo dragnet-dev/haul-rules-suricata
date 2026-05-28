@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1927 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 0b89c631-a8c7-5e08-a67e-77ae130da737
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1927 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/hcmsnapa.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/hcmsnapa.com/"; nocase; classtype:trojan-activity; sid:5578545; rev:1;)

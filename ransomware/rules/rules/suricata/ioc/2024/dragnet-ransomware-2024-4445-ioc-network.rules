@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4445 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: dfa491f1-d046-5052-9a6a-55a9b568c5a3
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4445 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/cifsolutions-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/cifsolutions-com"; nocase; classtype:trojan-activity; sid:9104433; rev:1;)

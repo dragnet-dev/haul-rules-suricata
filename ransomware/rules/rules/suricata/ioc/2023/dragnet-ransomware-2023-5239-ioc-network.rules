@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5239 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e23095b7-44fe-54ca-aa81-c50fa5c5e7e5
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5239 — Ransomware C2 Communication [http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/gossler-gobert-wolters-group/]"; dns.query; content:"http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/gossler-gobert-wolters-group/"; nocase; classtype:trojan-activity; sid:6834871; rev:1;)

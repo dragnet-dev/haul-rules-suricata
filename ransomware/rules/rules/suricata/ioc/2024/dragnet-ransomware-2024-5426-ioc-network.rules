@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5426 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: ec8b4d2d-67fe-5e2b-8543-460b9b7869ee
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5426 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=sierralobo.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=sierralobo.com"; nocase; classtype:trojan-activity; sid:9552237; rev:1;)

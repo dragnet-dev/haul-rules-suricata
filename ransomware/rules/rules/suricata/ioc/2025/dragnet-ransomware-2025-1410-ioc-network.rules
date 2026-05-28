@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1410 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 70286506-64ce-5897-a34b-aad14a990f01
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1410 — Ransomware C2 Communication [http://xtxtpqpyaaek4p4525ksepyyy75gfvi47fptm2gftw7cn656rnfhzdqd.onion/leaks/fragolaspa]"; dns.query; content:"http://xtxtpqpyaaek4p4525ksepyyy75gfvi47fptm2gftw7cn656rnfhzdqd.onion/leaks/fragolaspa"; nocase; classtype:trojan-activity; sid:1695494; rev:1;)

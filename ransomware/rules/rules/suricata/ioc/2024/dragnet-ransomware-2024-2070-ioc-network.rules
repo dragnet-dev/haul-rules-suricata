@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2070 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: da717be6-f75e-5906-b3e8-47cd3fa2c9f1
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2070 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/dannyrusselllaw.com/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/dannyrusselllaw.com/"; nocase; classtype:trojan-activity; sid:2870374; rev:1;)

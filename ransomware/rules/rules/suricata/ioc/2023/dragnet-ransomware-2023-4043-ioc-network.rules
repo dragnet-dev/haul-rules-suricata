@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4043 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: b5290805-03a7-5ce6-9b2b-77089c3dff53
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4043 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/emeraldx-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/emeraldx-com"; nocase; classtype:trojan-activity; sid:7365125; rev:1;)

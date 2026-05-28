@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5072 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a4b16597-efcb-531f-8001-20e432e59529
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5072 — Ransomware C2 Communication [https://werewolves.pro/en/anb-com-3.html]"; dns.query; content:"https://werewolves.pro/en/anb-com-3.html"; nocase; classtype:trojan-activity; sid:1089303; rev:1;)

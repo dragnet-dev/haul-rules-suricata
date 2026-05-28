@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1349 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 9566b50e-2fe1-5159-83e9-c4beb9cd7b0d
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1349 — Ransomware C2 Communication [https://handala.to/zionist-elfi-tech-hacked/]"; dns.query; content:"https://handala.to/zionist-elfi-tech-hacked/"; nocase; classtype:trojan-activity; sid:5536206; rev:1;)

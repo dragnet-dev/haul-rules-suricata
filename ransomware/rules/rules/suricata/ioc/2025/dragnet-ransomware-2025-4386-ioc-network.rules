@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4386 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 496ad56f-ac0d-5732-bdbc-e0891149a397
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4386 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Sarmap/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Sarmap/"; nocase; classtype:trojan-activity; sid:8738223; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0267 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 43cbdc12-cf83-5cef-894d-53ba5527b464
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0267 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/42/aptus-value-housing-finance-india-ltd]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/42/aptus-value-housing-finance-india-ltd"; nocase; classtype:trojan-activity; sid:4433618; rev:1;)

@@ -1,7 +1,0 @@
-# Dragnet [IOC]: dragnet-supply-2026-234768 — C2 Network Communication
-# Status: test | Level: medium | ID: 4b7b01dd-bbfb-5400-ac44-0644c7c19021
-alert dns any any -> any any (msg:"Dragnet [IOC]: dragnet-supply-2026-234768 — C2 Network Communication [https://check.git-service.com/rope.pyz]"; dns.query; content:"https://check.git-service.com/rope.pyz"; nocase; classtype:suspicious-activity; sid:7352605; rev:1;)
-alert dns any any -> any any (msg:"Dragnet [IOC]: dragnet-supply-2026-234768 — C2 Network Communication [https://check.git-service.com/v1/models]"; dns.query; content:"https://check.git-service.com/v1/models"; nocase; classtype:suspicious-activity; sid:7352606; rev:1;)
-alert dns any any -> any any (msg:"Dragnet [IOC]: dragnet-supply-2026-234768 — C2 Network Communication [https://check.git-service.com/api/public/version]"; dns.query; content:"https://check.git-service.com/api/public/version"; nocase; classtype:suspicious-activity; sid:7352607; rev:1;)
-alert dns any any -> any any (msg:"Dragnet [IOC]: dragnet-supply-2026-234768 — C2 Network Communication [https://check.git-service.com/audio.mp3]"; dns.query; content:"https://check.git-service.com/audio.mp3"; nocase; classtype:suspicious-activity; sid:7352608; rev:1;)
-alert dns any any -> any any (msg:"Dragnet [IOC]: dragnet-supply-2026-234768 — C2 Network Communication [https://t.m-kosche.com/rope.pyz]"; dns.query; content:"https://t.m-kosche.com/rope.pyz"; nocase; classtype:suspicious-activity; sid:7352609; rev:1;)

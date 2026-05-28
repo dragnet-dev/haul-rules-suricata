@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4743 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 53c9cb33-9a34-56cd-b40a-5afbbf87f605
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4743 — Ransomware C2 Communication [http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/FlintHillsDialysis/]"; dns.query; content:"http://i62huw7ve22rpyw6lnq3kmfump2dmsg4xpveec3ere73njwatrz74gad.onion/Company/FlintHillsDialysis/"; nocase; classtype:trojan-activity; sid:2733683; rev:1;)

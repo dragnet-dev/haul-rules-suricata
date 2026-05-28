@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-2831 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e764558e-c314-5ed3-ba4e-bc8994d10d0e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-2831 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sunsethcs-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sunsethcs-com"; nocase; classtype:trojan-activity; sid:4112398; rev:1;)

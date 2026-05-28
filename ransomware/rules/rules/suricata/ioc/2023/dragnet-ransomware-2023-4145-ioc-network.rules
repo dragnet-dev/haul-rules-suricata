@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4145 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 3cfda3de-1a83-501a-8f35-cca560d07225
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4145 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/AIRDRIE]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/AIRDRIE"; nocase; classtype:trojan-activity; sid:7255518; rev:1;)

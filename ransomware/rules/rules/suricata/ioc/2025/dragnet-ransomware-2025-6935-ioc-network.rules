@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6935 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: d1c56556-39f0-5407-bb29-c69d1c5fcf2b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6935 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/50/bethany-hospital]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/50/bethany-hospital"; nocase; classtype:trojan-activity; sid:1374678; rev:1;)

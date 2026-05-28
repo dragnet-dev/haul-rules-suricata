@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7074 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: b1eeb7ff-22ee-5627-ac29-65c30b84a4da
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7074 — Ransomware C2 Communication [https://breachforums.hn//stellantis.html]"; dns.query; content:"https://breachforums.hn//stellantis.html"; nocase; classtype:trojan-activity; sid:7211903; rev:1;)

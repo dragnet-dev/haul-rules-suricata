@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2023 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 747f6e3e-b24a-5b82-897c-41aadf0ef08e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2023 — Ransomware C2 Communication [https://handala-hack.to/handala-alert-amplifying-the-voice-of-resistance/]"; dns.query; content:"https://handala-hack.to/handala-alert-amplifying-the-voice-of-resistance/"; nocase; classtype:trojan-activity; sid:2508350; rev:1;)

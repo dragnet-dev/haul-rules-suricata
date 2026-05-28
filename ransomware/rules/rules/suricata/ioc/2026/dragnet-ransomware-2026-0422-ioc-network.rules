@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0422 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: ede316e9-c04d-5955-aca4-f4ebf5d90f34
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0422 — Ransomware C2 Communication [http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/lessard_dental]"; dns.query; content:"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/lessard_dental"; nocase; classtype:trojan-activity; sid:5082729; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2314 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 9b5ac7aa-6d41-5e6b-85cb-9a52c134868b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2314 — Ransomware C2 Communication [https://worldleaksartrjm3c6vasllvgacbi5u3mgzkluehrzhk2jz4taufuid.onion/companies/6990759279]"; dns.query; content:"https://worldleaksartrjm3c6vasllvgacbi5u3mgzkluehrzhk2jz4taufuid.onion/companies/6990759279"; nocase; classtype:trojan-activity; sid:6417834; rev:1;)

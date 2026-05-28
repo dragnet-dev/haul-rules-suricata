@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4436 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 49ca7e1a-b790-5c6d-afe7-2cc10059d56c
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4436 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/citynational-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/citynational-com"; nocase; classtype:trojan-activity; sid:6007322; rev:1;)

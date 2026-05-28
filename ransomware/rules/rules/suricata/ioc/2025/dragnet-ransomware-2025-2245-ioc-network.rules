@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2245 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 4232ca7c-eae9-5887-9863-eb20e4afdb62
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2245 — Ransomware C2 Communication [http://ralordqe33mpufkpsr6zkdatktlu3t2uei4ught3sitxgtzfmqmbsuyd.onion/bettininformatica]"; dns.query; content:"http://ralordqe33mpufkpsr6zkdatktlu3t2uei4ught3sitxgtzfmqmbsuyd.onion/bettininformatica"; nocase; classtype:trojan-activity; sid:4624892; rev:1;)

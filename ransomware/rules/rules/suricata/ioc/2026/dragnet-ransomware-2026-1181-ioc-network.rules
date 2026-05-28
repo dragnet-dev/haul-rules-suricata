@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1181 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: a0683c30-23ea-583d-abd4-5850f2cdbfa9
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1181 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/berlinmobilde/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/berlinmobilde/"; nocase; classtype:trojan-activity; sid:1185712; rev:1;)

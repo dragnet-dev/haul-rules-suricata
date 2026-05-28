@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1214 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 50e611db-d60f-5711-ae91-f99dd0bf1de2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1214 — Ransomware C2 Communication [http://nitrogenczslprh3xyw6lh5xyjvmsz7ciljoqxxknd7uymkfetfhgvqd.onion/posts/696e463fc0a01acfe88de666]"; dns.query; content:"http://nitrogenczslprh3xyw6lh5xyjvmsz7ciljoqxxknd7uymkfetfhgvqd.onion/posts/696e463fc0a01acfe88de666"; nocase; classtype:trojan-activity; sid:8255131; rev:1;)

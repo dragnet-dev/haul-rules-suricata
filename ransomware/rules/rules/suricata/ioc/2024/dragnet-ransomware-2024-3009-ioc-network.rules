@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3009 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 143796fc-a5d3-562e-b956-9a548a50181f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3009 — Ransomware C2 Communication [http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/pandbcapitalgroup.com]"; dns.query; content:"http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/pandbcapitalgroup.com"; nocase; classtype:trojan-activity; sid:7187452; rev:1;)

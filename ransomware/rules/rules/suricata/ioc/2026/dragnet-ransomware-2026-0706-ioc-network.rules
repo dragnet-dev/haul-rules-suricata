@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0706 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 14b949d8-ad06-5114-9e89-adca54fbd8a9
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0706 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/centinela-com-br]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/centinela-com-br"; nocase; classtype:trojan-activity; sid:6687384; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2221 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 41104530-f4c6-5877-a2ab-c6a6641d7854
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-2221 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/103/the-foot-doctor]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/103/the-foot-doctor"; nocase; classtype:trojan-activity; sid:3585328; rev:1;)

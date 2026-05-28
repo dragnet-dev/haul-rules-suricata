@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1843 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 3e179553-acf7-5aa3-b4f2-d503aaae392e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1843 — Ransomware C2 Communication [http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/pensacolacitygov]"; dns.query; content:"http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/pensacolacitygov"; nocase; classtype:trojan-activity; sid:7732947; rev:1;)

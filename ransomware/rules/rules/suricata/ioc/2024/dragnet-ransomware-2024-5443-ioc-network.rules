@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5443 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 2e7ecd9a-fe0d-5c7c-800a-7649916f6916
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5443 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/atwoodcherny.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/atwoodcherny.com"; nocase; classtype:trojan-activity; sid:7062106; rev:1;)

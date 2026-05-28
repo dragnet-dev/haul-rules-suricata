@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1703 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 41148fdb-cfa3-5cc8-9b73-664787efbbca
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1703 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/15/sun-city-pediatrics-pa-usa-tx]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/15/sun-city-pediatrics-pa-usa-tx"; nocase; classtype:trojan-activity; sid:3866587; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1950 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: ddb8e1ca-1185-5b6c-b12b-6603ba1a5617
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1950 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/deerlakes.net/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/deerlakes.net/"; nocase; classtype:trojan-activity; sid:3881162; rev:1;)

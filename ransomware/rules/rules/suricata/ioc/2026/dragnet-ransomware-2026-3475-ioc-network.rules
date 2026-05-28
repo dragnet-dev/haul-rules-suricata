@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3475 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 50320c9a-b444-5244-8f6c-7aee85068563
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3475 — Ransomware C2 Communication [http://prinzfkbjiazbrur4mjje6mntjc4vydx3iatkkzycufoylqcoo4y7pqd.onion/transitions-pro-centre-val-de-loire]"; dns.query; content:"http://prinzfkbjiazbrur4mjje6mntjc4vydx3iatkkzycufoylqcoo4y7pqd.onion/transitions-pro-centre-val-de-loire"; nocase; classtype:trojan-activity; sid:5457306; rev:1;)

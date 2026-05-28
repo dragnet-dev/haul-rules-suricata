@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0258 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a7b4c648-281e-524e-8218-ccf1fd5d33bf
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0258 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/vitesco-technologies-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/vitesco-technologies-com"; nocase; classtype:trojan-activity; sid:6642312; rev:1;)

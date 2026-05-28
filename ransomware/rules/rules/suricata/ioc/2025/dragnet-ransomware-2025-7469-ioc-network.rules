@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7469 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 21cf05ce-6259-5a74-adac-b5c1b207df5f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7469 — Ransomware C2 Communication [https://handala-hack.to/freedom-wood-doors-ltd-hacked/]"; dns.query; content:"https://handala-hack.to/freedom-wood-doors-ltd-hacked/"; nocase; classtype:trojan-activity; sid:1215566; rev:1;)

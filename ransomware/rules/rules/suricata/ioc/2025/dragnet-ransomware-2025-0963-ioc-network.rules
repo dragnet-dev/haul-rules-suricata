@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0963 — Ransomware C2 Communication
-# Status: test | Level: high | ID: c27bd284-74ac-5915-a269-93c4de3f7564
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0963 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#tele-fonika-cable-americas]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#tele-fonika-cable-americas"; nocase; classtype:trojan-activity; sid:5894724; rev:1;)

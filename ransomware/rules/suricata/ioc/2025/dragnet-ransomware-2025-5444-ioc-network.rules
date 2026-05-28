@@ -1,3 +1,3 @@
 # Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5444 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 354f9370-2d61-5768-b206-582e25be8a84
+# Status: experimental | Level: high | ID: 354f9370-2d61-5768-b206-582e25be8a84
 alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5444 — Ransomware C2 Communication [http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/iroquoismemorial]"; dns.query; content:"http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/iroquoismemorial"; nocase; classtype:trojan-activity; sid:4407536; rev:1;)

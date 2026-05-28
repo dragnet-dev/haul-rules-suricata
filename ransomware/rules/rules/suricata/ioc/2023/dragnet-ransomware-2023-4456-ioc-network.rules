@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4456 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 22b553a4-ed4e-5f92-ba52-551fbaf95c52
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4456 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/a___________________________.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/a___________________________.com"; nocase; classtype:trojan-activity; sid:7308772; rev:1;)

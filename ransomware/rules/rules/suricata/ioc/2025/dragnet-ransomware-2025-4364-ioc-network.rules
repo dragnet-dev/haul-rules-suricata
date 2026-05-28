@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4364 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: ab4997b3-7016-5fc5-9e41-497df8176859
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4364 — Ransomware C2 Communication [http://oow7rehrxlzpy6vh3hezl2khstkpa6s7wx3iit74tr6xbjibupld5iad.onion/thaim/thaim.html]"; dns.query; content:"http://oow7rehrxlzpy6vh3hezl2khstkpa6s7wx3iit74tr6xbjibupld5iad.onion/thaim/thaim.html"; nocase; classtype:trojan-activity; sid:3726899; rev:1;)

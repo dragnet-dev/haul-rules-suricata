@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-1229 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e849c69a-af1b-5b9b-a3b1-a2dab60cfc53
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-1229 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/fair-rite-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/fair-rite-com"; nocase; classtype:trojan-activity; sid:1149082; rev:1;)

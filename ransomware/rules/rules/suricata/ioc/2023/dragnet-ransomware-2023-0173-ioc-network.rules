@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0173 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 94593ef5-98d1-50d1-813d-e4855501c344
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0173 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/xpresscargoinc.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/xpresscargoinc.com"; nocase; classtype:trojan-activity; sid:5876789; rev:1;)

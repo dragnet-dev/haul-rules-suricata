@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3285 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 7ede75d5-bab5-5466-9550-b27540775ae4
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3285 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/henockconstruction.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/henockconstruction.com"; nocase; classtype:trojan-activity; sid:5508373; rev:1;)

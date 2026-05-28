@@ -1,6 +1,0 @@
-# Dragnet [IOC]: dragnet-supply-2026-97773 — C2 Network Communication
-# Status: stable | Level: medium | ID: 60638311-478f-532f-b2b8-16a08f7ac6e4
-alert dns any any -> any any (msg:"Dragnet [IOC]: dragnet-supply-2026-97773 — C2 Network Communication [07d889e2dadce6f3910dcbc253317d28ca61c766Domainsfrclak.comC2]"; dns.query; content:"07d889e2dadce6f3910dcbc253317d28ca61c766Domainsfrclak.comC2"; nocase; classtype:suspicious-activity; sid:7134353; rev:1;)
-alert dns any any -> any any (msg:"Dragnet [IOC]: dragnet-supply-2026-97773 — C2 Network Communication [domain-Domaincallnrwise.comC2]"; dns.query; content:"domain-Domaincallnrwise.comC2"; nocase; classtype:suspicious-activity; sid:7134354; rev:1;)
-alert dns any any -> any any (msg:"Dragnet [IOC]: dragnet-supply-2026-97773 — C2 Network Communication [-IP142.11.206.73C2]"; dns.query; content:"-IP142.11.206.73C2"; nocase; classtype:suspicious-activity; sid:7134355; rev:1;)
-alert dns any any -> any any (msg:"Dragnet [IOC]: dragnet-supply-2026-97773 — C2 Network Communication [proton.meThreat]"; dns.query; content:"proton.meThreat"; nocase; classtype:suspicious-activity; sid:7134356; rev:1;)

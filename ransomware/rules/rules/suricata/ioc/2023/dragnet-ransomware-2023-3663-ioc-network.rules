@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3663 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 26cd5cd2-fc85-5338-b0b1-9de1359613d4
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3663 — Ransomware C2 Communication [https://werewolves.pro/en/carmoney-ru.html]"; dns.query; content:"https://werewolves.pro/en/carmoney-ru.html"; nocase; classtype:trojan-activity; sid:3992850; rev:1;)

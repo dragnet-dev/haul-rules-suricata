@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2290 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 6f9d4a83-4305-5915-b6f2-c290039ae80d
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2290 — Ransomware C2 Communication [http://meow6xanhzfci2gbkn3lmbqq7xjjufskkdfocqdngt3ltvzgqpsg5mid.onion/story/agamatrix]"; dns.query; content:"http://meow6xanhzfci2gbkn3lmbqq7xjjufskkdfocqdngt3ltvzgqpsg5mid.onion/story/agamatrix"; nocase; classtype:trojan-activity; sid:1579203; rev:1;)

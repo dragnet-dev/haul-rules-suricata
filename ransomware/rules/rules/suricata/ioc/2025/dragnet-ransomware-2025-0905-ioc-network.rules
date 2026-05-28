@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0905 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 93aa2e5d-7afc-5936-9519-8c5b346e5c8a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0905 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/108/autohaus-elstermann]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/108/autohaus-elstermann"; nocase; classtype:trojan-activity; sid:3403741; rev:1;)

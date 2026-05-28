@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5517 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 443376d6-c059-5ae0-9dac-065f7213c7b7
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5517 — Ransomware C2 Communication [http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/a1mobilelock.com]"; dns.query; content:"http://zdkexsh2e7yihw5uhg5hpsgq3dois2m5je7lzfagij2y6iw5ptl35gyd.onion/Data_Download/a1mobilelock.com"; nocase; classtype:trojan-activity; sid:2223446; rev:1;)

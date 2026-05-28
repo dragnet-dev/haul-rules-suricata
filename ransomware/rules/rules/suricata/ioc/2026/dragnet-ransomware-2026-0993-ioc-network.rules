@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0993 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 50bd300a-be66-5d3c-a267-90bf5e277d10
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0993 — Ransomware C2 Communication [http://4e3p3in2bl67hxchuwza7qvnpe7pyeloyztr5fnh257fxkovfhappjyd.onion/shame/nordstern/]"; dns.query; content:"http://4e3p3in2bl67hxchuwza7qvnpe7pyeloyztr5fnh257fxkovfhappjyd.onion/shame/nordstern/"; nocase; classtype:trojan-activity; sid:5575882; rev:1;)

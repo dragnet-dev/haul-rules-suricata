@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1721 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 5f28d897-b05c-5886-9812-c7882bd6f349
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1721 — Ransomware C2 Communication [http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/cpimedicine]"; dns.query; content:"http://pearsmob5sn44ismokiusuld34pnfwi6ctgin3qbvonpoob4lh3rmtqd.onion/Companies/cpimedicine"; nocase; classtype:trojan-activity; sid:4512407; rev:1;)

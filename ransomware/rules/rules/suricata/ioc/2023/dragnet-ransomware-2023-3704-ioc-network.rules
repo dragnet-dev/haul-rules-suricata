@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3704 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: df08d579-7594-5f99-b02f-48830772881b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-3704 — Ransomware C2 Communication [https://werewolves.pro/en/maritimebank-com.html]"; dns.query; content:"https://werewolves.pro/en/maritimebank-com.html"; nocase; classtype:trojan-activity; sid:7898105; rev:1;)

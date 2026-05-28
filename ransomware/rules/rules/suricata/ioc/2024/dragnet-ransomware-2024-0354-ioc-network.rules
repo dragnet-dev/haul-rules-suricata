@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0354 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 8e82d961-18ee-5895-b6f2-ef128bbdf59e
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0354 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/41/namforce-life-insurance]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/41/namforce-life-insurance"; nocase; classtype:trojan-activity; sid:6940001; rev:1;)

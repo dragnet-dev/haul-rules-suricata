@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0301 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 63cb0910-1bea-5c83-af35-bb89f8a7c6fb
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0301 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sierrawireless-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sierrawireless-com"; nocase; classtype:trojan-activity; sid:1250512; rev:1;)

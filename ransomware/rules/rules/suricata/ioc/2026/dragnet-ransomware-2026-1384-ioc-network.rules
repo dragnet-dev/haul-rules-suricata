@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1384 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 7a30de6e-3dd8-578b-885c-7c24105c31ea
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1384 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/McDonalds_India/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/McDonalds_India/"; nocase; classtype:trojan-activity; sid:8023022; rev:1;)

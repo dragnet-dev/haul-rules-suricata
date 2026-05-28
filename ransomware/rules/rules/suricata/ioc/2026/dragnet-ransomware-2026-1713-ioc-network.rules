@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1713 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: adbf5f9f-e3f6-5827-92ca-1b7b2c84d1ea
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1713 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/39/smilepoint-dental-group]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/39/smilepoint-dental-group"; nocase; classtype:trojan-activity; sid:9000223; rev:1;)

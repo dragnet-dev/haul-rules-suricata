@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-2278 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 6e97ddc5-e87f-5abc-9014-44b11369db06
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2022-2278 — Ransomware C2 Communication [https://snatchnews.top/news.php?id=02ccf56e-b248-4a47-99f2-1558bc23807b]"; dns.query; content:"https://snatchnews.top/news.php?id=02ccf56e-b248-4a47-99f2-1558bc23807b"; nocase; classtype:trojan-activity; sid:2446469; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2062 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 3e956e5c-fbc3-575a-a903-2321b0ed491b
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2062 — Ransomware C2 Communication [https://apos.blog//apos-raas/Algen-Healthcare-d1a417add85448d1959683ac15099417]"; dns.query; content:"https://apos.blog//apos-raas/Algen-Healthcare-d1a417add85448d1959683ac15099417"; nocase; classtype:trojan-activity; sid:6980508; rev:1;)

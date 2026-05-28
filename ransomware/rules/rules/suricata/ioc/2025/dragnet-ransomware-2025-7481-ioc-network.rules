@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7481 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 819013c1-b8e3-5101-bd4a-b5797ebf3a19
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7481 — Ransomware C2 Communication [http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/ringmor]"; dns.query; content:"http://beast6azu4f7fxjakiayhnssybibsgjnmy77a6duufqw5afjzfjhzuqd.onion/card/ringmor"; nocase; classtype:trojan-activity; sid:5703105; rev:1;)

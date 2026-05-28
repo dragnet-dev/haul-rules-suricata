@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5714 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a4ad5b9a-d629-507c-9345-0a7268995318
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5714 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=temple-inc.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=temple-inc.com"; nocase; classtype:trojan-activity; sid:9824602; rev:1;)

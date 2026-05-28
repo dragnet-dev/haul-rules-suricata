@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1754 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: cec0fb2a-4e88-5c71-b178-3275c839c1f2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1754 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/precisionmedicalbilling-net]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/precisionmedicalbilling-net"; nocase; classtype:trojan-activity; sid:4753706; rev:1;)

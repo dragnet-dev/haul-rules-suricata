@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0893 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 70823d25-73e7-5496-81da-089e0b616009
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-0893 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/forbesmarshall-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/forbesmarshall-com"; nocase; classtype:trojan-activity; sid:7583525; rev:1;)

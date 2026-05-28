@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2015 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: fdca20f1-3781-503f-9d87-d15c8a25754d
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2015 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=usmerchants.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=usmerchants.com"; nocase; classtype:trojan-activity; sid:1882353; rev:1;)

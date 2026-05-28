@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5301 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: b00b04a0-9beb-58e0-b362-7c50623d0646
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5301 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/b________________.__.uk/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/b________________.__.uk/"; nocase; classtype:trojan-activity; sid:2512096; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4731 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a898d243-d3a6-53ad-aab9-0fdfcf96b3f7
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4731 — Ransomware C2 Communication [http://lynxblog.net/leaks/66aa6407e7861ae72f224331]"; dns.query; content:"http://lynxblog.net/leaks/66aa6407e7861ae72f224331"; nocase; classtype:trojan-activity; sid:3587587; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3517 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: d1fe6a2c-1ac2-5691-8268-a47056d2b3a8
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3517 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/ADVEO]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/ADVEO"; nocase; classtype:trojan-activity; sid:5111468; rev:1;)

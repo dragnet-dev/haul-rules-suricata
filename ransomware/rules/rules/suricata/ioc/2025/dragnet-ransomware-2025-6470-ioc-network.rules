@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6470 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: d0e1ce59-c935-5f6b-86d7-245d2069cf1f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6470 — Ransomware C2 Communication [http://pifk3xu3vad6cuxsjll4qjomyaaaoyvnyqppro75pazadzctrrvpdnyd.onion/#medidores-industriales-y-medicos-sa-de-cv]"; dns.query; content:"http://pifk3xu3vad6cuxsjll4qjomyaaaoyvnyqppro75pazadzctrrvpdnyd.onion/#medidores-industriales-y-medicos-sa-de-cv"; nocase; classtype:trojan-activity; sid:4459353; rev:1;)

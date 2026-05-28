@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3273 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 4e0cc770-5bdb-5d50-ac6d-5912af3f64c0
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-3273 — Ransomware C2 Communication [https://breachforums.hn/rhel.html]"; dns.query; content:"https://breachforums.hn/rhel.html"; nocase; classtype:trojan-activity; sid:5460336; rev:1;)

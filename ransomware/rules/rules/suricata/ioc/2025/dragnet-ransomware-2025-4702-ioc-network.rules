@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4702 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 4ef2e6a8-ec75-51ad-ae08-2f570ec2a28a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-4702 — Ransomware C2 Communication [http://obscurad3aphckihv7wptdxvdnl5emma6t3vikcf3c5oiiqndq6y6xad.onion/company.html?company=rulmaksan]"; dns.query; content:"http://obscurad3aphckihv7wptdxvdnl5emma6t3vikcf3c5oiiqndq6y6xad.onion/company.html?company=rulmaksan"; nocase; classtype:trojan-activity; sid:2541608; rev:1;)

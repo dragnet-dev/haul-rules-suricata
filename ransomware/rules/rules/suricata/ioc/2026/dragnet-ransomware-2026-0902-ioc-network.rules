@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0902 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 6e22f2f4-a052-5b57-b245-ec1094063c7c
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0902 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/nextphaze-com-au]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/nextphaze-com-au"; nocase; classtype:trojan-activity; sid:3784180; rev:1;)

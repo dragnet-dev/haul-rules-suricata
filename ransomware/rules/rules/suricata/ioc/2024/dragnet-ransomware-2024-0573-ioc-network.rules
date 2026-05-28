@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0573 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 69d81539-76b4-5550-b47e-0b4043323c52
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0573 — Ransomware C2 Communication [https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/VERCO]"; dns.query; content:"https://cactusbloguuodvqjmnzlwetjlpj6aggc6iocwhuupb47laukux7ckid.onion/posts/VERCO"; nocase; classtype:trojan-activity; sid:3768889; rev:1;)

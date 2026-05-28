@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4950 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: bded265b-79cb-57dc-808e-f9d006fa5ad7
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4950 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/greenboxloans.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/greenboxloans.com"; nocase; classtype:trojan-activity; sid:1435675; rev:1;)

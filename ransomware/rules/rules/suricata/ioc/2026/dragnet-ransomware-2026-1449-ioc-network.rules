@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1449 — Ransomware C2 Communication
-# Status: test | Level: high | ID: cf9996da-5e95-505e-886c-45cb3f6c5ea2
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-1449 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/115/darma-henwa]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/115/darma-henwa"; nocase; classtype:trojan-activity; sid:9949338; rev:1;)

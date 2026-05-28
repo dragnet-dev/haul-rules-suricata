@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4629 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 4e454a8e-4767-5903-82b0-8a5855235604
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4629 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=americanalarm.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=americanalarm.com"; nocase; classtype:trojan-activity; sid:9163918; rev:1;)

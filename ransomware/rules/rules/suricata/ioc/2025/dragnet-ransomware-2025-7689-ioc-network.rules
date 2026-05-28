@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7689 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 72ee0f7a-b66a-56fe-8986-cd52db34d200
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7689 — Ransomware C2 Communication [http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/vitatraccomgt/]"; dns.query; content:"http://safepaypfxntwixwjrlcscft433ggemlhgkkdupi2ynhtcmvdgubmoyd.onion/blog/post/vitatraccomgt/"; nocase; classtype:trojan-activity; sid:3204154; rev:1;)

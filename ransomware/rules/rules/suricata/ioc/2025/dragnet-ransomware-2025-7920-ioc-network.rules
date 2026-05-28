@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7920 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 5cae658b-d3d3-5f00-8cf9-1ed083d694dd
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7920 — Ransomware C2 Communication [http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/ailhospitality]"; dns.query; content:"http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/ailhospitality"; nocase; classtype:trojan-activity; sid:7933131; rev:1;)

@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2635 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: dd143973-4210-5754-99f1-d3282b69f1eb
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2635 — Ransomware C2 Communication [http://cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd.onion/company/Gihealthcare]"; dns.query; content:"http://cuba4ikm4jakjgmkezytyawtdgr2xymvy6nvzgw5cglswg3si76icnqd.onion/company/Gihealthcare"; nocase; classtype:trojan-activity; sid:2090163; rev:1;)

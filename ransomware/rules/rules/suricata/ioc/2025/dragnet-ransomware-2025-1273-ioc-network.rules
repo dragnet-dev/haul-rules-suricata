@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1273 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: fd5e481f-8477-504d-a263-0a2e3ce13362
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-1273 — Ransomware C2 Communication [https://breachforums.hn//hbomax.html]"; dns.query; content:"https://breachforums.hn//hbomax.html"; nocase; classtype:trojan-activity; sid:3814495; rev:1;)

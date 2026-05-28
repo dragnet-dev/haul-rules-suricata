@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7711 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 34557bef-5778-52da-8468-878b4f951936
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7711 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sheerlogistics-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sheerlogistics-com"; nocase; classtype:trojan-activity; sid:6017519; rev:1;)

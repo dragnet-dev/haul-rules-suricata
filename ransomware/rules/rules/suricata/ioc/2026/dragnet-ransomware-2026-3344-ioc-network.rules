@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3344 — Ransomware C2 Communication
-# Status: test | Level: high | ID: 988095f1-b6bf-5b46-8381-b388a77bba47
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-3344 — Ransomware C2 Communication [http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#epi-du-rouergue]"; dns.query; content:"http://novadmrkp4vbk2padk5t6pbxolndceuc7hrcq4mjaoyed6nxsqiuzyyd.onion/#epi-du-rouergue"; nocase; classtype:trojan-activity; sid:3563825; rev:1;)

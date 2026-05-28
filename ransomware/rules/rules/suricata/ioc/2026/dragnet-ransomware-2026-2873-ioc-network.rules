@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2873 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 6a84e644-b443-58dd-97bf-58ea245d034f
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2873 — Ransomware C2 Communication [https://handala-hack.to/martyr-ali-larijani/]"; dns.query; content:"https://handala-hack.to/martyr-ali-larijani/"; nocase; classtype:trojan-activity; sid:6094596; rev:1;)

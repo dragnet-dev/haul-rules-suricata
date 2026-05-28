@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2418 — Ransomware C2 Communication
-# Status: test | Level: high | ID: fa73628b-86f1-5c24-93da-6596353ef1e5
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2418 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Shinwa_Co_Ltd/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Shinwa_Co_Ltd/"; nocase; classtype:trojan-activity; sid:8865867; rev:1;)

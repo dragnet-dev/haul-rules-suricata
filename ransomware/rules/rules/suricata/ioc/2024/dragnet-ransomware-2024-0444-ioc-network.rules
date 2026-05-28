@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0444 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 05f54007-62fa-5f96-9307-e6f4f1119099
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0444 — Ransomware C2 Communication [https://handala.to/israel-largest-cyber-security-college/]"; dns.query; content:"https://handala.to/israel-largest-cyber-security-college/"; nocase; classtype:trojan-activity; sid:1958791; rev:1;)

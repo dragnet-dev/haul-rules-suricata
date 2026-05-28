@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5816 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c08ff7d3-14be-5412-9594-70ff8f67e696
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-5816 — Ransomware C2 Communication [https://handala.to/zerto-security-hacked/]"; dns.query; content:"https://handala.to/zerto-security-hacked/"; nocase; classtype:trojan-activity; sid:9660563; rev:1;)

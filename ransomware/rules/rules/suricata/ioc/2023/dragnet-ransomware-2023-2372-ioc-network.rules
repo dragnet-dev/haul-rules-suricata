@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2372 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 95d57308-8687-58b6-8f62-95c8445f2fe0
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-2372 — Ransomware C2 Communication [http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/garden-hotel-narita/]"; dns.query; content:"http://sbc2zv2qnz5vubwtx3aobfpkeao6l4igjegm3xx7tk5suqhjkp5jxtqd.onion/garden-hotel-narita/"; nocase; classtype:trojan-activity; sid:3793800; rev:1;)

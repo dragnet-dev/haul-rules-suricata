@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0643 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 0eb4c428-7ab8-5c32-90b4-c349450021ea
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0643 — Ransomware C2 Communication [https://handala.to/zionists-harmony-pharm-hacked/]"; dns.query; content:"https://handala.to/zionists-harmony-pharm-hacked/"; nocase; classtype:trojan-activity; sid:4727720; rev:1;)

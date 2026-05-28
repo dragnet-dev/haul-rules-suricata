@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0153 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 9cfab918-8c33-5768-9a83-64e5aa5f80fc
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0153 — Ransomware C2 Communication [http://noname2j6zkgnt7ftxsjju5tfd3s45s4i3egq5bqtl72kgum4ldc6qyd.onion/wp/onyx-fire-com/]"; dns.query; content:"http://noname2j6zkgnt7ftxsjju5tfd3s45s4i3egq5bqtl72kgum4ldc6qyd.onion/wp/onyx-fire-com/"; nocase; classtype:trojan-activity; sid:6677080; rev:1;)

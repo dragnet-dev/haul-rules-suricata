@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4538 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: f49ef321-e8c6-56c9-b981-26f8023ae1b9
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-4538 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/texasretina.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/texasretina.com"; nocase; classtype:trojan-activity; sid:1057633; rev:1;)

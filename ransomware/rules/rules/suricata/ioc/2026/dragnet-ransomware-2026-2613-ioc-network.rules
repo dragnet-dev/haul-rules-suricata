@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2613 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: 0c6fbe6b-d186-52be-85e3-f01b0dfdc065
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2613 — Ransomware C2 Communication [https://handala-hack.tw/listen-closely-gallant-handalas-eyes-and-ears-are-everywhere/]"; dns.query; content:"https://handala-hack.tw/listen-closely-gallant-handalas-eyes-and-ears-are-everywhere/"; nocase; classtype:trojan-activity; sid:2649835; rev:1;)

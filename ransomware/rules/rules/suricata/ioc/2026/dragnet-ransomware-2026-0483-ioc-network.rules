@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0483 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: b13eafc5-9bef-5599-97c0-4e7d389f7454
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0483 — Ransomware C2 Communication [http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/bajarai/]"; dns.query; content:"http://t33zoj4qwv455fog7qnb2azi5xcdxkixughmmduzbw2rtdgryqfbh6id.onion/company/bajarai/"; nocase; classtype:trojan-activity; sid:4675461; rev:1;)

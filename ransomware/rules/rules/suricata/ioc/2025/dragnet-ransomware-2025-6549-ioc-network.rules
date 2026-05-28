@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6549 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: d99a94fc-e3ef-5bed-bee7-503bcb91f9cb
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-6549 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Petrobras_Campos_Basin_3D___4D_Seismic_Survey_Data/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/news/Petrobras_Campos_Basin_3D___4D_Seismic_Survey_Data/"; nocase; classtype:trojan-activity; sid:6786556; rev:1;)

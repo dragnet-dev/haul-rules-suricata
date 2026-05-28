@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4198 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: bd615d1f-b613-5c72-9f7e-1e65eda6d815
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-4198 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/stiwa-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/stiwa-com"; nocase; classtype:trojan-activity; sid:1274655; rev:1;)

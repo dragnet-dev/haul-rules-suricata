@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2004 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: bca2469f-9aa7-5f1d-8fb1-d3091d7b1f17
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-2004 — Ransomware C2 Communication [http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/123/brooklands-of-mornington]"; dns.query; content:"http://5butbkrljkaorg5maepuca25oma7eiwo6a2rlhvkblb4v6mf3ki2ovid.onion/companies/123/brooklands-of-mornington"; nocase; classtype:trojan-activity; sid:6751519; rev:1;)

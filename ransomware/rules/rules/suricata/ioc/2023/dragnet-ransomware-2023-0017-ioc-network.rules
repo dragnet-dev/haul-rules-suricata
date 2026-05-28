@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0017 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 18f03b8c-75e7-5d94-b5d2-795cabdf0825
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-0017 — Ransomware C2 Communication [http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/cl/clicks.php?uri=MTMROBOTICS/index.html]"; dns.query; content:"http://threeamkelxicjsaf2czjyz2lc4q3ngqkxhhlexyfcp2o6raw4rphyad.onion/cl/clicks.php?uri=MTMROBOTICS/index.html"; nocase; classtype:trojan-activity; sid:5397068; rev:1;)

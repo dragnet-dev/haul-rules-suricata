@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0859 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 436a1f76-f527-5a4e-ac22-8c9aaa7b9148
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0859 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/chambersconstruction.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/chambersconstruction.com"; nocase; classtype:trojan-activity; sid:7028342; rev:1;)

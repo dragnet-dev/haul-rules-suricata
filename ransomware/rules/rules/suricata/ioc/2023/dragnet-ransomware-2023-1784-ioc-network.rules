@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1784 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c9ebf024-84cc-5f4c-b958-a40c26ef9f61
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-1784 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/desmi-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/desmi-com"; nocase; classtype:trojan-activity; sid:4682852; rev:1;)

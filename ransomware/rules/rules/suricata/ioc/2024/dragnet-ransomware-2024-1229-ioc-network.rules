@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1229 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 0011c097-28c1-5cc1-9d40-6073f2c56646
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1229 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=interspiro.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=interspiro.com"; nocase; classtype:trojan-activity; sid:2163415; rev:1;)

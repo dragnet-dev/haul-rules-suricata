@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3605 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: ad5ce085-9892-573e-a8ce-b358e0454c5a
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-3605 — Ransomware C2 Communication [http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/bluebonnetnutrition.com]"; dns.query; content:"http://bianlivemqbawcco4cx4a672k2fip3guyxudzurfqvdszafam3ofqgqd.onion/companies/bluebonnetnutrition.com"; nocase; classtype:trojan-activity; sid:2545157; rev:1;)

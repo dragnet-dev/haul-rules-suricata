@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0174 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: a1520596-8947-508a-81f1-55d00fc8ffc9
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-0174 — Ransomware C2 Communication [http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/value-dental-center/]"; dns.query; content:"http://ransomocmou6mnbquqz44ewosbkjk3o5qjsl3orawojexfook2j7esad.onion/value-dental-center/"; nocase; classtype:trojan-activity; sid:7507158; rev:1;)

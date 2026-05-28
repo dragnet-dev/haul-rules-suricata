@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1636 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: f69da01a-b087-5c52-a1a4-72e2ecc8a5e5
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1636 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/atsg.net/]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion/companies/atsg.net/"; nocase; classtype:trojan-activity; sid:7525274; rev:1;)

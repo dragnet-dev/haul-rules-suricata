@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5988 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e9a53acf-d361-54a8-8805-fc031d0bf128
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5988 — Ransomware C2 Communication [http://novavdivko2zvtrvtllnq45lxhba2rfzp76qigb4nrliklem5au7czqd.onion/Novaevo]"; dns.query; content:"http://novavdivko2zvtrvtllnq45lxhba2rfzp76qigb4nrliklem5au7czqd.onion/Novaevo"; nocase; classtype:trojan-activity; sid:5919823; rev:1;)

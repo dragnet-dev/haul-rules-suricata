@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2489 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 0441e97e-c73f-54da-ab20-6db4eb8ca2c7
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-2489 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=valveworksusa.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=valveworksusa.com"; nocase; classtype:trojan-activity; sid:9428478; rev:1;)

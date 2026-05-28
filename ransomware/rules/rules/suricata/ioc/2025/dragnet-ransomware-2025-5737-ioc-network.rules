@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5737 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 22f2ff0e-79e0-51a4-9676-0c5b6e9ccaa3
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5737 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sditechnologies-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/sditechnologies-com"; nocase; classtype:trojan-activity; sid:2350350; rev:1;)

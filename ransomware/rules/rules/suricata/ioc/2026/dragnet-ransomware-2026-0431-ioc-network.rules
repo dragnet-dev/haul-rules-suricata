@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0431 — Ransomware C2 Communication
-# Status: stable | Level: high | ID: a2628e2c-1069-5f41-bbee-f3e42275387c
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2026-0431 — Ransomware C2 Communication [https://titanblog.org/post/all-files-encrypted-critical-data-downloaded-analyzed-k71x92z9uc]"; dns.query; content:"https://titanblog.org/post/all-files-encrypted-critical-data-downloaded-analyzed-k71x92z9uc"; nocase; classtype:trojan-activity; sid:7367916; rev:1;)

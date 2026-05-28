@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7352 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 09d8d440-6368-540f-b80f-c5687a6c39eb
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-7352 — Ransomware C2 Communication [https://breachforums.hn//gap.html]"; dns.query; content:"https://breachforums.hn//gap.html"; nocase; classtype:trojan-activity; sid:4205056; rev:1;)

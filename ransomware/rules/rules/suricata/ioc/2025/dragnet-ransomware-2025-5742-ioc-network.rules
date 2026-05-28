@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5742 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: d3016164-700d-54a8-bf36-c2ea090df409
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2025-5742 — Ransomware C2 Communication [http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/americanlighting-com]"; dns.query; content:"http://santat7kpllt6iyvqbr7q4amdv6dzrh6paatvyrzl7ry3zm72zigf4ad.onion/americanlighting-com"; nocase; classtype:trojan-activity; sid:4083044; rev:1;)

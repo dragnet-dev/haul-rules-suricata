@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1665 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: e0c57bae-7c1d-5f1b-98ca-af8860081f57
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2024-1665 — Ransomware C2 Communication [http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/somersetlogistics.com]"; dns.query; content:"http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion//companies/somersetlogistics.com"; nocase; classtype:trojan-activity; sid:1038638; rev:1;)

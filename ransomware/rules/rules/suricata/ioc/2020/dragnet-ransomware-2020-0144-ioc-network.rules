@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2020-0144 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: c60b8635-da4a-5722-a862-abb5d1bf9cf8
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2020-0144 — Ransomware C2 Communication [https://dispossessor.com/blogs/125]"; dns.query; content:"https://dispossessor.com/blogs/125"; nocase; classtype:trojan-activity; sid:2644021; rev:1;)

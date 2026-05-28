@@ -1,3 +1,0 @@
-# Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5335 — Ransomware C2 Communication
-# Status: experimental | Level: high | ID: 0cd45b85-d4a7-5551-9bce-ff5a4fd004d0
-alert dns any any -> any any (msg:"Dragnet [Ransomware/IOC]: dragnet-ransomware-2023-5335 — Ransomware C2 Communication [http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=kivibros.com]"; dns.query; content:"http://stniiomyjliimcgkvdszvgen3eaaoz55hreqqx6o77yvmpwt7gklffqd.onion/?id=kivibros.com"; nocase; classtype:trojan-activity; sid:9243653; rev:1;)
